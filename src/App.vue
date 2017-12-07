@@ -1,9 +1,7 @@
 <template>
   <div id="app">
-    <img src="./assets/logo.png">
-    <ca-button></ca-button>
+    <ca-button primary></ca-button>
     <ca-pagination></ca-pagination>
-    <router-view/>
   </div>
 </template>
 

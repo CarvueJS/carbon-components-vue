@@ -5,6 +5,7 @@ import App from './App';
 import router from './router';
 import CaLoading from '../components/CaLoading';
 import CaButton from '../components/CaButton';
+import CaPagination from '../components/CaPagination';
 
 require('carbon-components/css/carbon-components.css');
 
@@ -12,6 +13,7 @@ Vue.config.productionTip = false;
 
 Vue.use(CaLoading);
 Vue.use(CaButton);
+Vue.use(CaPagination);
 
 /* eslint-disable no-new */
 new Vue({

@@ -2,6 +2,7 @@
   <div id="app">
     <img src="./assets/logo.png">
     <ca-button></ca-button>
+    <ca-pagination></ca-pagination>
     <router-view/>
   </div>
 </template>

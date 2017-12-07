@@ -1,19 +1,14 @@
 <template>
   <div id="app">
     <img src="./assets/logo.png">
-    <div data-loading=""></div>
+    <ca-button></ca-button>
     <router-view/>
   </div>
 </template>
 
 <script>
-import { Loading } from 'carbon-components';
-
 export default {
   name: 'app',
-  mounted() {
-    Loading.create(window.document.querySelector('[data-loading]'));
-  },
 };
 </script>
 

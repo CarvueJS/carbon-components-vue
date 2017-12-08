@@ -2,13 +2,18 @@
   <div id="app">
     <ca-button primary></ca-button>
     <ca-pagination></ca-pagination>
+    <ca-accordion>
+      <ca-accordion-item></ca-accordion-item>
+      <ca-accordion-item></ca-accordion-item>
+      <ca-accordion-item></ca-accordion-item>
+    </ca-accordion>
   </div>
 </template>
 
 <script>
-export default {
-  name: 'app',
-};
+  export default {
+    name: 'app',
+  };
 </script>
 
 <style>

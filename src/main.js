@@ -3,14 +3,17 @@
 import Vue from 'vue';
 import App from './App';
 import router from './router';
+import CaAccordian from '../components/CaAccordian';
 import CaLoading from '../components/CaLoading';
 import CaButton from '../components/CaButton';
 import CaPagination from '../components/CaPagination';
+
 
 require('carbon-components/css/carbon-components.css');
 
 Vue.config.productionTip = false;
 
+Vue.use(CaAccordian);
 Vue.use(CaLoading);
 Vue.use(CaButton);
 Vue.use(CaPagination);

@@ -2,13 +2,14 @@
   <div id="app">
     <ca-button primary></ca-button>
     <ca-pagination></ca-pagination>
+    <ca-checkbox></ca-checkbox>
   </div>
 </template>
 
 <script>
-export default {
-  name: 'app',
-};
+  export default {
+    name: 'app',
+  };
 </script>
 
 <style>

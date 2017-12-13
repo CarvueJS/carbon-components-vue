@@ -3,6 +3,7 @@
     <ca-button primary></ca-button>
     <ca-pagination></ca-pagination>
     <ca-checkbox></ca-checkbox>
+    <ca-dropdown></ca-dropdown>
   </div>
 </template>
 

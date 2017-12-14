@@ -9,6 +9,7 @@ import CaButton from '../components/CaButton';
 import CaPagination from '../components/CaPagination';
 import CaCheckbox from '../components/CaCheckbox';
 import CaDropdown from '../components/CaDropdown';
+import CaRadio from '../components/CaRadio';
 
 require('carbon-components/css/carbon-components.css');
 
@@ -20,6 +21,7 @@ Vue.use(CaButton);
 Vue.use(CaPagination);
 Vue.use(CaCheckbox);
 Vue.use(CaDropdown);
+Vue.use(CaRadio);
 
 /* eslint-disable no-new */
 new Vue({

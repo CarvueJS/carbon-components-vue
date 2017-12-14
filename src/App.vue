@@ -7,6 +7,7 @@
     </ca-accordion>
     <ca-checkbox></ca-checkbox>
     <ca-dropdown></ca-dropdown>
+    <ca-radio></ca-radio>
   </div>
 </template>
 

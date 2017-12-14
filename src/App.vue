@@ -13,6 +13,27 @@
       <ca-breadcrumb-item>2</ca-breadcrumb-item>
       <ca-breadcrumb-item>3</ca-breadcrumb-item>
     </ca-breadcrumb>
+
+    <ca-code-snippet>
+      @mixin bx--snippet($type) {
+  @if $type == 'terminal' {
+    background-color: red;
+  } @else if $type == 'code' {
+    background-color: blue;
+  } @else if $type == 'text' {
+    background-color: white;
+  }
+
+  @if $type == 'terminal' {
+    background-color: red;
+  } @else if $type == 'code' {
+    background-color: blue;
+  } @else if $type == 'text' {
+    background-color: white;
+  }
+}
+    </ca-code-snippet>
+
   </div>
 </template>
 

@@ -11,6 +11,7 @@ import CaCheckbox from '../components/CaCheckbox';
 import CaDropdown from '../components/CaDropdown';
 import CaRadio from '../components/CaRadio';
 import CaBreadcrumb from '../components/CaBreadcrumb';
+import CaCodeSnippet from '../components/CaCodeSnippet';
 
 require('carbon-components/css/carbon-components.css');
 
@@ -24,6 +25,7 @@ Vue.use(CaCheckbox);
 Vue.use(CaDropdown);
 Vue.use(CaRadio);
 Vue.use(CaBreadcrumb);
+Vue.use(CaCodeSnippet);
 
 /* eslint-disable no-new */
 new Vue({

@@ -8,6 +8,11 @@
     <ca-checkbox></ca-checkbox>
     <ca-dropdown></ca-dropdown>
     <ca-radio></ca-radio>
+    <ca-breadcrumb>
+      <ca-breadcrumb-item>1</ca-breadcrumb-item>
+      <ca-breadcrumb-item>2</ca-breadcrumb-item>
+      <ca-breadcrumb-item>3</ca-breadcrumb-item>
+    </ca-breadcrumb>
   </div>
 </template>
 

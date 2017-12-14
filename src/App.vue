@@ -2,11 +2,6 @@
   <div id="app">
     <ca-button primary></ca-button>
     <ca-pagination></ca-pagination>
-    <ca-accordion>
-      <ca-accordion-item></ca-accordion-item>
-      <ca-accordion-item></ca-accordion-item>
-      <ca-accordion-item></ca-accordion-item>
-    </ca-accordion>
   </div>
 </template>
 

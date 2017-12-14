@@ -7,6 +7,8 @@ import CaAccordian from '../components/CaAccordian';
 import CaLoading from '../components/CaLoading';
 import CaButton from '../components/CaButton';
 import CaPagination from '../components/CaPagination';
+import CaCheckbox from '../components/CaCheckbox';
+import CaDropdown from '../components/CaDropdown';
 
 
 require('carbon-components/css/carbon-components.css');
@@ -17,6 +19,8 @@ Vue.use(CaAccordian);
 Vue.use(CaLoading);
 Vue.use(CaButton);
 Vue.use(CaPagination);
+Vue.use(CaCheckbox);
+Vue.use(CaDropdown);
 
 /* eslint-disable no-new */
 new Vue({

@@ -2,6 +2,11 @@
   <div id="app">
     <ca-button primary></ca-button>
     <ca-pagination></ca-pagination>
+    <ca-accordion>
+      <ca-accordion-item></ca-accordion-item>
+    </ca-accordion>
+    <ca-checkbox></ca-checkbox>
+    <ca-dropdown></ca-dropdown>
   </div>
 </template>
 

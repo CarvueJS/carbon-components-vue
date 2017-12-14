@@ -10,7 +10,6 @@ import CaPagination from '../components/CaPagination';
 import CaCheckbox from '../components/CaCheckbox';
 import CaDropdown from '../components/CaDropdown';
 
-
 require('carbon-components/css/carbon-components.css');
 
 Vue.config.productionTip = false;

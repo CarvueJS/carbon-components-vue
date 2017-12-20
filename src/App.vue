@@ -85,6 +85,9 @@
         Please do not leave blank.
       </div>
     </ca-form-item>
+
+
+    <ca-link>Link</ca-link>
   </div>
 </template>
 

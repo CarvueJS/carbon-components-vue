@@ -64,7 +64,7 @@
         </tr>
         <tr>
           <th>
-            itemC
+            itemE
           </th>
           <th>
             itemD

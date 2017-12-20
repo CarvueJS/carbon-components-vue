@@ -73,6 +73,8 @@
       </tbody>
     </ca-data-table>
 
+
+    <ca-date-picker></ca-date-picker>
   </div>
 </template>
 

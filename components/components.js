@@ -5,6 +5,7 @@ export { default as CaCheckbox } from './CaCheckbox';
 export { default as CaCodeSnippet } from './CaCodeSnippet';
 export { default as CaContentSwitcher } from './CaContentSwitcher';
 export { default as CaDataTable } from './CaDataTable';
+export { default as CaDatePicker } from './CaDatePicker';
 export { default as CaDropdown } from './CaDropdown';
 export { default as CaLoading } from './CaLoading';
 export { default as CaPagination } from './CaPagination';

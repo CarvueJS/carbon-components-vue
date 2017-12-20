@@ -13,6 +13,7 @@ import CaRadio from '../components/CaRadio';
 import CaBreadcrumb from '../components/CaBreadcrumb';
 import CaCodeSnippet from '../components/CaCodeSnippet';
 import CaContentSwithcher from '../components/CaContentSwitcher';
+import CaDataTable from '../components/CaDataTable';
 
 require('carbon-components/css/carbon-components.css');
 
@@ -28,6 +29,7 @@ Vue.use(CaRadio);
 Vue.use(CaBreadcrumb);
 Vue.use(CaCodeSnippet);
 Vue.use(CaContentSwithcher);
+Vue.use(CaDataTable);
 
 
 /* eslint-disable no-new */

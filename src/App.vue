@@ -41,6 +41,38 @@
       <ca-content-switcher-button>3</ca-content-switcher-button>
     </ca-content-switcher>
 
+    <ca-data-table>
+      <thead>
+
+        <tr>
+          <th>
+            head1
+          </th>
+          <th>
+            head2
+          </th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <th>
+            itemA
+          </th>
+          <th>
+            itemB
+          </th>
+        </tr>
+        <tr>
+          <th>
+            itemC
+          </th>
+          <th>
+            itemD
+          </th>
+        </tr>
+      </tbody>
+    </ca-data-table>
+
   </div>
 </template>
 

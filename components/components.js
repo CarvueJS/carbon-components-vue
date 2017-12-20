@@ -8,6 +8,7 @@ export { default as CaDataTable } from './CaDataTable';
 export { default as CaDatePicker } from './CaDatePicker';
 export { default as CaDropdown } from './CaDropdown';
 export { default as CaFileUploader } from './CaFileUploader';
+export { default as CaForm } from './CaForm';
 export { default as CaLoading } from './CaLoading';
 export { default as CaPagination } from './CaPagination';
 export { default as CaRadio } from './CaRadio';

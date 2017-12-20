@@ -75,6 +75,8 @@
 
 
     <ca-date-picker></ca-date-picker>
+
+    <ca-file-uploader></ca-file-uploader>
   </div>
 </template>
 

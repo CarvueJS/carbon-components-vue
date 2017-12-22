@@ -1,9 +1,8 @@
 {
   "name": "carvue",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "A Vue.js project",
   "author": "nicholaslee119 <nicholaslee119@gmail.com>",
-  "private": true,
   "scripts": {
     "dev": "webpack-dev-server --inline --progress --config build/webpack.dev.conf.js",
     "start": "npm run dev",

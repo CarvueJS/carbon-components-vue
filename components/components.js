@@ -23,4 +23,5 @@ export { default as CaSearch } from './CaSearch';
 export { default as CaSelect } from './CaSelect';
 export { default as CaSlider } from './CaSlider';
 export { default as CaStructuredList } from './CaStructuredList';
+export { default as CaTabs } from './CaTabs';
 

@@ -25,4 +25,8 @@ export { default as CaSlider } from './CaSlider';
 export { default as CaStructuredList } from './CaStructuredList';
 export { default as CaTabs } from './CaTabs';
 export { default as CaTag } from './CaTag';
+export { default as CaTextInput } from './CaTextInput';
+export { default as CaTile } from './CaTile';
+export { default as CaToggle } from './CaToggle';
+export { default as CaTooltip } from './CaTooltip';
 

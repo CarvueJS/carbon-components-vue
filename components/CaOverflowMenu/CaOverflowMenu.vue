@@ -12,9 +12,7 @@
 </template>
 
 <script>
-  <script>
   export default {
     name: 'ca-overflow-menu'
   }
-</script>
 </script>

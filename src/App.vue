@@ -8,7 +8,9 @@
         <div slot="content"><p>this is a content</p></div>
       </ca-accordion-item>
     </ca-accordion>
-    <ca-checkbox></ca-checkbox>
+    <ca-checkbox itemId="a" itemValue="a">item 1</ca-checkbox>
+    <ca-checkbox itemId="b" itemValue="b">item 2</ca-checkbox>
+    <ca-checkbox itemId="c" itemValue="c">item 3</ca-checkbox>
     <ca-dropdown></ca-dropdown>
     <ca-radio></ca-radio>
     <ca-breadcrumb>

@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <ca-button primary></ca-button>
+    <ca-button primary>Text</ca-button>
     <ca-pagination></ca-pagination>
     <ca-accordion>
       <ca-accordion-item>
@@ -12,7 +12,7 @@
     <ca-dropdown></ca-dropdown>
     <ca-radio></ca-radio>
     <ca-breadcrumb>
-      <ca-breadcrumb-item>1</ca-breadcrumb-item>
+      <ca-breadcrumb-item><a href="#">1</a></ca-breadcrumb-item>
       <ca-breadcrumb-item>2</ca-breadcrumb-item>
       <ca-breadcrumb-item>3</ca-breadcrumb-item>
     </ca-breadcrumb>

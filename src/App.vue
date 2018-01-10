@@ -3,7 +3,10 @@
     <ca-button primary></ca-button>
     <ca-pagination></ca-pagination>
     <ca-accordion>
-      <ca-accordion-item></ca-accordion-item>
+      <ca-accordion-item>
+        <div slot="title">this is a title</div>
+        <div slot="content"><p>this is a content</p></div>
+      </ca-accordion-item>
     </ca-accordion>
     <ca-checkbox></ca-checkbox>
     <ca-dropdown></ca-dropdown>
@@ -130,7 +133,6 @@
   export default {
     name: 'app',
   };
-
 </script>
 
 <style>

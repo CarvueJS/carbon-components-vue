@@ -11,7 +11,6 @@
     <ca-checkbox itemId="a" itemValue="a">item 1</ca-checkbox>
     <ca-checkbox itemId="b" itemValue="b">item 2</ca-checkbox>
     <ca-checkbox itemId="c" itemValue="c">item 3</ca-checkbox>
-    <ca-dropdown></ca-dropdown>
     <ca-radio></ca-radio>
     <ca-breadcrumb>
       <ca-breadcrumb-item><a href="#">1</a></ca-breadcrumb-item>
@@ -80,6 +79,20 @@
 
 
     <ca-date-picker></ca-date-picker>
+
+    <ca-dropdown>
+      <ca-dropdown-item value="date1">
+        option1
+      </ca-dropdown-item>
+      <ca-dropdown-item value="data2" >
+        option2
+      </ca-dropdown-item>
+      <ca-dropdown-item value="data3">
+        option3
+      </ca-dropdown-item>
+    </ca-dropdown>
+
+    <ca-loading></ca-loading>
 
     <ca-file-uploader></ca-file-uploader>
 

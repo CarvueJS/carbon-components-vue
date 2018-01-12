@@ -1,4 +1,5 @@
 <template>
+  <div class="bx--form-item">
     <div data-date-picker data-date-picker-type="single" class="bx--date-picker bx--date-picker--single">
       <div class="bx--date-picker-container">
         <label for="date-picker-3" class="bx--label">Date Picker label</label>
@@ -8,18 +9,29 @@
           <path d="M9.9 15H8.6v-3.9H7.1v-.9c.9 0 1.7-.3 1.8-1.2h1v6z" />
         </svg>
         <input type="text" id="date-picker-3" class="bx--date-picker__input" pattern="\d{1,2}/\d{1,2}/\d{4}" placeholder="mm/dd/yyyy"
-               data-date-picker-input />
+          data-date-picker-input />
         <div class="bx--form-requirement">
           Invalid date format.
         </div>
       </div>
     </div>
+  </div>
 </template>
 
 <script>
-  export default {
-    name: 'ca-date-picker',
+import { DatePicker } from "carbon-components";
+
+export default {
+  name: "ca-date-picker",
+  data() {
+    return {
+      datePicker: null
+    }
+  },
+  mounted() {
+    this.datePicker = DatePicker.create(document.querySelector('[data-date-picker]'));
   }
+};
 </script>
 
 <style></style>

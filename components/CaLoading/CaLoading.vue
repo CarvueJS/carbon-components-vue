@@ -13,9 +13,15 @@
   import { Loading } from 'carbon-components';
 
   export default {
+    data() {
+      return {
+        loading: null
+      }
+    },
     name: 'ca-loading',
     mounted () {
-      Loading.create(document.querySelector('[data-loading]'));
+      this.loading = Loading.create(document.querySelector('[data-loading]'));
+      this.loading.set(false);
     }
   }
 </script>

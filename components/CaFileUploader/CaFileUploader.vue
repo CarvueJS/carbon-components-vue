@@ -4,7 +4,7 @@
       for="your-file-importer-id-here"
       class="bx--file-btn bx--btn bx--btn--secondary"
       role="button"
-      tabindex="0">Add files</label>
+      tabindex="0"><slot></slot></label>
     <input
       type="file"
       class="bx--file-input"

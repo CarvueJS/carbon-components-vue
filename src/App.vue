@@ -94,7 +94,7 @@
 
     <ca-loading></ca-loading>
 
-    <ca-file-uploader></ca-file-uploader>
+    <ca-file-uploader>up up</ca-file-uploader>
 
     <ca-form-item>
       <label for="text-area-2" class="bx--label">Text area label</label>

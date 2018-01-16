@@ -1,6 +1,6 @@
 <template>
   <div data-numberinput class="bx--number">
-    <input id="number-input" type="number" min="0" max="100" value="1">
+    <input id="number-input" type="number" :min="min" :max="max" :value="value">
     <div class="bx--number__controls">
       <button class="bx--number__control-btn up-icon">
         <svg viewBox="0 2 10 5" width="10" height="5" fill-rule="evenodd">
@@ -18,6 +18,20 @@
 
 <script>
   export default {
-    name: 'ca-numberInput'
+    name: 'ca-number-input',
+    props: {
+      max: {
+        type: Number,
+        default: 100,
+      },
+      min: {
+        type: Number,
+        default: 0,
+      },
+      value: {
+        type: Number,
+        default: 1
+      }
+    }
   }
 </script>

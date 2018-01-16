@@ -96,6 +96,8 @@
 
     <ca-file-uploader>up up</ca-file-uploader>
 
+    <ca-number-input :max="200" :min="100" :value="2"></ca-number-input>
+
     <ca-form-item>
       <label for="text-area-2" class="bx--label">Text area label</label>
       <textarea id="text-area-2" class="bx--text-area" rows="4" cols="50" placeholder="Placeholder text"></textarea>

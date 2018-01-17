@@ -1,8 +1,8 @@
 <template>
   <div id="app">
     <ca-button primary>Text</ca-button>
-    
-    
+
+
     <ca-pagination>
       <ca-pagination-item slot="prePage">10</ca-pagination-item>
       <ca-pagination-item slot="prePage" selected>20</ca-pagination-item>
@@ -15,8 +15,8 @@
       <ca-pagination-item slot="page">4</ca-pagination-item>
 
     </ca-pagination>
-    
-    
+
+
     <ca-accordion>
       <ca-accordion-item>
         <div slot="title">this is a title</div>
@@ -176,6 +176,12 @@
       <ca-notification-subtitle>this is subtitle</ca-notification-subtitle>
     </ca-notification>
 
+    <ca-progress-indicator>
+      <ca-progress-indicator-step isCompleted>step1</ca-progress-indicator-step>
+      <ca-progress-indicator-step isCurrent>step2</ca-progress-indicator-step>
+      <ca-progress-indicator-step>step3</ca-progress-indicator-step>
+      <ca-progress-indicator-step>step4</ca-progress-indicator-step>
+    </ca-progress-indicator>
   </div>
 </template>
 

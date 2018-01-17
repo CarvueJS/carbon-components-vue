@@ -1,3 +1,9 @@
-/**
- * Created by nic on 2017/12/21.
- */
+import CaProgressIndicator from './CaProgressIndicator.vue';
+import CaProgressIndicatorStep from './CaProgressIndicatorStep.vue';
+
+CaProgressIndicator.install = Vue => {
+  Vue.component(CaProgressIndicator.name, CaProgressIndicator);
+  Vue.component(CaProgressIndicatorStep.name, CaProgressIndicatorStep);
+}
+
+export default CaProgressIndicator

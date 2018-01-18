@@ -1,16 +1,7 @@
 <template>
   <div class="bx--select">
     <select id="select-id" class="bx--select-input">
-      <option class="bx--select-option" disabled selected hidden>Choose an option</option>
-      <option class="bx--select-option" value="solong">A much longer option that is worth having around to check how text flows</option>
-      <optgroup class="bx--select-optgroup" label="Category 1">
-        <option class="bx--select-option" value="option1">Option 1</option>
-        <option class="bx--select-option" value="option2">Option 2</option>
-      </optgroup>
-      <optgroup class="bx--select-optgroup" label="Category 2">
-        <option class="bx--select-option" value="option1">Option 1</option>
-        <option class="bx--select-option" value="option2">Option 2</option>
-      </optgroup>
+      <slot></slot>
     </select>
     <svg class="bx--select__arrow" width="10" height="5" viewBox="0 0 10 5" fill-rule="evenodd">
       <path d="M10 0L5 5 0 0z"></path>

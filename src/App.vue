@@ -26,12 +26,19 @@
     <ca-checkbox itemId="a" itemValue="a">item 1</ca-checkbox>
     <ca-checkbox itemId="b" itemValue="b">item 2</ca-checkbox>
     <ca-checkbox itemId="c" itemValue="c">item 3</ca-checkbox>
-    <ca-radio></ca-radio>
     <ca-breadcrumb>
       <ca-breadcrumb-item><a href="#">1</a></ca-breadcrumb-item>
       <ca-breadcrumb-item>2</ca-breadcrumb-item>
       <ca-breadcrumb-item>3</ca-breadcrumb-item>
     </ca-breadcrumb>
+
+
+    <ca-radio>
+      <ca-radio-item radioID="radio-button-1" value="value1">radio1</ca-radio-item>
+      <ca-radio-item radioID="radio-button-2" value="value2" checked>radio2</ca-radio-item>
+      <ca-radio-item radioID="radio-button-3" value="value3">radio3</ca-radio-item>
+
+    </ca-radio>
 
     <ca-code-snippet>
       @mixin bx--snippet($type) {

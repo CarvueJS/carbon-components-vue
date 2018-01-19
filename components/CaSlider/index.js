@@ -1,3 +1,7 @@
-/**
- * Created by nic on 2017/12/21.
- */
+import CaSlider from './CaSlider.vue';
+
+CaSlider.install = Vue => {
+  Vue.component(CaSlider.name, CaSlider);
+}
+
+export default CaSlider

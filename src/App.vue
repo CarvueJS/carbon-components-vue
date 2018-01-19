@@ -206,6 +206,8 @@
       </ca-select-group>
     </ca-select>
 
+    <ca-slider :step="2" :min="2" :max="102" :value="41"></ca-slider>
+
   </div>
 </template>
 

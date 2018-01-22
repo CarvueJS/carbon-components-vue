@@ -1,5 +1,5 @@
 <template>
-  <div class="bx--tile">
+  <div data-tile="clickable" class="bx--tile bx--tile--clickable">
     <slot></slot>
   </div>
 </template>

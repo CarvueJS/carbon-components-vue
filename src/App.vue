@@ -223,6 +223,8 @@
 
     <ca-text-input placeholder="holder"></ca-text-input>
 
+    <ca-tile>tile</ca-tile>
+
   </div>
 </template>
 

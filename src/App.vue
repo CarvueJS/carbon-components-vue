@@ -221,6 +221,7 @@
 
     <ca-tag ibm>IBM</ca-tag>
 
+    <ca-text-input placeholder="holder"></ca-text-input>
 
   </div>
 </template>

@@ -219,6 +219,7 @@
       <ca-tabs-panel slot="panel" PanelID="tab-panel-4" tabID="tab-4"><p>Content for 4 tab goes here.</p></ca-tabs-panel>
     </ca-tabs>
 
+    <ca-tag ibm>IBM</ca-tag>
 
 
   </div>

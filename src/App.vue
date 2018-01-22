@@ -225,6 +225,8 @@
 
     <ca-tile>tile</ca-tile>
 
+    <ca-toggle left="kai" right="guan"></ca-toggle>
+
   </div>
 </template>
 

@@ -2,6 +2,7 @@
   <div id="app">
     <ca-button primary>Text</ca-button>
 
+    <div>-----------------------------</div>
 
     <ca-pagination>
       <ca-pagination-item slot="prePage">10</ca-pagination-item>
@@ -16,22 +17,28 @@
 
     </ca-pagination>
 
-
+    <div>-----------------------------</div>
     <ca-accordion>
       <ca-accordion-item>
         <div slot="title">this is a title</div>
         <div slot="content"><p>this is a content</p></div>
       </ca-accordion-item>
     </ca-accordion>
+
+    <div>-----------------------------</div>
     <ca-checkbox itemId="a" itemValue="a">item 1</ca-checkbox>
     <ca-checkbox itemId="b" itemValue="b">item 2</ca-checkbox>
     <ca-checkbox itemId="c" itemValue="c">item 3</ca-checkbox>
+
+    <div>-----------------------------</div>
+
     <ca-breadcrumb>
       <ca-breadcrumb-item><a href="#">1</a></ca-breadcrumb-item>
       <ca-breadcrumb-item>2</ca-breadcrumb-item>
       <ca-breadcrumb-item>3</ca-breadcrumb-item>
     </ca-breadcrumb>
 
+    <div>-----------------------------</div>
 
     <ca-radio>
       <ca-radio-item radioID="radio-button-1" value="value1">radio1</ca-radio-item>
@@ -40,7 +47,7 @@
 
     </ca-radio>
 
-
+    <div>-----------------------------</div>
     <div>
       <ca-tooltip-trigger>
         Trigger
@@ -52,6 +59,8 @@
         <p>content!!!!!!</p>
       </ca-tooltip>
     </div>
+
+    <div>-----------------------------</div>
 
     <ca-code-snippet>
       @mixin bx--snippet($type) {
@@ -73,12 +82,14 @@
 }
     </ca-code-snippet>
 
-
+    <div>-----------------------------</div>
     <ca-content-switcher>
       <ca-content-switcher-button>1</ca-content-switcher-button>
       <ca-content-switcher-button>2</ca-content-switcher-button>
       <ca-content-switcher-button>3</ca-content-switcher-button>
     </ca-content-switcher>
+
+    <div>-----------------------------</div>
 
     <ca-data-table>
       <thead>
@@ -112,8 +123,10 @@
       </tbody>
     </ca-data-table>
 
-
+    <div>-----------------------------</div>
     <ca-date-picker></ca-date-picker>
+
+    <div>-----------------------------</div>
 
     <ca-dropdown>
       <ca-dropdown-item value="date1">
@@ -127,11 +140,19 @@
       </ca-dropdown-item>
     </ca-dropdown>
 
+    <div>-----------------------------</div>
+
     <ca-loading></ca-loading>
+
+    <div>-----------------------------</div>
 
     <ca-file-uploader>up up</ca-file-uploader>
 
+    <div>-----------------------------</div>
+
     <ca-number-input :max="200" :min="100" :value="2"></ca-number-input>
+
+    <div>-----------------------------</div>
 
     <ca-form-item>
       <label for="text-area-2" class="bx--label">Text area label</label>
@@ -140,6 +161,8 @@
         Please do not leave blank.
       </div>
     </ca-form-item>
+
+    <div>-----------------------------</div>
 
     <ca-overflow-menu>
       <ca-overflow-menu-option>
@@ -156,8 +179,11 @@
       </ca-overflow-menu-option>
     </ca-overflow-menu>
 
+    <div>-----------------------------</div>
 
     <ca-link>Link</ca-link>
+
+    <div>-----------------------------</div>
 
     <ca-list>
       <ca-list-item>
@@ -170,6 +196,8 @@
         Ordered List level 3
       </ca-list-item>
     </ca-list>
+
+    <div>-----------------------------</div>
 
     <button class="bx--btn bx--btn--secondary" type="button" data-modal-target="#nofooter">Passive</button>
     <ca-modal>
@@ -191,10 +219,14 @@
       </ca-modal-container>
     </ca-modal>
 
+    <div>-----------------------------</div>
+
     <ca-notification>
       <ca-notification-title>this is title</ca-notification-title>
       <ca-notification-subtitle>this is subtitle</ca-notification-subtitle>
     </ca-notification>
+
+    <div>-----------------------------</div>
 
     <ca-progress-indicator>
       <ca-progress-indicator-step isCompleted>step1</ca-progress-indicator-step>
@@ -203,8 +235,12 @@
       <ca-progress-indicator-step>step4</ca-progress-indicator-step>
     </ca-progress-indicator>
 
+    <div>-----------------------------</div>
+
 
     <ca-search></ca-search>
+
+    <div>-----------------------------</div>
 
     <ca-select>
       <ca-select-item>Choose an option</ca-select-item>
@@ -219,7 +255,12 @@
       </ca-select-group>
     </ca-select>
 
+    <div>-----------------------------</div>
+
     <ca-slider :step="2" :min="2" :max="102" :value="41"></ca-slider>
+
+
+    <div>-----------------------------</div>
 
     <ca-tabs>
       <ca-tabs-nav slot="nav" controls="tab-panel-1" :selected="`true`" tabID=".tab-1" >Tab label 1</ca-tabs-nav>
@@ -232,11 +273,19 @@
       <ca-tabs-panel slot="panel" PanelID="tab-panel-4" tabID="tab-4"><p>Content for 4 tab goes here.</p></ca-tabs-panel>
     </ca-tabs>
 
+    <div>-----------------------------</div>
+
     <ca-tag ibm>IBM</ca-tag>
+
+    <div>-----------------------------</div>
 
     <ca-text-input placeholder="holder"></ca-text-input>
 
+    <div>-----------------------------</div>
+
     <ca-tile>tile</ca-tile>
+
+    <div>-----------------------------</div>
 
     <ca-toggle left="kai" right="guan"></ca-toggle>
 

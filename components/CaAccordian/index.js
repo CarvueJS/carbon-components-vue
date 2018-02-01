@@ -1,5 +1,5 @@
-import CaAccordian from './CaAccordian';
-import CaAccordianItem from './CaAccordianItem';
+import CaAccordian from './CaAccordian.vue';
+import CaAccordianItem from './CaAccordianItem.vue';
 
 function install(Vue) {
   Vue.component(CaAccordian.name, CaAccordian);

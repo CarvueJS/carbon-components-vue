@@ -1,5 +1,5 @@
-import CaBreadcrumb from './CaBreadcrumb';
-import CaBreadcrumbItem from './CaBreadcrumbItem';
+import CaBreadcrumb from './CaBreadcrumb.vue';
+import CaBreadcrumbItem from './CaBreadcrumbItem.vue';
 
 CaBreadcrumb.install = (Vue) => {
   Vue.component(CaBreadcrumb.name, CaBreadcrumb);

@@ -1,5 +1,5 @@
-import CaProgressIndicator from './CaProgressIndicator';
-import CaProgressIndicatorStep from './CaProgressIndicatorStep';
+import CaProgressIndicator from './CaProgressIndicator.vue';
+import CaProgressIndicatorStep from './CaProgressIndicatorStep.vue';
 
 CaProgressIndicator.install = (Vue) => {
   Vue.component(CaProgressIndicator.name, CaProgressIndicator);

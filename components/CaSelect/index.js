@@ -1,6 +1,6 @@
-import CaSelect from './CaSelect';
-import CaSelectItem from './CaSelectItem';
-import CaSelectGroup from './CaSelectGroup';
+import CaSelect from './CaSelect.vue';
+import CaSelectItem from './CaSelectItem.vue';
+import CaSelectGroup from './CaSelectGroup.vue';
 
 CaSelect.install = (Vue) => {
   Vue.component(CaSelect.name, CaSelect);

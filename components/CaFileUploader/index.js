@@ -1,4 +1,4 @@
-import CaFileUploader from './CaFileUploader';
+import CaFileUploader from './CaFileUploader.vue';
 
 CaFileUploader.install = (Vue) => {
   Vue.component(CaFileUploader.name, CaFileUploader);

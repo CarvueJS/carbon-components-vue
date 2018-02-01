@@ -1,6 +1,6 @@
-import CaTabs from './CaTabs';
-import CaTabsNav from './CaTabsNav';
-import CaTabsPanel from './CaTabsPanel';
+import CaTabs from './CaTabs.vue';
+import CaTabsNav from './CaTabsNav.vue';
+import CaTabsPanel from './CaTabsPanel.vue';
 
 CaTabs.install = (Vue) => {
   Vue.component(CaTabs.name, CaTabs);

@@ -1,7 +1,7 @@
-import CaModal from './CaModal';
-import CaModalContainer from './CaModalContainer';
-import CaModalContent from './CaModalContent';
-import CaModalHeader from './CaModalHeader';
+import CaModal from './CaModal.vue';
+import CaModalContainer from './CaModalContainer.vue';
+import CaModalContent from './CaModalContent.vue';
+import CaModalHeader from './CaModalHeader.vue';
 
 CaModal.install = (Vue) => {
   Vue.component(CaModal.name, CaModal);

@@ -1,4 +1,4 @@
-import CaTextInput from './CaTextInput';
+import CaTextInput from './CaTextInput.vue';
 
 CaTextInput.install = (Vue) => {
   Vue.component(CaTextInput.name, CaTextInput);

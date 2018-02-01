@@ -1,6 +1,6 @@
-import CaNotification from './CaNotification';
-import CaNotificationTitle from './CaNotificationTitle';
-import CaNotificationSubtitle from './CaNotificationSubtitle';
+import CaNotification from './CaNotification.vue';
+import CaNotificationTitle from './CaNotificationTitle.vue';
+import CaNotificationSubtitle from './CaNotificationSubtitle.vue';
 
 CaNotification.install = (Vue) => {
   Vue.component(CaNotification.name, CaNotification);

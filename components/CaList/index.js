@@ -1,5 +1,5 @@
-import CaList from './CaList';
-import CaListItem from './CaListItem';
+import CaList from './CaList.vue';
+import CaListItem from './CaListItem.vue';
 
 CaList.install = (Vue) => {
   Vue.component(CaList.name, CaList);

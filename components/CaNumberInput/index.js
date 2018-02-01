@@ -1,4 +1,4 @@
-import CaNumberInput from './CaNumberInput';
+import CaNumberInput from './CaNumberInput.vue';
 
 CaNumberInput.install = (Vue) => {
   Vue.component(CaNumberInput.name, CaNumberInput);

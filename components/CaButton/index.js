@@ -1,4 +1,4 @@
-import CaButton from './CaButton';
+import CaButton from './CaButton.vue';
 
 CaButton.install = (Vue) => {
   Vue.component(CaButton.name, CaButton);

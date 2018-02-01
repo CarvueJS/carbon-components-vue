@@ -1,5 +1,5 @@
-import CaPagination from './CaPagination';
-import CaPaginationItem from './CaPaginationItem';
+import CaPagination from './CaPagination.vue';
+import CaPaginationItem from './CaPaginationItem.vue';
 
 CaPagination.install = (Vue) => {
   Vue.component(CaPagination.name, CaPagination);

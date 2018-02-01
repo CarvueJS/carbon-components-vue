@@ -1,8 +1,8 @@
-import CaStructuredList from './CaStructuredList';
-import CaStructuredListBody from './CaStructuredListBody';
-import CaStructuredListColumn from './CaStructuredListColumn';
-import CaStructuredListHead from './CaStructuredListHead';
-import CaStructuredListRow from './CaStructuredListRow';
+import CaStructuredList from './CaStructuredList.vue';
+import CaStructuredListBody from './CaStructuredListBody.vue';
+import CaStructuredListColumn from './CaStructuredListColumn.vue';
+import CaStructuredListHead from './CaStructuredListHead.vue';
+import CaStructuredListRow from './CaStructuredListRow.vue';
 
 CaStructuredList.install = (Vue) => {
   Vue.component(CaStructuredList.name, CaStructuredList);

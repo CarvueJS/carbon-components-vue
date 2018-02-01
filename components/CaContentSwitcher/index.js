@@ -1,5 +1,5 @@
-import CaContentSwitcher from './CaContentSwitcher';
-import CaContentSwitcherButton from './CaContentSwitcherButton';
+import CaContentSwitcher from './CaContentSwitcher.vue';
+import CaContentSwitcherButton from './CaContentSwitcherButton.vue';
 
 CaContentSwitcher.install = (Vue) => {
   Vue.component(CaContentSwitcher.name, CaContentSwitcher);

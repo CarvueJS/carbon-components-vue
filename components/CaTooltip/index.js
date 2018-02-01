@@ -1,6 +1,6 @@
-import CaTooltip from './CaTooltip';
-import CaTooltipLabel from './CaTooltipLabel';
-import CaTooltipTrigger from './CaTooltipTrigger';
+import CaTooltip from './CaTooltip.vue';
+import CaTooltipLabel from './CaTooltipLabel.vue';
+import CaTooltipTrigger from './CaTooltipTrigger.vue';
 
 CaTooltip.install = (Vue) => {
   Vue.component(CaTooltip.name, CaTooltip);

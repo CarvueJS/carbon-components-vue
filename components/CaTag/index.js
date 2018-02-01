@@ -1,4 +1,4 @@
-import CaTag from './CaTag';
+import CaTag from './CaTag.vue';
 
 CaTag.install = (Vue) => {
   Vue.component(CaTag.name, CaTag);

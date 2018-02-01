@@ -1,5 +1,5 @@
-import CaOverflowMenu from './CaOverflowMenu';
-import CaOverflowMenuOption from './CaOverflowMenuOption';
+import CaOverflowMenu from './CaOverflowMenu.vue';
+import CaOverflowMenuOption from './CaOverflowMenuOption.vue';
 
 CaOverflowMenu.install = (Vue) => {
   Vue.component(CaOverflowMenu.name, CaOverflowMenu);

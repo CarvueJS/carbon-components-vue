@@ -1,7 +1,7 @@
-import CaDataTable from './CaDataTable.vue'
+import CaDataTable from './CaDataTable';
 
-CaDataTable.install = Vue => {
-  Vue.component(CaDataTable.name, CaDataTable)
-}
+CaDataTable.install = (Vue) => {
+  Vue.component(CaDataTable.name, CaDataTable);
+};
 
-export default CaDataTable
+export default CaDataTable;

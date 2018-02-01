@@ -1,7 +1,7 @@
-import CaTile from './CaTile.vue';
+import CaTile from './CaTile';
 
-CaTile.install = Vue => {
-  Vue.component(CaTile.name, CaTile)
-}
+CaTile.install = (Vue) => {
+  Vue.component(CaTile.name, CaTile);
+};
 
-export default CaTile
+export default CaTile;

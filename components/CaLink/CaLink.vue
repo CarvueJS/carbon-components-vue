@@ -6,8 +6,8 @@
 
 <script>
   export default {
-    name: 'ca-link'
-  }
+    name: 'ca-link',
+  };
 </script>
 
 <style></style>

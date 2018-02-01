@@ -1,7 +1,7 @@
-import CaCheckbox from './CaCheckbox.vue';
+import CaCheckbox from './CaCheckbox';
 
-CaCheckbox.install = Vue => {
+CaCheckbox.install = (Vue) => {
   Vue.component(CaCheckbox.name, CaCheckbox);
-}
+};
 
-export default CaCheckbox
+export default CaCheckbox;

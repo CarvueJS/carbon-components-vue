@@ -21,8 +21,8 @@
 
 <script>
   export default {
-    name: 'ca-code-snippet'
-  }
+    name: 'ca-code-snippet',
+  };
 </script>
 
 <style></style>

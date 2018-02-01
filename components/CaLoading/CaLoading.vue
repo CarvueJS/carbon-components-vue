@@ -15,15 +15,15 @@
   export default {
     data() {
       return {
-        loading: null
-      }
+        loading: null,
+      };
     },
     name: 'ca-loading',
-    mounted () {
+    mounted() {
       this.loading = Loading.create(document.querySelector('[data-loading]'));
       this.loading.set(false);
-    }
-  }
+    },
+  };
 </script>
 
 <style></style>

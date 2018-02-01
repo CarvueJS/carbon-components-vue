@@ -11,6 +11,6 @@
 
 <script>
   export default {
-    name: 'ca-select'
-  }
+    name: 'ca-select',
+  };
 </script>

@@ -1,7 +1,7 @@
-import CaLink from './CaLink.vue';
+import CaLink from './CaLink';
 
-CaLink.install = Vue => {
+CaLink.install = (Vue) => {
   Vue.component(CaLink.name, CaLink);
-}
+};
 
 export default CaLink;

@@ -20,23 +20,23 @@
     props: {
       itemId: {
         type: String,
-        defalut: ''
+        defalut: '',
       },
       itemValue: {
         type: String,
-        defalut: ''
-      }
+        defalut: '',
+      },
     },
-    data () {
+    data() {
       return {
         id: null,
         value: null,
-      }
+      };
     },
-    mounted () {
+    mounted() {
 //      initCheckbox(document.querySelector[data-checkbox])
-    }
-  }
+    },
+  };
 </script>
 
 <style></style>

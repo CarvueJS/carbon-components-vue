@@ -19,8 +19,8 @@
 
 <script>
   export default {
-    name: 'ca-file-uploader'
-  }
+    name: 'ca-file-uploader',
+  };
 </script>
 
 <style></style>

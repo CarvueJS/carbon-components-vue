@@ -6,8 +6,8 @@
 
 <script>
   export default {
-    name: 'ca-data-table'
-  }
+    name: 'ca-data-table',
+  };
 </script>
 
 <style></style>

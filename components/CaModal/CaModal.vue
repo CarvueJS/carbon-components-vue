@@ -7,7 +7,7 @@
 <script>
   export default {
     name: 'ca-modal',
-  }
+  };
 </script>
 
 <style></style>

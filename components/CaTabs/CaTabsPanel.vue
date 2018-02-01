@@ -10,11 +10,11 @@
     props: {
       PanelID: {
         type: String,
-        default: ''
+        default: '',
       },
       labelledby: {
         type: String,
-        default: ''
+        default: '',
       },
       hidden: {
         type: Boolean,
@@ -26,10 +26,10 @@
       },
       tabID: {
         type: String,
-        default: ''
-      }
-    }
-  }
+        default: '',
+      },
+    },
+  };
 </script>
 
 

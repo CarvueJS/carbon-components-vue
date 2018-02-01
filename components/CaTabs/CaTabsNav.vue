@@ -12,7 +12,7 @@
     props: {
       controls: {
         type: String,
-        default: ''
+        default: '',
       },
       selected: {
         type: String,
@@ -20,10 +20,10 @@
       },
       tabID: {
         type: String,
-        default: ''
-      }
-    }
-  }
+        default: '',
+      },
+    },
+  };
 </script>
 
 <style>

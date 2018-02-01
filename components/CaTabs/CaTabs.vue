@@ -18,7 +18,7 @@
 </template>
 
 <script>
-  import { Tab } from "carbon-components";
+  import { Tab } from 'carbon-components';
 
   export default {
     name: 'ca-tabs',
@@ -27,10 +27,10 @@
     },
     data() {
       return {
-        tabs: null
-      }
+        tabs: null,
+      };
     },
-  }
+  };
 </script>
 
 <style></style>

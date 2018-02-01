@@ -1,9 +1,9 @@
-import CaRadio from './CaRadio.vue';
-import CaRadioItem from './CaRadioItem.vue';
+import CaRadio from './CaRadio';
+import CaRadioItem from './CaRadioItem';
 
-CaRadio.install = Vue => {
+CaRadio.install = (Vue) => {
   Vue.component(CaRadio.name, CaRadio);
   Vue.component(CaRadioItem.name, CaRadioItem);
-}
+};
 
-export default CaRadio
+export default CaRadio;

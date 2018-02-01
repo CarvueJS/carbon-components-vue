@@ -1,7 +1,7 @@
-import CaDatePicker from './CaDatePicker.vue';
+import CaDatePicker from './CaDatePicker';
 
-CaDatePicker.install = Vue => {
+CaDatePicker.install = (Vue) => {
   Vue.component(CaDatePicker.name, CaDatePicker);
-}
+};
 
 export default CaDatePicker;

@@ -12,6 +12,6 @@
     mounted() {
 //      const pi = ProgressIndicator.create(document.querySelector('[data-progress]'));
 //      pi.setCurrent(2);
-    }
-  }
+    },
+  };
 </script>

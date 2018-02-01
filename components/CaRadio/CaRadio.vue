@@ -8,8 +8,8 @@
 
 <script>
   export default {
-    name: 'ca-radio'
-  }
+    name: 'ca-radio',
+  };
 </script>
 
 <style></style>

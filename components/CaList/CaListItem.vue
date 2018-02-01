@@ -6,8 +6,8 @@
 
 <script>
   export default {
-    name: 'ca-list-item'
-  }
+    name: 'ca-list-item',
+  };
 </script>
 
 <style></style>

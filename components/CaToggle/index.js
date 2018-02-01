@@ -1,7 +1,7 @@
-import CaToggle from './CaToggle.vue';
+import CaToggle from './CaToggle';
 
-CaToggle.install = Vue => {
-  Vue.component(CaToggle.name, CaToggle)
-}
+CaToggle.install = (Vue) => {
+  Vue.component(CaToggle.name, CaToggle);
+};
 
-export default CaToggle
+export default CaToggle;

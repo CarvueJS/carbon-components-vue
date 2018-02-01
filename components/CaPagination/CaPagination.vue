@@ -51,11 +51,10 @@
 
   export default {
     name: 'ca-pagination',
-    mounted () {
+    mounted() {
       Pagination.create(document.querySelector('[data-pagination]'));
-    }
-  }
-
+    },
+  };
 
 </script>
 

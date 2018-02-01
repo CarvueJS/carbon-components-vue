@@ -10,10 +10,10 @@
     props: {
       label: {
         type: String,
-        default: ''
-      }
-    }
-  }
+        default: '',
+      },
+    },
+  };
 </script>
 
 <style></style>

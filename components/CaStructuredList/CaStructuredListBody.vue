@@ -6,8 +6,8 @@
 
 <script>
   export default {
-    name: 'ca-structured-list-body'
-  }
+    name: 'ca-structured-list-body',
+  };
 </script>
 
 <style></style>

@@ -10,10 +10,10 @@
     props: {
       placeholder: {
         type: String,
-        default: ''
-      }
-    }
-  }
+        default: '',
+      },
+    },
+  };
 </script>
 
 <style></style>

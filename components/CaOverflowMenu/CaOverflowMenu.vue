@@ -13,6 +13,6 @@
 
 <script>
   export default {
-    name: 'ca-overflow-menu'
-  }
+    name: 'ca-overflow-menu',
+  };
 </script>

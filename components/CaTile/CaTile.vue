@@ -6,8 +6,8 @@
 
 <script>
   export default {
-    name: 'ca-tile'
-  }
+    name: 'ca-tile',
+  };
 </script>
 
 <style></style>

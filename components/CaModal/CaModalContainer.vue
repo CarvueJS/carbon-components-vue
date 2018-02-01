@@ -6,8 +6,8 @@
 
 <script>
   export default {
-    name: 'ca-modal-container'
-  }
+    name: 'ca-modal-container',
+  };
 </script>
 
 <style></style>

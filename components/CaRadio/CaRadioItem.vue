@@ -22,7 +22,7 @@
       },
       value: {
         type: String,
-        defalut: ''
+        defalut: '',
       },
       tabIndex: {
         type: Number,
@@ -31,9 +31,9 @@
       radioID: {
         type: String,
         defalut: '',
-      }
+      },
     },
-  }
+  };
 </script>
 
 <style></style>

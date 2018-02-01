@@ -6,8 +6,8 @@
 
 <script>
   export default {
-    name: 'ca-structured-list-col'
-  }
+    name: 'ca-structured-list-col',
+  };
 </script>
 
 <style></style>

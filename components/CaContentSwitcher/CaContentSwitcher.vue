@@ -6,8 +6,8 @@
 
 <script>
   export default {
-    name: 'ca-content-switcher'
-  }
+    name: 'ca-content-switcher',
+  };
 </script>
 
 <style></style>

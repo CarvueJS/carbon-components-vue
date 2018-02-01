@@ -6,8 +6,8 @@
 
 <script>
   export default {
-    name: 'ca-form-item'
-  }
+    name: 'ca-form-item',
+  };
 </script>
 
 <style></style>

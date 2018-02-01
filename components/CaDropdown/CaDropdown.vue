@@ -19,13 +19,13 @@
     name: 'ca-dropdown',
     data() {
       return {
-        dropdown: null
-      }
+        dropdown: null,
+      };
     },
-    mounted () {
+    mounted() {
       this.dropdown = Dropdown.create(document.querySelector('[data-dropdown]'));
-    }
-  }
+    },
+  };
 </script>
 
 <style></style>

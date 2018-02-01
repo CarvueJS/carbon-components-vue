@@ -12,7 +12,10 @@
     "lint": "eslint --ext .js,.vue src test/unit/specs test/e2e/specs",
     "build": "node build/build.js",
     "storybook": "start-storybook -p 6006",
-    "build-storybook": "build-storybook"
+    "build-storybook": "build-storybook",
+    "lint:js": "eslint --ext .js,.vue packages",
+    "lint:css": "stylelint '**/*.vue' --styntax stylus",
+    "lint:fixJS": "eslint --fix 'components/**'"
   },
   "dependencies": {
     "carbon-components": "^8.1.13",
@@ -49,6 +52,7 @@
     "eslint-loader": "^1.7.1",
     "eslint-plugin-html": "^3.0.0",
     "eslint-plugin-import": "^2.7.0",
+    "eslint-plugin-vue": "^4.2.2",
     "eventsource-polyfill": "^0.9.6",
     "extract-text-webpack-plugin": "^3.0.0",
     "file-loader": "^1.1.4",

@@ -19,18 +19,18 @@
 </template>
 
 <script>
-import { DatePicker } from "carbon-components";
+import { DatePicker } from 'carbon-components';
 
 export default {
-  name: "ca-date-picker",
+  name: 'ca-date-picker',
   data() {
     return {
-      datePicker: null
-    }
+      datePicker: null,
+    };
   },
   mounted() {
     this.datePicker = DatePicker.create(document.querySelector('[data-date-picker]'));
-  }
+  },
 };
 </script>
 

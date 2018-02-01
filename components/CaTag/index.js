@@ -1,7 +1,7 @@
-import CaTag from './CaTag.vue';
+import CaTag from './CaTag';
 
-CaTag.install = Vue => {
-  Vue.component(CaTag.name, CaTag)
-}
+CaTag.install = (Vue) => {
+  Vue.component(CaTag.name, CaTag);
+};
 
-export default CaTag
+export default CaTag;

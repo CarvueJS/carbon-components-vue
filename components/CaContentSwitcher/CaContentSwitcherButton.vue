@@ -6,8 +6,8 @@
 
 <script>
   export default {
-    name: 'ca-content-switcher-button'
-  }
+    name: 'ca-content-switcher-button',
+  };
 </script>
 
 <style></style>

@@ -6,8 +6,8 @@
 
 <script>
   export default {
-    name: 'ca-tooltip'
-  }
+    name: 'ca-tooltip',
+  };
 </script>
 
 <style></style>

@@ -20,9 +20,9 @@
       right: {
         type: String,
         default: 'On',
-      }
-    }
-  }
+      },
+    },
+  };
 </script>
 
 <style></style>

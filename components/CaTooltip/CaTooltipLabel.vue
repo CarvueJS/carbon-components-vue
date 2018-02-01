@@ -4,8 +4,8 @@
 
 <script>
   export default {
-    name: 'ca-tooltip-label'
-  }
+    name: 'ca-tooltip-label',
+  };
 </script>
 
 <style></style>

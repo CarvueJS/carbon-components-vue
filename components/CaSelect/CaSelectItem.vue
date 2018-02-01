@@ -10,10 +10,10 @@
     props: {
       value: {
         type: String,
-        default: ''
-      }
-    }
-  }
+        default: '',
+      },
+    },
+  };
 </script>
 
 <style></style>

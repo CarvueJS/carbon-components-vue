@@ -9,8 +9,8 @@
 
 <script>
   export default {
-    name: 'ca-tooltip-trigger'
-  }
+    name: 'ca-tooltip-trigger',
+  };
 </script>
 
 <style></style>

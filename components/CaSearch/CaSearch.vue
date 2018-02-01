@@ -14,6 +14,6 @@
 
 <script>
   export default {
-    name: 'ca-search'
-  }
+    name: 'ca-search',
+  };
 </script>

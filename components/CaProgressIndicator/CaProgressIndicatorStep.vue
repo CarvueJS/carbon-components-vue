@@ -29,23 +29,23 @@
       isCurrent: {
         type: Boolean,
         defalut: false,
-      }
+      },
     },
     data() {
       return {
-        modifers: initModifer
-      }
+        modifers: initModifer,
+      };
     },
     computed: {
-      modifiers: function() {
+      modifiers() {
         return {
           'bx--progress-step--complete': this.isCompleted,
           'bx--progress-step--incomplete': !this.isCompleted,
           'bx--progress-step--current': this.isCurrent,
-        }
-      }
-    }
-  }
+        };
+      },
+    },
+  };
 </script>
 
 <style></style>

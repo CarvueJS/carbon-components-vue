@@ -8,8 +8,8 @@
 
 <script>
   export default {
-    name: 'ca-breadcrumb-item'
-  }
+    name: 'ca-breadcrumb-item',
+  };
 </script>
 
 <style></style>

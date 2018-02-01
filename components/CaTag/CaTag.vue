@@ -11,8 +11,8 @@
     name: 'ca-tag',
     data() {
       return {
-        modifier: initModifier
-      }
+        modifier: initModifier,
+      };
     },
     props: {
       ibm: {
@@ -65,8 +65,8 @@
       const raw = document.querySelector('[data-tag]');
       raw.className = this.modifier.join(' ');
       console.log(raw.classname);
-    }
-  }
+    },
+  };
 </script>
 
 <style></style>

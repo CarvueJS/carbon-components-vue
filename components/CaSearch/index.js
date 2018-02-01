@@ -1,7 +1,7 @@
-import CaSearch from './CaSearch.vue';
+import CaSearch from './CaSearch';
 
-CaSearch.install = Vue => {
+CaSearch.install = (Vue) => {
   Vue.component(CaSearch.name, CaSearch);
-}
+};
 
-export default CaSearch
+export default CaSearch;

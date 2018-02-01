@@ -1,7 +1,7 @@
-import CaLoading from './CaLoading.vue';
+import CaLoading from './CaLoading';
 
-CaLoading.install = Vue => {
+CaLoading.install = (Vue) => {
   Vue.component(CaLoading.name, CaLoading);
-}
+};
 
-export default CaLoading
+export default CaLoading;

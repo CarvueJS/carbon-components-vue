@@ -4,8 +4,8 @@
 
 <script>
   export default {
-    name: 'ca-modal-header'
-  }
+    name: 'ca-modal-header',
+  };
 </script>
 
 <style></style>

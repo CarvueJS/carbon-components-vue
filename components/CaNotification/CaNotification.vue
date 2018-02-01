@@ -19,8 +19,8 @@
 
 <script>
   export default {
-    name: 'ca-notification'
-  }
+    name: 'ca-notification',
+  };
 </script>
 
 <style></style>

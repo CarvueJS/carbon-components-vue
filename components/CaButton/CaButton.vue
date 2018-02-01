@@ -13,28 +13,28 @@
     props: {
       primary: {
         type: Boolean,
-        default: false
+        default: false,
       },
       secondary: {
         type: Boolean,
-        default: false
+        default: false,
       },
       danger: {
         type: Boolean,
-        default: false
+        default: false,
       },
       sm: {
         type: Boolean,
-        default: false
+        default: false,
       },
     },
-    data () {
+    data() {
       return {
         modifiers: initModifiers,
-        mixins: initMixins
-      }
+        mixins: initMixins,
+      };
     },
-    mounted () {
+    mounted() {
       if (this.primary) this.modifiers.push('bx--btn--primary');
       if (this.secondary) this.modifiers.push('bx--btn--secondary');
       if (this.danger) this.modifiers.push('bx--btn--danger');
@@ -42,8 +42,8 @@
       const raw = document.querySelector('[data-button]');
       raw.className = this.modifiers.join(' ');
       const button = FabButton.create(document.querySelector('[data-button]'));
-    }
-  }
+    },
+  };
 </script>
 
 <style></style>

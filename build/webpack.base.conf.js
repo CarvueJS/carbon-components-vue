@@ -22,10 +22,11 @@ const createLintingRule = () => ({
 module.exports = {
   context: path.resolve(__dirname, '../'),
   entry: {
-    app: './src/main.js'
+    app: './components/index.js'
   },
   output: {
     path: config.build.assetsRoot,
+    libraryTarget: 'umd',
     filename: '[name].js',
     publicPath: process.env.NODE_ENV === 'production'
       ? config.build.assetsPublicPath

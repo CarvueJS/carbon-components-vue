@@ -8,6 +8,6 @@
 
 <script>
   export default {
-    name: 'ca-overflow-menu-option'
-  }
+    name: 'ca-overflow-menu-option',
+  };
 </script>

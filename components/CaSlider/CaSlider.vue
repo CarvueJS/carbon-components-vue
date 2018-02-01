@@ -15,35 +15,35 @@
 </template>
 
 <script>
-  import { Slider } from "carbon-components";
+  import { Slider } from 'carbon-components';
 
   export default {
     name: 'ca-slider',
     data() {
       return {
-        slider: null
-      }
+        slider: null,
+      };
     },
     props: {
       step: {
         type: Number,
-        default: 1
+        default: 1,
       },
       min: {
         type: Number,
-        default: 0
+        default: 0,
       },
       max: {
         type: Number,
-        default: 100
+        default: 100,
       },
       value: {
         type: Number,
-        default: 50
+        default: 50,
       },
     },
     mounted() {
       this.slider = Slider.create(document.querySelector('[data-slider]'));
-    }
-  }
+    },
+  };
 </script>

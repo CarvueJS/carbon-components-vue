@@ -17,7 +17,7 @@
 <script>
   export default {
     name: 'ca-accordion-item',
-  }
+  };
 </script>
 
 <style></style>

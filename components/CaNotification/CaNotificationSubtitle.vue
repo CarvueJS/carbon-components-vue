@@ -6,8 +6,8 @@
 
 <script>
   export default {
-    name: 'ca-notification-subtitle'
-  }
+    name: 'ca-notification-subtitle',
+  };
 </script>
 
 <style></style>

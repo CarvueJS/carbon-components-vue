@@ -6,8 +6,8 @@
 
 <script>
   export default {
-    name: 'ca-breadcrumb'
-  }
+    name: 'ca-breadcrumb',
+  };
 </script>
 
 <style></style>

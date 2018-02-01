@@ -20,7 +20,7 @@
   .button-styles {
     border: 1px solid #eee;
     border-radius: 3px;
-    background-color: #FFFFFF;
+    background-color: #fff;
     cursor: pointer;
     font-size: 15pt;
     padding: 3px 10px;

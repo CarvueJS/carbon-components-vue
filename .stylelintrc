@@ -1,0 +1,11 @@
+{
+  "rules": {
+    "no-empty-source": null,
+    "function-comma-space-after": null
+  },
+  "processors": ["stylelint-processor-html"],
+  "extends": "stylelint-config-standard",
+  "ignoreFiles": [
+    "./node_modules/**/*.vue", 
+  ]
+}

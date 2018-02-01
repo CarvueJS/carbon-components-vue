@@ -13,7 +13,7 @@
     "build": "node build/build.js",
     "storybook": "start-storybook -p 6006",
     "build-storybook": "build-storybook",
-    "lint:js": "eslint --ext .js,.vue packages",
+    "lint:js": "eslint --ext .js,.vue components",
     "lint:css": "stylelint '**/*.vue' --styntax stylus",
     "lint:fixJS": "eslint --fix 'components/**'"
   },

@@ -1,17 +1,9 @@
 {
   "presets": [
-    [
-      "env",
-      {
-        "modules": false
-      }
-    ],
-    "stage-2",
-    "vue"
+    ["env",{"modules": false}],
+    "stage-2"
   ],
-  "plugins": [
-    "transform-runtime"
-  ],
+  "plugins": ["transform-runtime"],
   "env": {
     "test": {
       "presets": [

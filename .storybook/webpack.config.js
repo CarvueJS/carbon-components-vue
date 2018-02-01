@@ -14,15 +14,6 @@ module.exports = (storybookBaseConfig, configType) => {
 
   storybookBaseConfig.module.rules.push(
     {
-      test: /\.scss$/,
-      loaders: ["style-loader", "css-loader", "sass-loader"],
-      include: path.resolve(__dirname, '../')
-    },
-    {
-      test: /\.styl$/,
-      loader: ['style-loader', 'css-loader', 'stylus-loader'],
-    },
-    {
       test: /\.(js|vue)$/,
       loader: 'eslint-loader',
       enforce: 'pre',
@@ -34,7 +25,7 @@ module.exports = (storybookBaseConfig, configType) => {
     {
       test: /\.js$/,
       loader: 'babel-loader',
-      include: [ path.resolve('stories'), path.resolve('components')]
+      include: [ path.resolve('stories'), path.resolve('components'), path.resolve('dist')]
     },
     {
       test: /\.css$/,
@@ -42,7 +33,8 @@ module.exports = (storybookBaseConfig, configType) => {
       include: [ 
         path.resolve('stories'),
         path.resolve('packages'),
-        path.resolve('node_modules/carbon-components/css'),
+        path.resolve('node_modules/carbon-components/css/carbon-components.css'),
+        path.resolve('dist'),
       ]
     },
     {

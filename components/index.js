@@ -11,4 +11,3 @@ Carbon.install = (Vue) => {
 };
 
 export default Carbon;
-

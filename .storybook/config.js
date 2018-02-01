@@ -1,9 +1,12 @@
-import { configure } from '@storybook/vue';
+import { configure, setAddon } from '@storybook/vue';
 import { setOptions } from '@storybook/addon-options';
+import JSXAddon from 'storybook-addon-jsx';
 import Vue from 'vue';
 import Cabon from '../components';
 
 require('carbon-components/css/carbon-components.css');
+
+setAddon(JSXAddon);
 
 Vue.config.productionTip = false;
 

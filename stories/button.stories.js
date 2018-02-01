@@ -3,6 +3,6 @@
 import { storiesOf } from '@storybook/vue';
 
 storiesOf('Button', module)
-  .add('normal', () => ({
+  .addWithJSX('normal', () => ({
     template: '<ca-button primary>Text</ca-button>',
   }));

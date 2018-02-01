@@ -1,0 +1,12 @@
+import { storiesOf } from '@storybook/vue';
+
+storiesOf('Breadcrumb', module)
+  .addWithJSX('normal', () => ({
+    template: `
+    <ca-breadcrumb>
+      <ca-breadcrumb-item><a href="#">1</a></ca-breadcrumb-item>
+      <ca-breadcrumb-item>2</ca-breadcrumb-item>
+      <ca-breadcrumb-item>3</ca-breadcrumb-item>
+    </ca-breadcrumb>
+    `,
+  }));

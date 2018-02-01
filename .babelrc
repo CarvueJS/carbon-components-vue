@@ -1,15 +1,27 @@
 {
   "presets": [
-    ["env", {
-      "modules": false
-    }],
-    "stage-2"
+    [
+      "env",
+      {
+        "modules": false
+      }
+    ],
+    "stage-2",
+    "vue"
   ],
-  "plugins": ["transform-runtime"],
+  "plugins": [
+    "transform-runtime"
+  ],
   "env": {
     "test": {
-      "presets": ["env", "stage-2"],
-      "plugins": ["transform-es2015-modules-commonjs", "dynamic-import-node"]
+      "presets": [
+        "env",
+        "stage-2"
+      ],
+      "plugins": [
+        "transform-es2015-modules-commonjs",
+        "dynamic-import-node"
+      ]
     }
   }
 }

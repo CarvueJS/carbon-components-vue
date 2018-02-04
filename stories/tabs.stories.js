@@ -4,7 +4,7 @@ storiesOf('Tabs', module)
   .addWithJSX('normal', () => ({
     template: `
     <ca-tabs>
-      <ca-tabs-nav slot="nav" controls="tab-panel-1" :selected="`true`" tabID=".tab-1" >Tab label 1</ca-tabs-nav>
+      <ca-tabs-nav slot="nav" controls="tab-panel-1" :selected="true" tabID=".tab-1" >Tab label 1</ca-tabs-nav>
       <ca-tabs-nav slot="nav" controls="tab-panel-2" tabID=".tab-2">Tab label 2</ca-tabs-nav>
       <ca-tabs-nav slot="nav" controls="tab-panel-3" tabID=".tab-3">Tab label 3</ca-tabs-nav>
       <ca-tabs-nav slot="nav" controls="tab-panel-4" tabID=".tab-4">Tab label 4</ca-tabs-nav>

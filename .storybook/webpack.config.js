@@ -10,7 +10,7 @@ module.exports = (storybookBaseConfig, configType) => {
     new FriendlyErrorsWebpackPlugin({
       clearConsole: true
     }),
-  )
+  );
 
   storybookBaseConfig.module.rules.push(
     {
@@ -30,7 +30,7 @@ module.exports = (storybookBaseConfig, configType) => {
     {
       test: /\.css$/,
       loader: ['style-loader', 'css-loader'],
-      include: [ 
+      include: [
         path.resolve('stories'),
         path.resolve('packages'),
         path.resolve('node_modules/carbon-components/css/carbon-components.css'),

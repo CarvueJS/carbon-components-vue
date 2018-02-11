@@ -1,5 +1,5 @@
 <template>
-  <button data-button type="button"><slot></slot></button>
+  <button data-button type="button" class="bx--btn" :class="dynamicClass" :disable="disable"><slot></slot></button>
 </template>
 
 <script>
@@ -27,6 +27,20 @@
         type: Boolean,
         default: false,
       },
+      disable: {
+        type: Boolean,
+        default: false,
+      }
+    },
+    computed: {
+      dynamicClass () {
+        return {
+          'bx--btn--primary': this.primary,
+          'bx--btn--secondary': this.secondary,
+          'bx--btn--danger': this.danger,
+          'bx--btn--sm': this.sm
+        }
+      }
     },
     data() {
       return {
@@ -35,13 +49,13 @@
       };
     },
     mounted() {
-      if (this.primary) this.modifiers.push('bx--btn--primary');
-      if (this.secondary) this.modifiers.push('bx--btn--secondary');
-      if (this.danger) this.modifiers.push('bx--btn--danger');
-      if (this.sm) this.modifiers.push('bx--btn--sm');
-      const raw = document.querySelector('[data-button]');
-      raw.className = this.modifiers.join(' ');
-      const button = FabButton.create(document.querySelector('[data-button]'));
+//      if (this.primary) this.modifiers.push('bx--btn--primary');
+//      if (this.secondary) this.modifiers.push('bx--btn--secondary');
+//      if (this.danger) this.modifiers.push('bx--btn--danger');
+//      if (this.sm) this.modifiers.push('bx--btn--sm');
+//      const raw = document.querySelector('[data-button]');
+//      raw.className = this.modifiers.join(' ');
+//      const button = FabButton.create(document.querySelector('[data-button]'));
     },
   };
 </script>

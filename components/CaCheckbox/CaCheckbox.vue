@@ -1,6 +1,6 @@
 <template>
   <div data-checkbox class="bx--form-item bx--checkbox-wrapper">
-    <input :id="itemId" class="bx--checkbox" type="checkbox" :value="itemValue" name="checkbox">
+    <input :id="itemId" class="bx--checkbox" type="checkbox" name="checkbox" :checked="checked" :aria-checked="ariaChecked"/>
     <label :for="itemId" class="bx--checkbox-label">
       <span class="bx--checkbox-appearance">
         <svg class="bx--checkbox-checkmark" width="12" height="9" viewBox="0 0 12 9" fill-rule="evenodd">
@@ -13,28 +13,45 @@
 </template>
 
 <script>
-//  import { initCheckbox } from 'carbon-components';
 
   export default {
     name: 'ca-checkbox',
     props: {
       itemId: {
         type: String,
-        defalut: '',
+        default: '',
       },
       itemValue: {
         type: String,
-        defalut: '',
+        default: '',
       },
+      checked: {
+        type: Boolean,
+        default: false
+      },
+      mixed: {
+        type: Boolean,
+        default: false,
+      },
+      ariaChecked: {
+        type: String,
+        default: 'false'
+      }
     },
-    data() {
-      return {
-        id: null,
-        value: null,
-      };
-    },
-    mounted() {
-//      initCheckbox(document.querySelector[data-checkbox])
+    computed: {
+      modelValue: {
+        get() {
+          return this.itemValue
+        },
+        set(newVal) {
+          this.$emit('update:itemValue', newVal)
+        }
+      },
+      dynamicClass () {
+        return {
+
+        }
+      }
     },
   };
 </script>

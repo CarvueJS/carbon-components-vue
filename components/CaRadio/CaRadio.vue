@@ -9,6 +9,15 @@
 <script>
   export default {
     name: 'ca-radio',
+    mounted() {
+      this.$on('itemChange', this.updateValue)
+    },
+    props: ['value'],
+    methods: {
+      updateValue(value) {
+        this.$emit('input', value)
+      }
+    }
   };
 </script>
 

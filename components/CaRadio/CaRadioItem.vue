@@ -1,6 +1,6 @@
 <template>
   <div>
-    <input :id="radioID" class="bx--radio-button" type="radio" :value="value" name="radio-button" :tabindex="tabIndex" :checked="checked" :disable="disable">
+    <input :id="radioID" class="bx--radio-button" @click.native="onClick" type="radio" :value="value" name="radio-button" :tabindex="tabIndex" :checked="checked" :disable="disable">
     <label :for="radioID" class="bx--radio-button__label">
       <span class="bx--radio-button__appearance"></span>
       <slot></slot>
@@ -33,6 +33,11 @@
         defalut: '',
       },
     },
+    methods: {
+      onClick () {
+        this.$parent.$emit('itemChange', this.value)
+      }
+    }
   };
 </script>
 

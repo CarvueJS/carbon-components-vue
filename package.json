@@ -1,8 +1,9 @@
 {
   "name": "carvue",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A Vue.js project",
   "author": "nicholaslee119 <nicholaslee119@gmail.com>",
+  "main": "dist/build.js",
   "scripts": {
     "build": "node build/build.js",
     "unit": "jest --config test/unit/jest.conf.js --coverage",

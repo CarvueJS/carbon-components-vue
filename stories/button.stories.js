@@ -11,4 +11,13 @@ storiesOf('Button', module)
   template: '<ca-button disable>Text</ca-button>',
   })).addWithJSX('danger', () => ({
   template: '<ca-button danger>danger</ca-button>',
-  }))
+  })).addWithJSX('with listener', () => (
+    {
+      template: '<ca-button primary @click.native="hint++">click me! {{hint}}</ca-button>',
+      data() {
+        return {
+          hint: 0,
+        };
+      },
+    }
+  ))

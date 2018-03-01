@@ -19,10 +19,12 @@
 </template>
 
 <script>
+import { DatePicker } from 'carbon-components'
 
 export default {
   name: 'ca-date-picker',
   props: {
+    value: null,
     errorMessage: {
       type: String,
       default: 'Invalid date format.'
@@ -38,8 +40,12 @@ export default {
     };
   },
   mounted () {
-    // TODO: add the interface of event
-//    const picker = window.document.querySelector('[data-date-picker]');
+   const picker = window.document.querySelector('[data-date-picker]');
+   const instance = DatePicker.create(picker, {
+     onValueUpdate: (selectedDates, dateStr, instance) => {
+       this.$emit('input', dateStr)
+     }
+   });
   }
 };
 </script>

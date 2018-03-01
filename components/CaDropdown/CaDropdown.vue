@@ -17,6 +17,9 @@
 
   export default {
     name: 'ca-dropdown',
+    props: {
+      value: null
+    },
     data() {
       return {
         dropdown: null,

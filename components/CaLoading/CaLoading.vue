@@ -18,10 +18,18 @@
         loading: null,
       };
     },
+    props:{
+      show: false
+    },
     name: 'ca-loading',
+    watch: {
+      show (newValue) {
+        this.loading.set(newValue)
+      }
+    },
     mounted() {
       this.loading = Loading.create(document.querySelector('[data-loading]'));
-      this.loading.set(false);
+      this.loading.set(this.show);
     },
   };
 </script>

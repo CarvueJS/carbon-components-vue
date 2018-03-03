@@ -17,9 +17,15 @@
 </template>
 
 <script>
+  import { NumberInput } from 'carbon-components'
+
   export default {
     name: 'ca-number-input',
+    data: () => ({
+      numberInput: null,
+    }),
     props: {
+      value: null,
       max: {
         type: Number,
         default: 100,
@@ -28,10 +34,12 @@
         type: Number,
         default: 0,
       },
-      value: {
-        type: Number,
-        default: 1,
-      },
     },
+    mounted () {
+      this.numberInput = NumberInput.create(document.querySelector('[data-numberinput]'))
+      this.numberInput.element.addEventListener('change', (e)=>{
+        this.$emit('input', e.target.value)
+      })
+    }
   };
 </script>

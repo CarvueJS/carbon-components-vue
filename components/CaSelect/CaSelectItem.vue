@@ -8,10 +8,7 @@
   export default {
     name: 'ca-select-item',
     props: {
-      value: {
-        type: String,
-        default: '',
-      },
+      value: null,
     },
   };
 </script>

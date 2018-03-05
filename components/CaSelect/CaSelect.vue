@@ -1,6 +1,6 @@
 <template>
   <div class="bx--select">
-    <select id="select-id" class="bx--select-input">
+    <select id="select-id" class="bx--select-input" @change="change">
       <slot></slot>
     </select>
     <svg class="bx--select__arrow" width="10" height="5" viewBox="0 0 10 5" fill-rule="evenodd">
@@ -12,5 +12,13 @@
 <script>
   export default {
     name: 'ca-select',
+    props: {
+      value: null
+    },
+    methods: {
+      change (e) {
+        this.$emit('input', e.target.value)
+      }
+    }
   };
 </script>

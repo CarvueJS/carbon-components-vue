@@ -12,7 +12,14 @@
 </template>
 
 <script>
+  import { OverflowMenu } from 'carbon-components'
   export default {
     name: 'ca-overflow-menu',
+    data: () => ({
+      overflowMenuInstance: null
+    }),
+    mounted () {
+      this.overflowMenuInstance = OverflowMenu.create(this.$el)
+    }
   };
 </script>

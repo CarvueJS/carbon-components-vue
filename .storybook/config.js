@@ -2,13 +2,13 @@ import { configure, setAddon } from '@storybook/vue';
 import { setOptions } from '@storybook/addon-options';
 import JSXAddon from 'storybook-addon-jsx';
 import Vue from 'vue';
-import Carbon from '../components';
+import Carvue from '../components';
 
 setAddon(JSXAddon);
 
 Vue.config.productionTip = false;
 
-Vue.use(Carbon);
+Vue.use(Carvue);
 
 // automatically import all files ending in *.stories.js
 const req = require.context('../stories', true, /.stories.js$/);

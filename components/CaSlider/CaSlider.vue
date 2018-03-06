@@ -24,6 +24,11 @@
         slider: null,
       };
     },
+    methods: {
+      change (e) {
+        console.log(e.target.value)
+      }
+    },
     props: {
       step: {
         type: Number,
@@ -43,7 +48,10 @@
       },
     },
     mounted() {
-      this.slider = Slider.create(document.querySelector('[data-slider]'));
+      this.slider = Slider.create(this.$el.querySelector('[data-slider]'));
+      this.slider.element.addEventListener('slider-after-value-change', (e)=>{
+        this.$emit('input', e.detail.value)
+      })
     },
   };
 </script>

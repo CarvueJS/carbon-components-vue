@@ -8,8 +8,16 @@
 </template>
 
 <script>
+  import { Tooltip } from 'carbon-components'
+
   export default {
     name: 'ca-tooltip-trigger',
+    data: () => ({
+      tooltipTrigger: null
+    }),
+    mounted () {
+      this.tooltipTrigger = Tooltip.create(this.$el.querySelector('[data-tooltip-trigger]'))
+    }
   };
 </script>
 

@@ -60,7 +60,7 @@
         }
         this.$emit('inputValueChange', input)
       },
-    }  
+    },
   };
 </script>
 

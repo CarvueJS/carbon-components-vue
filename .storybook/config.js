@@ -1,5 +1,6 @@
-import { configure, setAddon } from '@storybook/vue';
+import { configure, setAddon, addDecorator } from '@storybook/vue';
 import { setOptions } from '@storybook/addon-options';
+import centered from '@storybook/addon-centered';
 import JSXAddon from 'storybook-addon-jsx';
 import Vue from 'vue';
 import Carvue from '../components';
@@ -15,6 +16,8 @@ const req = require.context('../stories', true, /.stories.js$/);
 function loadStories() {
   req.keys().forEach((filename) => req(filename));
 }
+
+addDecorator(centered);
 
 // Option defaults:
 setOptions({

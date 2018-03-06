@@ -27,4 +27,4 @@ import Carvue from 'vuetify'
 Vue.use(Carvue)
 ```
 
-And you could see how to use those components is this [Demo](https://nicholaslee119.github.io/carbon-components-vue/storybook-static/)mo
+And you could see how to use those components is this [Demo](https://nicholaslee119.github.io/carbon-components-vue/storybook-static/)

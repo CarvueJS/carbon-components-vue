@@ -22,7 +22,8 @@ yarn add carvue
 
 ```javascript
 import Vue from 'vue'
-import Carvue from 'vuetify'
+import Carvue from 'carvue'
+import 'carvue/dist/carvue.min.css'
 
 Vue.use(Carvue)
 ```

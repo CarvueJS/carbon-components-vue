@@ -3,7 +3,6 @@
 > Carvue is a UI components library which is based on [Carbon-Design](http://www.carbondesignsystem.com/) and [VueJS](https://vuejs.org/) with ❤️
 
 ## Live Demo
-
 [Demo](https://nicholaslee119.github.io/carbon-components-vue/storybook-static/)
 
 ## Installation

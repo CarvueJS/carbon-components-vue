@@ -1,5 +1,11 @@
 [![NPM][npm]][npm-url]
 
+<div align="center">
+  <a href="https://github.com/nicholaslee119/carbon-components-vue">
+    <img  src="https://github.com/nicholaslee119/carbon-components-vue/blob/master/CarvueLogo.png">
+  </a>
+</div>  
+
 # Introduction
 
 > Carvue is a UI components library which is based on [Carbon-Design](http://www.carbondesignsystem.com/) and [VueJS](https://vuejs.org/) with ❤️

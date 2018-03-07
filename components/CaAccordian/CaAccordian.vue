@@ -10,7 +10,7 @@
   export default {
     name: 'ca-accordion',
     mounted() {
-      Accordion.create(document.querySelector('[data-accordion]'));
+      Accordion.create(this.$el);
     },
   };
 </script>

@@ -36,7 +36,7 @@
       },
     },
     mounted () {
-      this.numberInput = NumberInput.create(document.querySelector('[data-numberinput]'))
+      this.numberInput = NumberInput.create(this.$el)
       this.numberInput.element.addEventListener('change', (e)=>{
         this.$emit('input', e.target.value)
       })

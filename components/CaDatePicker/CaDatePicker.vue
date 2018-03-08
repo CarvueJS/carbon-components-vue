@@ -40,7 +40,7 @@ export default {
     };
   },
   mounted () {
-   const picker = window.document.querySelector('[data-date-picker]');
+   const picker = this.$el.querySelector('[data-date-picker]');
    const instance = DatePicker.create(picker, {
      onValueUpdate: (selectedDates, dateStr, instance) => {
        this.$emit('input', dateStr)

@@ -26,7 +26,7 @@
       };
     },
     mounted() {
-      this.dropdown = Dropdown.create(document.querySelector('[data-dropdown]'));
+      this.dropdown = Dropdown.create(this.$el);
     },
   };
 </script>

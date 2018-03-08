@@ -28,7 +28,7 @@
       }
     },
     mounted() {
-      this.loading = Loading.create(document.querySelector('[data-loading]'));
+      this.loading = Loading.create(this.$el.querySelector('[data-loading]'));
       this.loading.set(this.show);
     },
   };

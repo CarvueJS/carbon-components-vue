@@ -52,7 +52,7 @@
   export default {
     name: 'ca-pagination',
     mounted() {
-      Pagination.create(document.querySelector('[data-pagination]'));
+      Pagination.create(this.$el);
     },
   };
 

@@ -10,9 +10,7 @@
   export default {
     name: 'ca-content-switcher',
     mounted() {
-      const switcher = document.querySelector('[data-content-switcher]');
-      // TODO: improve for SSR
-      switcher.addEventListener('content-switcher-selected', (e)=>{
+      this.$el.addEventListener('content-switcher-selected', (e)=>{
         this.$emit('selected', e.detail.item.getAttribute('switchvalue'))
       });
     }

@@ -9,9 +9,19 @@
 
   export default {
     name: 'ca-progress-indicator',
+    data: () => ({
+      progressIndicator: null
+    }),
+    props: {
+      value: 1
+    },
+    updated() {
+      this.progressIndicator.setCurrent(this.value);
+    },
     mounted() {
-//      const pi = ProgressIndicator.create(document.querySelector('[data-progress]'));
-//      pi.setCurrent(2);
+    // TODO: should improve
+    //  this.progressIndicator = ProgressIndicator.create(this.$el);
+    //  progressIndicator.setCurrent(this.value);
     },
   };
 </script>

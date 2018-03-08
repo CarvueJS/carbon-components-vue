@@ -23,7 +23,7 @@
   export default {
     name: 'ca-tabs',
     mounted() {
-      this.tabs = Tab.create(document.querySelector('[data-tabs]'));
+      this.tabs = Tab.create(this.$el);
     },
     data() {
       return {

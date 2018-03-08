@@ -62,9 +62,7 @@
       if (this.experimental) this.modifier.push('bx--tag--experimental');
       if (this.commumity) this.modifier.push('bx--tag--commumity');
       if (this.private) this.modifier.push('bx--tag--private');
-      const raw = document.querySelector('[data-tag]');
-      raw.className = this.modifier.join(' ');
-      console.log(raw.classname);
+      this.$el.className = this.modifier.join(' ');
     },
   };
 </script>

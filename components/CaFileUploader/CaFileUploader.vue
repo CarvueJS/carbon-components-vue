@@ -32,13 +32,13 @@
       fileUploader: {}
     }),
     mounted () {
-      this.fileUploader = FileUploader.create(document.querySelector('[data-file]'));
+      this.fileUploader = FileUploader.create(this.$el);
     },
     methods: {
       change () {
         // TODO: should be improved
-        var image = document.createElement('img');
-        image.src = window.URL.createObjectURL(this.fileUploader.input.files[0]);
+        var image = this.$el.createElement('img');
+        image.src = URL.createObjectURL(this.fileUploader.input.files[0]);
         this.$emit('input', image)
       }
     }

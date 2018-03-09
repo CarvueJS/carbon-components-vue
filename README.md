@@ -53,8 +53,3 @@ And you could see how to use those components is this [Demo](https://nicholaslee
 
 [build]: https://travis-ci.org/nicholaslee119/carbon-components-vue.svg?branch=master
 [build-url]: https://travis-ci.org/nicholaslee119/carbon-components-vue
-
-
-[![NPM][npm]][npm-url]
-[![Build Status](https://travis-ci.org/nicholaslee119/carbon-components-vue.svg?branch=master)](https://travis-ci.org/nicholaslee119/carbon-components-vue)
-[![Coverage Status](https://coveralls.io/repos/github/nicholaslee119/carbon-components-vue/badge.svg?branch=master)](https://coveralls.io/github/nicholaslee119/carbon-components-vue?branch=master)

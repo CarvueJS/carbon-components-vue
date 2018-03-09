@@ -1,4 +1,7 @@
 [![NPM][npm]][npm-url]
+[![Tests][build]][build-url]
+[![Deps][deps]][deps-url]
+[![Coverage][cover]][cover-url]
 
 <div align="center">
   <a href="https://github.com/nicholaslee119/carbon-components-vue">
@@ -38,6 +41,20 @@ Vue.use(Carvue)
 And you could see how to use those components is this [Demo](https://nicholaslee119.github.io/carbon-components-vue/storybook-static/)
 
 
-
 [npm]: https://img.shields.io/npm/v/carvue.svg
 [npm-url]: https://www.npmjs.com/package/carvue
+
+[deps]: https://david-dm.org/nicholaslee119/carbon-components-vue/dev-status.svg
+[deps-url]: https://david-dm.org/nicholaslee119/carbon-components-vue?type=dev
+
+[cover]: https://coveralls.io/repos/github/nicholaslee119/carbon-components-vue/badge.svg?branch=master
+[cover-url]: https://coveralls.io/github/nicholaslee119/carbon-components-vue?branch=master
+
+
+[build]: https://travis-ci.org/nicholaslee119/carbon-components-vue.svg?branch=master
+[build-url]: https://travis-ci.org/nicholaslee119/carbon-components-vue
+
+
+[![NPM][npm]][npm-url]
+[![Build Status](https://travis-ci.org/nicholaslee119/carbon-components-vue.svg?branch=master)](https://travis-ci.org/nicholaslee119/carbon-components-vue)
+[![Coverage Status](https://coveralls.io/repos/github/nicholaslee119/carbon-components-vue/badge.svg?branch=master)](https://coveralls.io/github/nicholaslee119/carbon-components-vue?branch=master)

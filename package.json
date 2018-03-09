@@ -9,7 +9,7 @@
     "build": "node build/build.js",
     "unit": "jest --config test/unit/jest.conf.js --coverage",
     "e2e": "node test/e2e/runner.js",
-    "test": "npm run unit && npm run e2e",
+    "test": "npm run unit",
     "storybook": "start-storybook -p 6006",
     "build-storybook": "build-storybook",
     "lint:js": "eslint --ext .js,.vue components",

@@ -2,6 +2,7 @@
 [![Tests][build]][build-url]
 [![Deps][deps]][deps-url]
 [![Coverage][cover]][cover-url]
+[![Awesome][awesome]](awesome-url)
 
 <div align="center">
   <a href="https://github.com/nicholaslee119/carbon-components-vue">
@@ -11,7 +12,7 @@
 
 # Introduction
 
-> Carvue is a UI components library which is based on [Carbon-Design](http://www.carbondesignsystem.com/) and [VueJS](https://vuejs.org/) with ❤️
+> Carvue is a UI components library which is based on [Carbon-Design](http://www.carbondesignsystem.com/) and [VueJS](https://vuejs.org/) with ❤️ and Proud to be [vue-awesome](awesome-url)  🎉
 
 ## Live Demo
 [Demo](https://nicholaslee119.github.io/carbon-components-vue/storybook-static/)
@@ -53,3 +54,7 @@ And you could see how to use those components in this [Demo](https://nicholaslee
 
 [build]: https://travis-ci.org/nicholaslee119/carbon-components-vue.svg?branch=master
 [build-url]: https://travis-ci.org/nicholaslee119/carbon-components-vue
+
+
+[awesome]: https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg
+[awesome-url]: https://github.com/vuejs/awesome-vue#component-collections

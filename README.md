@@ -2,7 +2,7 @@
 [![Tests][build]][build-url]
 [![Deps][deps]][deps-url]
 [![Coverage][cover]][cover-url]
-[![Awesome][https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg]](https://github.com/vuejs/awesome-vue#component-collections)
+[![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/vuejs/awesome-vue#component-collections)
 
 <div align="center">
   <a href="https://github.com/nicholaslee119/carbon-components-vue">

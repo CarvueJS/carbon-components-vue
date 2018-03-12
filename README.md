@@ -14,9 +14,6 @@
 
 > Carvue is a UI components library which is based on [Carbon-Design](http://www.carbondesignsystem.com/) and [VueJS](https://vuejs.org/) with ❤️ and Proud to be a [vue-awesome](https://github.com/vuejs/awesome-vue#component-collections)  🎉
 
-## Live Demo
-[Demo](https://nicholaslee119.github.io/carbon-components-vue/storybook-static/)
-
 ## Installation
 
 ``` bash
@@ -38,8 +35,28 @@ import 'carvue/dist/carvue.min.css'
 
 Vue.use(Carvue)
 ```
+You could view available Vue Components in this [Demo](https://nicholaslee119.github.io/carbon-components-vue/storybook-static/). 
 
-And you could see how to use those components in this [Demo](https://nicholaslee119.github.io/carbon-components-vue/storybook-static/)
+And you could view usage detail in the bottom panel
+
+
+## Development
+
+### Using the server
+
+We recommend the use of Stroybook for developing components
+
+1. Start the server
+
+```bash
+npm run storybook
+```
+
+2. Open your browser to `http://localhost:6006`
+
+3. Develop compponents in their respective folders (`/components`)
+
+4. Write stories for your components in `/stories`
 
 
 [npm]: https://img.shields.io/npm/v/carvue.svg

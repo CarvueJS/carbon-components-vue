@@ -1,7 +1,7 @@
 import {storiesOf} from "@storybook/vue"
 
 storiesOf('Checkbox', module)
-  .addWithJSX('normal', () => ({
+  .addWithJSX('Default', () => ({
     template: `
     <div>
       <ca-checkbox itemId="a" itemValue="a">item 1</ca-checkbox>

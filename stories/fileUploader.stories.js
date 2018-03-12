@@ -1,7 +1,7 @@
 import { storiesOf } from '@storybook/vue';
 
 storiesOf('FileUploader', module)
-  .addWithJSX('normal', () => ({
+  .addWithJSX('Default', () => ({
     data: () => ({
       image: null,
     }),

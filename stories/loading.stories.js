@@ -1,7 +1,7 @@
 import { storiesOf } from '@storybook/vue';
 
 storiesOf('Loading', module)
-  .addWithJSX('normal', () => ({
+  .addWithJSX('Default', () => ({
     template: `
     <ca-loading></ca-loading>
     `,

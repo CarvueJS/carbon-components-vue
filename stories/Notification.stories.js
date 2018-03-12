@@ -1,7 +1,7 @@
 import { storiesOf } from '@storybook/vue';
 
 storiesOf('Notification', module)
-  .addWithJSX('normal', () => ({
+  .addWithJSX('Default', () => ({
     template: `
     <ca-notification>
       <ca-notification-title>this is title</ca-notification-title>

@@ -1,7 +1,7 @@
 import { storiesOf } from '@storybook/vue';
 
 storiesOf('ProgressIndicator', module)
-  .addWithJSX('normal', () => ({
+  .addWithJSX('Default', () => ({
     template: `
     <ca-progress-indicator>
       <ca-progress-indicator-step isCompleted>step1</ca-progress-indicator-step>

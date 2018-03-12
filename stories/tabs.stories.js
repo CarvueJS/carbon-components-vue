@@ -1,7 +1,7 @@
 import { storiesOf } from '@storybook/vue';
 
 storiesOf('Tabs', module)
-  .addWithJSX('normal', () => ({
+  .addWithJSX('Default', () => ({
     template: `
     <ca-tabs>
       <ca-tabs-nav slot="nav" controls="tab-panel-1" :selected="true" tabID=".tab-1" >Tab label 1</ca-tabs-nav>

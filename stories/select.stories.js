@@ -1,7 +1,7 @@
 import { storiesOf } from '@storybook/vue';
 
 storiesOf('Select', module)
-  .addWithJSX('Default', () => ({
+  .add('Default', () => ({
     template: `
     <ca-select>
       <ca-select-item>Choose an option</ca-select-item>
@@ -16,7 +16,7 @@ storiesOf('Select', module)
       </ca-select-group>
     </ca-select>
     `,
-  })).addWithJSX('with model', () => ({
+  })).add('with model', () => ({
     data: () => ({
       model: 'option1',
     }),

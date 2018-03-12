@@ -1,11 +1,11 @@
 import { storiesOf } from '@storybook/vue';
 
 storiesOf('Slider', module)
-  .addWithJSX('Default', () => ({
+  .add('Default', () => ({
     template: `
     <ca-slider :step="2" :min="2" :max="102"></ca-slider>
     `,
-  })).addWithJSX('with model', () => ({
+  })).add('with model', () => ({
     data: () => ({
       model: 43,
     }),

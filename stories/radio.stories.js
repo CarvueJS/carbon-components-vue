@@ -1,7 +1,7 @@
 import { storiesOf } from '@storybook/vue';
 
 storiesOf('Radio', module)
-  .addWithJSX('Default', () => ({
+  .add('Default', () => ({
     template: `
     <ca-radio>
       <ca-radio-item v-model="radioData" radioID="radio-button-1" value="value1">radio1</ca-radio-item>

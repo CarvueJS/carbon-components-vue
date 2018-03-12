@@ -1,12 +1,12 @@
 import { storiesOf } from '@storybook/vue';
 
 storiesOf('Loading', module)
-  .addWithJSX('Default', () => ({
+  .add('Default', () => ({
     template: `
     <ca-loading></ca-loading>
     `,
   }))
-  .addWithJSX('with para', () => ({
+  .add('with para', () => ({
     data: () => ({
       show: false,
     }),

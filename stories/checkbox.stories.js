@@ -1,7 +1,7 @@
 import {storiesOf} from "@storybook/vue"
 
 storiesOf('Checkbox', module)
-  .addWithJSX('Default', () => ({
+  .add('Default', () => ({
     template: `
     <ca-tile>
       <ca-checkbox itemId="a" itemValue="a">item 1</ca-checkbox>
@@ -10,7 +10,7 @@ storiesOf('Checkbox', module)
     </ca-tile>
     `,
   }))
-  .addWithJSX('mixed', () => ({
+  .add('mixed', () => ({
     template: `
     <ca-tile>
       <ca-checkbox itemId="a" itemValue="a" aria-checked="mixed">item 1</ca-checkbox>
@@ -18,7 +18,7 @@ storiesOf('Checkbox', module)
       <ca-checkbox itemId="c" itemValue="c">item 3</ca-checkbox>
     </ca-tile>
     `,
-  })).addWithJSX('with data', () => ({
+  })).add('with data', () => ({
     data() {
       return {
         checked: [],

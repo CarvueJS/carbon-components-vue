@@ -1,11 +1,10 @@
 import { configure, setAddon, addDecorator } from '@storybook/vue';
 import { setOptions } from '@storybook/addon-options';
 import VueInfoAddon from 'storybook-addon-vue-info'
-import JSXAddon from 'storybook-addon-jsx';
 import Vue from 'vue';
 import Carvue from '../components';
 
-setAddon(JSXAddon);
+addDecorator(VueInfoAddon);
 
 Vue.config.productionTip = false;
 
@@ -16,8 +15,6 @@ const req = require.context('../stories', true, /.stories.js$/);
 function loadStories() {
   req.keys().forEach((filename) => req(filename));
 }
-
-addDecorator(VueInfoAddon);
 
 // Option defaults:
 setOptions({

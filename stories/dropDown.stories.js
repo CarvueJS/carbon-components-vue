@@ -1,7 +1,7 @@
 import { storiesOf } from '@storybook/vue';
 
 storiesOf('DropDown', module)
-  .addWithJSX('Default', () => ({
+  .add('Default', () => ({
     template: `
     <ca-dropdown>
       <ca-dropdown-item value="date1">
@@ -15,7 +15,7 @@ storiesOf('DropDown', module)
       </ca-dropdown-item>
     </ca-dropdown>
     `,
-  })).addWithJSX('with model', () => ({
+  })).add('with model', () => ({
     data: () => ({
       model: '',
     }),

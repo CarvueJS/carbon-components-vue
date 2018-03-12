@@ -1,11 +1,11 @@
 import { storiesOf } from '@storybook/vue';
 
 storiesOf('DatePicker', module)
-  .addWithJSX('Default', () => ({
+  .add('Default', () => ({
     template: `
     <ca-date-picker placeholder="m/d/y" errorMessage="wrong!"></ca-date-picker>
     `,
-  })).addWithJSX('with model', () => ({
+  })).add('with model', () => ({
     data: () => ({
       model: '',
     }),

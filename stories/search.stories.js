@@ -1,11 +1,11 @@
 import { storiesOf } from '@storybook/vue';
 
 storiesOf('Search', module)
-  .addWithJSX('Default', () => ({
+  .add('Default', () => ({
     template: `
     <ca-search></ca-search>
     `,
-  })).addWithJSX('with model', () => ({
+  })).add('with model', () => ({
     data: () => ({
       inputValue: 'test'
     }),

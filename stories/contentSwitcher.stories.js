@@ -1,7 +1,7 @@
 import {storiesOf} from "@storybook/vue"
 
 storiesOf('contentSwitcher', module)
-  .addWithJSX('Default', () => ({
+  .add('Default', () => ({
     template: `
     <ca-content-switcher @selected="selected">
       <ca-content-switcher-button switchValue="item1">1</ca-content-switcher-button>

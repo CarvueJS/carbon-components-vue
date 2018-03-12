@@ -1,7 +1,7 @@
 import {storiesOf} from "@storybook/vue"
 
 storiesOf('Breadcrumb', module)
-  .addWithJSX('Default', () => ({
+  .add('Default', () => ({
     template: `
     <ca-breadcrumb>
       <ca-breadcrumb-item><a href="#">1</a></ca-breadcrumb-item>
@@ -9,7 +9,7 @@ storiesOf('Breadcrumb', module)
       <ca-breadcrumb-item>3</ca-breadcrumb-item>
     </ca-breadcrumb>
     `,
-  })).addWithJSX('without last Slash', () => ({
+  })).add('without last Slash', () => ({
     template: `
     <ca-breadcrumb noSlash="true">
       <ca-breadcrumb-item><a href="#">1</a></ca-breadcrumb-item>

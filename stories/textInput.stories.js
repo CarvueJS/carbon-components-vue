@@ -1,11 +1,11 @@
 import { storiesOf } from '@storybook/vue';
 
 storiesOf('TextInput', module)
-  .addWithJSX('Default', () => ({
+  .add('Default', () => ({
     template: `
     <ca-text-input placeholder="holder"></ca-text-input>
     `,
-  })).addWithJSX('with model', () => ({
+  })).add('with model', () => ({
     data: () => ({
       model: 'text test',
     }),

@@ -1,11 +1,11 @@
 import { storiesOf } from '@storybook/vue';
 
 storiesOf('Toggle', module)
-  .addWithJSX('Default', () => ({
+  .add('Default', () => ({
     template: `
     <ca-toggle left="kai" right="guan"></ca-toggle>
     `,
-  })).addWithJSX('with model', () => ({
+  })).add('with model', () => ({
     data: () => ({
       model: true,
     }),

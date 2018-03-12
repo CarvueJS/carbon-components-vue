@@ -1,7 +1,7 @@
 import { storiesOf } from '@storybook/vue';
 
 storiesOf('Modal', module)
-  .addWithJSX('Default', () => ({
+  .add('Default', () => ({
     template: `
     <ca-tile>
       <button class="bx--btn bx--btn--secondary" type="button" data-modal-target="#nofooter">Passive</button>

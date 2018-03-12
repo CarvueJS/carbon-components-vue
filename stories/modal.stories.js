@@ -3,7 +3,7 @@ import { storiesOf } from '@storybook/vue';
 storiesOf('Modal', module)
   .addWithJSX('Default', () => ({
     template: `
-    <div>
+    <ca-tile>
       <button class="bx--btn bx--btn--secondary" type="button" data-modal-target="#nofooter">Passive</button>
       <ca-modal>
         <ca-modal-container>
@@ -23,6 +23,6 @@ storiesOf('Modal', module)
           </ca-modal-content>
         </ca-modal-container>
       </ca-modal>
-    </div>
+    </ca-tile>
     `,
   }));

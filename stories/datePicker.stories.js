@@ -10,9 +10,9 @@ storiesOf('DatePicker', module)
       model: '',
     }),
     template: `
-    <div>
+    <ca-tile>
       <ca-date-picker v-model="model" placeholder="m/d/y" errorMessage="wrong!"></ca-date-picker>
       {{model}}
-    </div>
+    </ca-tile>
     `,
   }))

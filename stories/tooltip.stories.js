@@ -3,7 +3,7 @@ import { storiesOf } from '@storybook/vue';
 storiesOf('Tooltip', module)
   .addWithJSX('Default', () => ({
     template: `
-    <div>
+    <ca-tile>
       <ca-tooltip-trigger>
         Trigger
       </ca-tooltip-trigger>
@@ -13,6 +13,6 @@ storiesOf('Tooltip', module)
         </ca-tooltip-label>
         <p>content!!!!!!</p>
       </ca-tooltip>
-    </div>
+    </ca-tile>
     `,
   }));

@@ -11,9 +11,9 @@ storiesOf('Loading', module)
       show: false,
     }),
     template: `
-    <div>
+    <ca-tile>
       <ca-button primary @click.native="show = !show">click me!</ca-button>
       <ca-loading :show="show"></ca-loading>
-    </div>
+    </ca-tile>
     `,
   }))

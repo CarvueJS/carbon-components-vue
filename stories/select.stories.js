@@ -21,7 +21,7 @@ storiesOf('Select', module)
       model: 'option1',
     }),
     template: `
-    <div>
+    <ca-tile>
       <ca-select v-model="model">
         <ca-select-item>Choose an option</ca-select-item>
         <ca-select-item value="solong">A much longer option that is worth having around to check how text flows</ca-select-item>
@@ -35,6 +35,6 @@ storiesOf('Select', module)
         </ca-select-group>
       </ca-select>
       model is {{model}}
-    </div>
+    </ca-tile>
     `,
   }));

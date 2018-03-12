@@ -6,10 +6,10 @@ storiesOf('FileUploader', module)
       image: null,
     }),
     template: `
-    <div>
+    <ca-tile>
       <ca-file-uploader v-model="image">up up</ca-file-uploader>
       <div class="container"></div>
-    </div>
+    </ca-tile>
     `,
     watch: {
       image(newImage) {

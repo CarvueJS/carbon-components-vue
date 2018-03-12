@@ -10,9 +10,9 @@ storiesOf('TextInput', module)
       model: 'text test',
     }),
     template: `
-    <div>
+    <ca-tile>
       <ca-text-input placeholder="holder" v-model="model"></ca-text-input>
       model is {{model}}
-    </div>
+    </ca-tile>
     `,
   }));

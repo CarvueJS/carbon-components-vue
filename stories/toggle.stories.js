@@ -10,9 +10,9 @@ storiesOf('Toggle', module)
       model: true,
     }),
     template: `
-    <div>
+    <ca-tile>
       <ca-toggle left="off" right="on" v-model="model"></ca-toggle>
       model is {{model}}
-    </div>
+    </ca-tile>
     `,
   }));

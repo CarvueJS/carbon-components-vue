@@ -20,7 +20,7 @@ storiesOf('DropDown', module)
       model: '',
     }),
     template: `
-    <div>
+    <ca-tile>
       <ca-dropdown v-model="model">
         <ca-dropdown-item value="date1">
           option1
@@ -33,6 +33,6 @@ storiesOf('DropDown', module)
         </ca-dropdown-item>
       </ca-dropdown>
       selected is {{model}}
-    </div>
+    </ca-tile>
     `,
   }))

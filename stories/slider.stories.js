@@ -10,9 +10,9 @@ storiesOf('Slider', module)
       model: 43,
     }),
     template: `
-    <div>
+    <ca-tile>
       <ca-slider :step="2" :min="2" :max="102" v-model="model"></ca-slider>
       model is {{model}}
-    </div>
+    </ca-tile>
     `,
   }));

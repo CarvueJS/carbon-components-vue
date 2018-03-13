@@ -58,6 +58,13 @@ npm run storybook
 
 4. Write stories for your components in `/stories`
 
+5. Build
+
+```bash
+npm run build
+```
+
+
 
 [npm]: https://img.shields.io/npm/v/carvue.svg
 [npm-url]: https://www.npmjs.com/package/carvue

@@ -1,4 +1,4 @@
-export { default as CaAccordian } from './CaAccordian';
+export { default as CaAccordion } from './CaAccordion';
 export { default as CaBreadcrumb } from './CaBreadcrumb';
 export { default as CaButton } from './CaButton';
 export { default as CaCheckbox } from './CaCheckbox';

@@ -5,11 +5,11 @@
         <path d="M0 10.6L4.7 6 0 1.4 1.4 0l6.1 6-6.1 6z"></path>
       </svg>
       <p class="bx--accordion__title">
-        <slot name="title"></slot>
+        {{title}}
       </p>
     </button>
     <div class="bx--accordion__content">
-      <slot name="content"></slot>
+      <slot></slot>
     </div>
   </li>
 </template>
@@ -18,6 +18,10 @@
   export default {
     name: 'ca-accordion-item',
     props: {
+      title: {
+        type: String,
+        default: 'title'
+      },
       active: {
         type: Boolean,
         default: false

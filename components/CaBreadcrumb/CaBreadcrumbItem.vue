@@ -1,6 +1,6 @@
 <template>
   <div class="bx--breadcrumb-item">
-    <a href="#" class="bx--link">
+    <a :href="href" class="bx--link">
       <slot></slot>
     </a>
   </div>
@@ -9,6 +9,12 @@
 <script>
   export default {
     name: 'ca-breadcrumb-item',
+    props: {
+      href: {
+        type: String,
+        default: '#'
+      }
+    }
   };
 </script>
 

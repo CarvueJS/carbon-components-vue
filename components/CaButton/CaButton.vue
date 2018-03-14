@@ -1,5 +1,7 @@
 <template>
-  <button data-button type="button" class="bx--btn" :class="dynamicClass" :disable="disable"><slot></slot></button>
+  <button data-button type="button" class="bx--btn" :class="dynamicClass" :disabled="disabled">
+    <slot></slot>
+  </button>
 </template>
 
 <script>
@@ -27,9 +29,13 @@
         type: Boolean,
         default: false,
       },
-      disable: {
+      disabled: {
         type: Boolean,
         default: false,
+      },
+      icon: {
+        type: String,
+        default: ''
       }
     },
     computed: {

@@ -1,17 +1,21 @@
 /* eslint-disable react/react-in-jsx-scope */
 
-import {storiesOf} from "@storybook/vue"
+import { storiesOf } from '@storybook/vue';
 
 storiesOf('Button', module)
   .add('primary', () => ({
     template: '<ca-button primary>Text</ca-button>',
-  })).add('secondary', () => ({
+  }))
+  .add('secondary', () => ({
     template: '<ca-button secondary>Text</ca-button>',
-  })).add('disable', () => ({
-  template: '<ca-button disable>Text</ca-button>',
-  })).add('danger', () => ({
-  template: '<ca-button danger>danger</ca-button>',
-  })).add('with listener', () => (
+  }))
+  .add('disable', () => ({
+    template: '<ca-button secondary disabled>Text</ca-button>',
+  }))
+  .add('danger', () => ({
+    template: '<ca-button danger>danger</ca-button>',
+  }))
+  .add('with listener', () => (
     {
       template: '<ca-button primary @click.native="hint++">click me! {{hint}}</ca-button>',
       data() {
@@ -20,4 +24,4 @@ storiesOf('Button', module)
         };
       },
     }
-  ))
+  ));

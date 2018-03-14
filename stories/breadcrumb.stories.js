@@ -11,10 +11,10 @@ storiesOf('Breadcrumb', module)
     `,
   })).add('without last Slash', () => ({
     template: `
-    <ca-breadcrumb noSlash="true">
+    <ca-breadcrumb noSlash>
       <ca-breadcrumb-item href="#">1</ca-breadcrumb-item>
       <ca-breadcrumb-item>2</ca-breadcrumb-item>
       <ca-breadcrumb-item>3</ca-breadcrumb-item>
     </ca-breadcrumb>
     `,
-  }))
+  }));

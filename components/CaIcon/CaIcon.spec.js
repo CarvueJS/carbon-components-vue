@@ -1,5 +1,5 @@
 import { shallow } from 'vue-test-utils';
-import CaIcon from './CaIcon.vue';
+import CaIcon from './CaIcon';
 
 describe('CaIcon', () => {
   test('is a Vue instance', () => {

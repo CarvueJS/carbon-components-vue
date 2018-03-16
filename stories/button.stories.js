@@ -15,6 +15,9 @@ storiesOf('Button', module)
   .add('danger', () => ({
     template: '<ca-button danger>danger</ca-button>',
   }))
+  .add('with icon', () => ({
+    template: '<ca-button icon="icon--add" primary>with icon</ca-button>',
+  }))
   .add('with listener', () => (
     {
       template: '<ca-button primary @click.native="hint++">click me! {{hint}}</ca-button>',

@@ -1,6 +1,7 @@
 <template>
   <button data-button type="button" class="bx--btn" :class="dynamicClass" :disabled="disabled">
     <slot></slot>
+    <ca-icon v-if=" icon !=='' " :iconName="icon" className="bx--btn__icon"></ca-icon>
   </button>
 </template>
 

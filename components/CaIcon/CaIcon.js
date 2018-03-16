@@ -14,6 +14,22 @@ export default {
       type: String,
       default: '',
     },
+    className: {
+      type: String,
+      default: '',
+    },
+    width: {
+      type: Number,
+      default: 16,
+    },
+    height: {
+      type: Number,
+      default: 16,
+    },
+    viewBox: {
+      type: String,
+      default: '0 0 25 25',
+    },
   },
   methods: {
     getIcon(name, iconsObj = icons) {
@@ -55,7 +71,7 @@ export default {
     const svgContent = this.getIcon(this.iconName);
 
     return (
-      <svg>
+      <svg class={this.className} width={this.width} height={this.height} viewBox={this.viewBox} fill-rule="evenodd">
         <title>{this.description}</title>
         {svgContent}
       </svg>

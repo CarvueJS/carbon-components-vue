@@ -1,5 +1,5 @@
 <template>
-  <div class="bx--snippet bx--snippet--code">
+  <div class="bx--snippet" :class="dynamicClass">
     <div class="bx--snippet-container">
       <code>
       <pre>
@@ -22,6 +22,20 @@
 <script>
   export default {
     name: 'ca-code-snippet',
+    props: {
+      type: {
+        type: String,
+        default: 'code'
+      }
+    },
+    computed: {
+      dynamicClass () {
+        return {
+          'bx--snippet--terminal': this.type === 'terminal',
+          'bx--snippet--code': this.type === 'code',
+        }
+      }
+    },
   };
 </script>
 

@@ -1,6 +1,6 @@
 <template>
   <div data-checkbox class="bx--form-item bx--checkbox-wrapper">
-    <input :id="itemId" class="bx--checkbox" type="checkbox" @change="toggle" name="checkbox" :aria-checked="ariaChecked" :value="itemValue"/>
+    <input :id="itemId" class="bx--checkbox" type="checkbox" @change="toggle" name="checkbox" :aria-checked="ariaChecked" :value="itemValue" :disabled="disabled"/>
     <label :for="itemId" class="bx--checkbox-label">
       <span class="bx--checkbox-appearance">
         <svg class="bx--checkbox-checkmark" width="12" height="9" viewBox="0 0 12 9" fill-rule="evenodd">
@@ -40,6 +40,10 @@
       ariaChecked: {
         type: String,
         default: 'false'
+      },
+      disabled: {
+        type: Boolean,
+        default: false
       }
     },
     computed: {

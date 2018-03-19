@@ -1,4 +1,4 @@
-import {storiesOf} from "@storybook/vue"
+import { storiesOf } from '@storybook/vue';
 
 storiesOf('Checkbox', module)
   .add('Default', () => ({
@@ -6,7 +6,7 @@ storiesOf('Checkbox', module)
     <ca-tile>
       <ca-checkbox itemId="a" itemValue="a">item 1</ca-checkbox>
       <ca-checkbox itemId="b" itemValue="b" checked>item 2</ca-checkbox>
-      <ca-checkbox itemId="c" itemValue="c">item 3</ca-checkbox>
+      <ca-checkbox itemId="c" itemValue="c" disabled>item 3</ca-checkbox>
     </ca-tile>
     `,
   }))
@@ -21,7 +21,7 @@ storiesOf('Checkbox', module)
   })).add('with data', () => ({
     data() {
       return {
-        checked: [],
+        checked: ['b'],
       };
     },
     template: `

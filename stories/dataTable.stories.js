@@ -5,7 +5,6 @@ storiesOf('DataTable', module)
     template: `
     <ca-data-table>
       <thead>
-
         <tr>
           <th>
             head1

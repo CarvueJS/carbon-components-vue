@@ -7,6 +7,17 @@
 <script>
   export default {
     name: 'ca-data-table',
+    props: {
+      rows: {
+        type: Array,
+        default: () => []
+      },
+      headers: {
+        type: Array,
+        default: () => []
+      }
+    },
+    
   };
 </script>
 

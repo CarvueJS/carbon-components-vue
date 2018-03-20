@@ -15,4 +15,4 @@ storiesOf('DatePicker', module)
       {{model}}
     </ca-tile>
     `,
-  }))
+  }));

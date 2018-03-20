@@ -1,6 +1,6 @@
 import { configure, setAddon, addDecorator } from '@storybook/vue';
 import { setOptions } from '@storybook/addon-options';
-import VueInfoAddon from 'storybook-addon-vue-info'
+import VueInfoAddon from 'storybook-addon-vue-info';
 import Vue from 'vue';
 import Carvue from '../components';
 

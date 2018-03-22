@@ -14,7 +14,7 @@
       data-file-uploader
       data-target="[data-file-container]"
       @change="change"
-      multiple
+      :multiple="multiple"
     />
     <div data-file-container class="bx--file-container"></div>
   </div>
@@ -26,7 +26,11 @@
   export default {
     name: 'ca-file-uploader',
     props: {
-      value: null
+      value: null,
+      multiple: {
+        type: Boolean,
+        default: false
+      }
     },
     data: () => ({
       fileUploader: {}
@@ -36,8 +40,7 @@
     },
     methods: {
       change () {
-        // TODO: should be improved
-        var image = this.$el.createElement('img');
+        var image = this.$createElement('img');
         image.src = URL.createObjectURL(this.fileUploader.input.files[0]);
         this.$emit('input', image)
       }

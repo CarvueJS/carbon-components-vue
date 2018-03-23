@@ -28,4 +28,4 @@ storiesOf('FileUploader', module)
         document.querySelector('.container').setAttribute('src', newImage.src);
       },
     },
-  }))
+  }));

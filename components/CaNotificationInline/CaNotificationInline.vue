@@ -20,7 +20,7 @@
 
 <script>
   export default {
-    name: 'ca-notification',
+    name: 'ca-notification-inline',
     props: {
       error: {
         type: Boolean,

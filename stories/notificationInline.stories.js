@@ -1,13 +1,13 @@
 import { storiesOf } from '@storybook/vue';
 
-storiesOf('Notification', module)
+storiesOf('Notification/inline', module)
   .add('Default', () => ({
     template: `
-    <ca-notification
+    <ca-notification-inline
       title="this is title"
       subtitle="this is subtitle"
       info
     >
-    </ca-notification>
+    </ca-notification-inline>
     `,
   }));

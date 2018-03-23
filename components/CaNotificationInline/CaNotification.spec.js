@@ -1,5 +1,5 @@
 import { shallow } from 'vue-test-utils';
-import CaNotification from './CaNotification.vue';
+import CaNotification from './CaNotificationInline.vue';
 
 describe('CaNotification', () => {
   test('is a Vue instance', () => {

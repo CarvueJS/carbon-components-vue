@@ -5,6 +5,14 @@ storiesOf('Loading', module)
     template: `
     <ca-loading></ca-loading>
     `,
+  })).add('small', () => ({
+    template: `
+    <ca-loading small></ca-loading>
+    `,
+  })).add('withoutOverlay', () => ({
+    template: `
+    <ca-loading withoutOverlay></ca-loading>
+    `,
   }))
   .add('with para', () => ({
     data: () => ({

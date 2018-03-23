@@ -1,6 +1,6 @@
 <template>
-  <div class="bx--loading-overlay">
-    <div data-loading class="bx--loading">
+  <div :class="overlayClass">
+    <div data-loading class="bx--loading" :class="smallClass">
       <svg class="bx--loading__svg" viewBox="-75 -75 150 150">
         <title>Loading</title>
         <circle cx="0" cy="0" r="37.5" />
@@ -19,12 +19,35 @@
       };
     },
     props:{
-      show: false
+      show: {
+        type: Boolean,
+        default: true
+      },
+      withoutOverlay: {
+        type: Boolean,
+        default: false
+      },
+      small: {
+        type: Boolean,
+        default: false
+      }
     },
     name: 'ca-loading',
     watch: {
       show (newValue) {
         this.loading.set(newValue)
+      }
+    },
+    computed: {
+      overlayClass () {
+        return {
+          'bx--loading-overlay': !this.withoutOverlay
+        }
+      },
+      smallClass () {
+        return {
+          'bx--loading--small': this.small
+        }
       }
     },
     mounted() {

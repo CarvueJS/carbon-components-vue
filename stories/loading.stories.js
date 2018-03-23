@@ -24,4 +24,4 @@ storiesOf('Loading', module)
       <ca-loading :show="show"></ca-loading>
     </ca-tile>
     `,
-  }))
+  }));

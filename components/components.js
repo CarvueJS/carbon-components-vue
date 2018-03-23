@@ -15,6 +15,7 @@ export { default as CaList } from './CaList';
 export { default as CaLoading } from './CaLoading';
 export { default as CaModal } from './CaModal';
 export { default as CaNotificationInline } from './CaNotificationInline';
+export { default as CaNotificationToast } from './CaNotificationToast';
 export { default as CaNumberInput } from './CaNumberInput';
 export { default as CaOverflowMenu } from './CaOverflowMenu';
 export { default as CaPagination } from './CaPagination';

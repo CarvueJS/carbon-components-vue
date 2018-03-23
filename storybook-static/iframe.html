@@ -12,7 +12,16 @@
         }
     </script>
     <title>Storybook</title>
-    <style type="text/css">
+    <link rel="stylesheet" href="/path/to/styles/default.css">
+<script src="/path/to/highlight.pack.js"></script>
+<script>
+  $(document).ready(function() {
+  $('code').each(function(i, block) {
+    hljs.highlightBlock(block);
+  });
+});
+</script>
+<style type="text/css">
   code {
     background-color: #333 !important;
     color: bisque !important;

@@ -12,21 +12,13 @@
         }
     </script>
     <title>Storybook</title>
-    <link rel="stylesheet" href="/path/to/styles/default.css">
-<script src="/path/to/highlight.pack.js"></script>
+    <link type="text/css" rel="stylesheet"  href="https://nicholaslee119.github.io/carbon-components-vue/static/styles/atom-one-dark.css">
+<script type="application/javascript" src="https://nicholaslee119.github.io/carbon-components-vue/static/highlight.pack.js"></script>
 <script>
-  $(document).ready(function() {
-  $('code').each(function(i, block) {
-    hljs.highlightBlock(block);
+  document.addEventListener("DOMContentLoaded", function(event) { 
+    hljs.highlightBlock(document.querySelector("code"));
   });
-});
 </script>
-<style type="text/css">
-  code {
-    background-color: #333 !important;
-    color: bisque !important;
-  }
-</style>
 </head>
 <body>
 <div id="root"></div>

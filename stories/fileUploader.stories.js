@@ -6,6 +6,18 @@ storiesOf('FileUploader', module)
       image: null,
     }),
     template: `
+      <ca-file-uploader v-model="image">up up</ca-file-uploader>
+    `,
+    watch: {
+      image(newImage) {
+        document.querySelector('.container').setAttribute('src', newImage.src);
+      },
+    },
+  })).add('with container', () => ({
+    data: () => ({
+      image: null,
+    }),
+    template: `
     <ca-tile>
       <ca-file-uploader v-model="image">up up</ca-file-uploader>
       <img class="container"></div>
@@ -13,7 +25,7 @@ storiesOf('FileUploader', module)
     `,
     watch: {
       image(newImage) {
-        document.querySelector('.container').setAttribute('src', newImage.src)
+        document.querySelector('.container').setAttribute('src', newImage.src);
       },
     },
-  }));
+  }))

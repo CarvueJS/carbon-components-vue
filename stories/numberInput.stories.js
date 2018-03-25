@@ -15,4 +15,16 @@ storiesOf('NumberInput', module)
       {{model}}
     </ca-tile>
     `,
+  })).add('disabled', () => ({
+    template: `
+    <ca-number-input :max="200" :min="100" disabled></ca-number-input>
+    `,
   }))
+  .add('step', () => ({
+    data: () => ({
+      model: 6,
+    }),
+    template: `
+    <ca-number-input :max="200" :min="100" v-model="model" :step="3"></ca-number-input>
+    `,
+  }));

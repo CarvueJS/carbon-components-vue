@@ -4,6 +4,21 @@ import VueInfoAddon from 'storybook-addon-vue-info';
 import Vue from 'vue';
 import Carvue from '../components';
 
+function codeHighlight (storyFn) {
+  var options = storyFn();
+  return {
+    mounted () {
+      if (window.hljs) window.hljs.highlightBlock(document.querySelector("code"));
+    },
+    ...options,
+    render: function (h) {
+      return h(options)
+    }
+  };
+};
+
+addDecorator(codeHighlight);
+
 addDecorator(VueInfoAddon);
 
 Vue.config.productionTip = false;

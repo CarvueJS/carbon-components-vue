@@ -1,5 +1,6 @@
 import { configure, setAddon, addDecorator } from '@storybook/vue';
 import { setOptions } from '@storybook/addon-options';
+import { withKnobs } from '@storybook/addon-knobs/vue';
 import VueInfoAddon from 'storybook-addon-vue-info';
 import Vue from 'vue';
 import Carvue from '../components';
@@ -20,6 +21,8 @@ function codeHighlight (storyFn) {
 addDecorator(codeHighlight);
 
 addDecorator(VueInfoAddon);
+
+addDecorator(withKnobs);
 
 Vue.config.productionTip = false;
 

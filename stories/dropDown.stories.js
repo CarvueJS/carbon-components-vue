@@ -38,4 +38,4 @@ storiesOf('DropDown', module)
       selected is {{model}}
     </ca-tile>
     `,
-  }))
+  }));

@@ -1,10 +1,28 @@
 import { configure, setAddon, addDecorator } from '@storybook/vue';
 import { setOptions } from '@storybook/addon-options';
+import { withKnobs } from '@storybook/addon-knobs/vue';
 import VueInfoAddon from 'storybook-addon-vue-info';
 import Vue from 'vue';
 import Carvue from '../components';
 
+function codeHighlight (storyFn) {
+  var options = storyFn();
+  return {
+    mounted () {
+      if (window.hljs) window.hljs.highlightBlock(document.querySelector("code"));
+    },
+    ...options,
+    render: function (h) {
+      return h(options)
+    }
+  };
+};
+
+addDecorator(codeHighlight);
+
 addDecorator(VueInfoAddon);
+
+addDecorator(withKnobs);
 
 Vue.config.productionTip = false;
 

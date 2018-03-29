@@ -7,12 +7,12 @@ storiesOf('Search', module)
     `,
   })).add('with model', () => ({
     data: () => ({
-      inputValue: 'test'
+      inputValue: 'test',
     }),
     template: `
-    <div>
+    <ca-tile>
       <ca-search v-model="inputValue"></ca-search>
       {{inputValue}}
-    </div>
+    </ca-tile>
     `,
   }));

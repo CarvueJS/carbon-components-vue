@@ -13,6 +13,9 @@ storiesOf('DropDown', module)
       <ca-dropdown-item value="data3">
         option3
       </ca-dropdown-item>
+      <ca-dropdown-item value="data4">
+        option4
+      </ca-dropdown-item>
     </ca-dropdown>
     `,
   })).add('with model', () => ({

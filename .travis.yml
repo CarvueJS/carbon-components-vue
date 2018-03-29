@@ -5,3 +5,11 @@ node_js:
 after_success:
   - npm i coveralls
   - cat ./test/unit/coverage/lcov.info | coveralls
+
+deploy:
+provider: pages
+skip-cleanup: true
+github-token: $GITHUB_TOKEN
+keep-history: true
+on:
+  branch: gh-pages

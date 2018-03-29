@@ -1,10 +1,13 @@
 language: node_js
 node_js:
-  - "7"
+  - "8"
 
 after_success:
   - npm i coveralls
   - cat ./test/unit/coverage/lcov.info | coveralls
+
+before_deploy:
+  - npm run build-storybook
 
 deploy:
   provider: pages

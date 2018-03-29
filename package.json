@@ -19,6 +19,7 @@
   "dependencies": {
     "carbon-components": "^8.1.13",
     "carbon-icons": "^6.3.2",
+    "coveralls": "^3.0.0",
     "vue": "^2.5.2",
     "vue-router": "^3.0.1"
   },

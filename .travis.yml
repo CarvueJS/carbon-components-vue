@@ -23,4 +23,4 @@ deploy:
     api_key: $NPM_TOKEN
     tag: next
     on:
-      tags: true    
+      tags: true

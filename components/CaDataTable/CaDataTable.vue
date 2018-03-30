@@ -20,5 +20,3 @@
     
   };
 </script>
-
-<style></style>

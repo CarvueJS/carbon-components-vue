@@ -17,8 +17,5 @@
         default: () => []
       }
     },
-    
   };
 </script>
-
-<style></style>

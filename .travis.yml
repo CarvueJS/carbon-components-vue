@@ -8,11 +8,19 @@ after_success:
 
 before_deploy:
   - npm run build-storybook
+  - npm run build
 
 deploy:
-  provider: pages
-  skip-cleanup: true
-  github-token: $GITHUB_TOKEN
-  keep-history: true
-  on:
-    branch: master
+  - provider: pages
+    skip-cleanup: true
+    github-token: $GITHUB_TOKEN
+    keep-history: true
+    on:
+      branch: master
+  - provider: npm
+    skip-cleanup: true
+    email: "nicholaslee119@gmail.com"
+    api_key: $NPM_TOKEN
+    tag: next
+    on:
+      tags: true

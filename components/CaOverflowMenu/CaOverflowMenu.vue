@@ -1,5 +1,5 @@
 <template>
-  <div data-overflow-menu tabindex="0" aria-label="Overflow menu description" class="bx--overflow-menu">
+  <div data-overflow-menu tabindex="0" aria-label="Overflow menu description" class="bx--overflow-menu" >
     <svg class="bx--overflow-menu__icon" width="4" height="20" viewBox="0 0 4 20" fill-rule="evenodd">
       <circle cx="2" cy="2" r="2"></circle>
       <circle cx="2" cy="10" r="2"></circle>
@@ -23,3 +23,9 @@
     }
   };
 </script>
+
+<style scoped>
+.bx--overflow-menu-options:focus {
+  outline: none;
+}
+</style>

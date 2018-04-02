@@ -30,6 +30,9 @@
         tabs: null,
       };
     },
+    props: {
+      
+    }
   };
 </script>
 

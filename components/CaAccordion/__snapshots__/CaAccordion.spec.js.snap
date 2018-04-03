@@ -1,0 +1,33 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CaAccordion Mathes snapshot: pass activie props 1`] = `
+<ul data-accordion="" class="bx--accordion">
+  <li data-accordion-item="" class="bx--accordion__item bx--accordion__item--active">
+    <button aria-expanded="false" aria-controls="pane1" class="bx--accordion__heading">
+      <svg width="8" height="12" viewBox="0 0 8 12" fill-rule="evenodd" class="bx--accordion__arrow">
+        <path d="M0 10.6L4.7 6 0 1.4 1.4 0l6.1 6-6.1 6z"></path>
+      </svg>
+      <p class="bx--accordion__title">
+        title
+      </p>
+    </button>
+    <div class="bx--accordion__content"></div>
+  </li>
+</ul>
+`;
+
+exports[`CaAccordion Mathes snapshot: pass title props 1`] = `
+<ul data-accordion="" class="bx--accordion">
+  <li data-accordion-item="" class="bx--accordion__item">
+    <button aria-expanded="false" aria-controls="pane1" class="bx--accordion__heading">
+      <svg width="8" height="12" viewBox="0 0 8 12" fill-rule="evenodd" class="bx--accordion__arrow">
+        <path d="M0 10.6L4.7 6 0 1.4 1.4 0l6.1 6-6.1 6z"></path>
+      </svg>
+      <p class="bx--accordion__title">
+        titleText
+      </p>
+    </button>
+    <div class="bx--accordion__content"></div>
+  </li>
+</ul>
+`;

@@ -10,4 +10,20 @@ describe('CaCheckbox', () => {
     });
     expect(wrapper.isVueInstance()).toBeTruthy();
   });
+
+  test('click', () => {
+    const model = ['a']
+    const wrapper = shallow(CaCheckbox, {
+      attachToDocument: true,
+      propsData: {
+        inputValue: model,
+        itemId: 'a',
+        itemValue: 'a'
+      }
+    });
+    wrapper.find('input').element.checked = true
+    expect(model).toEqual(
+      expect.arrayContaining(['a']),
+    );
+  });
 })

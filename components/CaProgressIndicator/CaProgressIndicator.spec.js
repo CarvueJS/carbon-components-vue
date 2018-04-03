@@ -6,7 +6,11 @@ describe('CaProgressIndicator', () => {
   test('is a Vue instance', () => {
     const wrapper = shallow(CaProgressIndicator, { 
       slots: {
-        default: CaProgressIndicatorStep
+        default: {
+          render(h) {
+            return h(CaProgressIndicatorStep, { props: { isCurrent: true } })
+          }
+        }
       }
     });
     expect(wrapper.isVueInstance()).toBeTruthy();

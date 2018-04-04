@@ -30,10 +30,5 @@
         tabs: null,
       };
     },
-    props: {
-      
-    }
   };
 </script>
-
-<style></style>

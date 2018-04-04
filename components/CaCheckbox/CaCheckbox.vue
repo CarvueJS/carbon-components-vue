@@ -62,6 +62,7 @@
         } else {
           input.splice(i, 1)
         }
+        console.log('trigger')
         this.$emit('inputValueChange', input)
       },
     },

@@ -15,7 +15,7 @@
 
   const initModifer = {
     'bx--progress-step--complete': false,
-    'bx--progress-step--incomplete': false,
+    'bx--progress-step--incomplete': true,
     'bx--progress-step--current': false,
   };
 
@@ -25,6 +25,10 @@
       isCompleted: {
         type: Boolean,
         defalut: false,
+      },
+      isInComplete: {
+        type: Boolean,
+        defalut: true,
       },
       isCurrent: {
         type: Boolean,
@@ -40,7 +44,7 @@
       modifiers() {
         return {
           'bx--progress-step--complete': this.isCompleted,
-          'bx--progress-step--incomplete': !this.isCompleted,
+          'bx--progress-step--incomplete': this.isInComplete,
           'bx--progress-step--current': this.isCurrent,
         };
       },

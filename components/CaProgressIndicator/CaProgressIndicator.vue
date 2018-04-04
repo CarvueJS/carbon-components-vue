@@ -13,15 +13,17 @@
       progressIndicator: null
     }),
     props: {
-      value: 1
+      value: {
+        type: Number,
+        default: 0
+      }
     },
     updated() {
       this.progressIndicator.setCurrent(this.value);
     },
     mounted() {
-    // TODO: should improve
-    //  this.progressIndicator = ProgressIndicator.create(this.$el);
-    //  progressIndicator.setCurrent(this.value);
+     this.progressIndicator = ProgressIndicator.create(this.$el);
+     this.progressIndicator.setCurrent(this.value);
     },
   };
 </script>

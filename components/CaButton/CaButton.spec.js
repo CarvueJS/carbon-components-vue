@@ -55,7 +55,7 @@ describe('CaButton', () => {
   test('Mathes snapshot: icon', () => {
     const wrapper = shallow(CaButton, { 
       propsData: {
-        icon: help_out
+        icon: 'help_out'
       },
     })
     expect(wrapper.html()).toMatchSnapshot()

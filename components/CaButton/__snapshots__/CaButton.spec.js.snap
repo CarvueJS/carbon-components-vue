@@ -12,6 +12,12 @@ exports[`CaButton Mathes snapshot: disabled 1`] = `
 </button>
 `;
 
+exports[`CaButton Mathes snapshot: icon 1`] = `
+<button data-button="" type="button" class="bx--btn">
+  <ca-icon iconname="help_out" classname="bx--btn__icon"></ca-icon>
+</button>
+`;
+
 exports[`CaButton Mathes snapshot: primary 1`] = `
 <button data-button="" type="button" class="bx--btn bx--btn--primary">
   <!---->

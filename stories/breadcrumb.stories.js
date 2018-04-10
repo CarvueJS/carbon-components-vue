@@ -11,7 +11,7 @@ storiesOf('Breadcrumb', module)
     </ca-breadcrumb>
     `,
   })).add('without last Slash', () => {
-    const noSlash = boolean('noSlash', false);
+    const noSlash = boolean('noSlash', true);
     return {
       template: `
       <ca-breadcrumb :noSlash="${noSlash}">

@@ -11,4 +11,27 @@ describe('CaBreadcrumb', () => {
     });
     expect(wrapper.isVueInstance()).toBeTruthy();
   });
+
+  test('Mathes snapshot: without last slash', () => {
+      const wrapper = shallow(CaBreadcrumb, { 
+        propsData: {
+          noSlash: true
+        },
+        slots: {
+          default: [CaBreadcrumbItem, CaBreadcrumbItem]
+        }
+      }
+    )
+    expect(wrapper.html()).toMatchSnapshot()
+  });
+
+  test('Mathes snapshot: with last slash', () => {
+    const wrapper = shallow(CaBreadcrumb, { 
+      slots: {
+        default: [CaBreadcrumbItem, CaBreadcrumbItem]
+      }
+    }
+  )
+  expect(wrapper.html()).toMatchSnapshot()
+});
 })

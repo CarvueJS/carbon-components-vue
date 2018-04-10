@@ -31,6 +31,6 @@ describe('CaTextInput', () => {
     const input = wrapper.find('input')
     input.element.value = 'text test'
     input.trigger('change')
-    expect(wrapper.emitted().input).toBeTruthy()
+    expect(wrapper.emitted().input[0]).toEqual(['text test'])
   });
 })

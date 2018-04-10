@@ -1,0 +1,7 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CaTextInput Mathes snapshot 1`] = `
+<div class="bx--form-item">
+  <input id="text-input-1" type="text" placeholder="" class="bx--text-input">
+</div>
+`;

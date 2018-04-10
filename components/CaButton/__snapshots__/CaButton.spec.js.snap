@@ -1,0 +1,37 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CaButton Mathes snapshot: danger 1`] = `
+<button data-button="" type="button" class="bx--btn bx--btn--danger">
+  <!---->
+</button>
+`;
+
+exports[`CaButton Mathes snapshot: disabled 1`] = `
+<button data-button="" type="button" disabled="disabled" class="bx--btn">
+  <!---->
+</button>
+`;
+
+exports[`CaButton Mathes snapshot: icon 1`] = `
+<button data-button="" type="button" class="bx--btn">
+  <ca-icon iconname="help_out" classname="bx--btn__icon"></ca-icon>
+</button>
+`;
+
+exports[`CaButton Mathes snapshot: primary 1`] = `
+<button data-button="" type="button" class="bx--btn bx--btn--primary">
+  <!---->
+</button>
+`;
+
+exports[`CaButton Mathes snapshot: secondary 1`] = `
+<button data-button="" type="button" class="bx--btn bx--btn--secondary">
+  <!---->
+</button>
+`;
+
+exports[`CaButton Mathes snapshot: sm 1`] = `
+<button data-button="" type="button" class="bx--btn bx--btn--sm">
+  <!---->
+</button>
+`;

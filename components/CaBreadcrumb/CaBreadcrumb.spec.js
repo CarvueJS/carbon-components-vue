@@ -30,8 +30,7 @@ describe('CaBreadcrumb', () => {
       slots: {
         default: [CaBreadcrumbItem, CaBreadcrumbItem]
       }
-    }
-  )
-  expect(wrapper.html()).toMatchSnapshot()
-});
+    })
+    expect(wrapper.html()).toMatchSnapshot()
+  });
 })

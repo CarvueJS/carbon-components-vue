@@ -11,6 +11,15 @@ describe('CaCheckbox', () => {
     expect(wrapper.isVueInstance()).toBeTruthy();
   });
 
+  test('Mathes snapshot', () => {
+    const wrapper = shallow(CaCheckbox, {
+      propsData: {
+        inputValue: []
+      }
+    });
+    expect(wrapper.html()).toMatchSnapshot()
+  });
+
   test('click', () => {
     const model = ['a']
     const wrapper = shallow(CaCheckbox, {

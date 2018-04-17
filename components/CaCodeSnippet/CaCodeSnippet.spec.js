@@ -6,4 +6,9 @@ describe('CaCodeSnippet', () => {
     const wrapper = shallow(CaCodeSnippet);
     expect(wrapper.isVueInstance()).toBeTruthy();
   });
+
+  test('Mathes snapshot', () => {
+    const wrapper = shallow(CaCodeSnippet);
+    expect(wrapper.html()).toMatchSnapshot()
+  });
 })

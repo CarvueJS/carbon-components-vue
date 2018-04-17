@@ -1,0 +1,16 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CaCodeSnippet Mathes snapshot 1`] = `
+<div class="bx--snippet bx--snippet--code">
+  <div class="bx--snippet-container"><code><pre>      
+      
+    </pre></code></div>
+  <button data-copy-btn="" aria-label="Copy code" tabindex="0" class="bx--snippet-button">
+    <svg width="18" height="24" viewBox="0 0 18 24" fill-rule="evenodd" class="bx--snippet__icon">
+      <path d="M13 5V0H0v19h5v5h13V5h-5zM2 17V2h9v3H5v12H2zm14 5H7V7h9v15z"></path>
+      <path d="M9 9h5v2H9zM9 12h5v2H9zM9 15h3v2H9z"></path>
+    </svg>
+    <div data-feedback="Copied!" class="bx--btn--copy__feedback"></div>
+  </button>
+</div>
+`;

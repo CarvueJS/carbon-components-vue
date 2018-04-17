@@ -11,4 +11,13 @@ describe('CaContentSwitcher', () => {
     });
     expect(wrapper.isVueInstance()).toBeTruthy();
   });
+
+  test('Mathes snapshot', () => {
+    const wrapper = shallow(CaContentSwitcher, { 
+      slots: {
+        default: CaContentSwitcherButton
+      }
+    });
+    expect(wrapper.html()).toMatchSnapshot()
+  });
 })

@@ -1,0 +1,7 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CaIcon Mathes snapshot 1`] = `
+<svg width="16" height="16" viewBox="0 0 25 25" fill-rule="evenodd" class="">
+  <title></title>
+</svg>
+`;

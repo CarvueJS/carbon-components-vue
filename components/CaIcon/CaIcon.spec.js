@@ -6,4 +6,9 @@ describe('CaIcon', () => {
     const wrapper = shallow(CaIcon);
     expect(wrapper.isVueInstance()).toBeTruthy();
   });
+
+  test('Mathes snapshot', () => {
+    const wrapper = shallow(CaIcon);
+    expect(wrapper.html()).toMatchSnapshot()
+  });
 })

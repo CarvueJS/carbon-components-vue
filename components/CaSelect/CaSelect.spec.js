@@ -6,4 +6,9 @@ describe('CaSelect', () => {
     const wrapper = shallow(CaSelect);
     expect(wrapper.isVueInstance()).toBeTruthy();
   });
+
+  test('Mathes snapshot', () => {
+    const wrapper = shallow(CaSelect);
+    expect(wrapper.html()).toMatchSnapshot()
+  });
 })

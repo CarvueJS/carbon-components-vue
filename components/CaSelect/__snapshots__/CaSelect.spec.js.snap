@@ -1,0 +1,10 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CaSelect Mathes snapshot 1`] = `
+<div class="bx--select">
+  <select id="select-id" class="bx--select-input"></select>
+  <svg width="10" height="5" viewBox="0 0 10 5" fill-rule="evenodd" class="bx--select__arrow">
+    <path d="M10 0L5 5 0 0z"></path>
+  </svg>
+</div>
+`;

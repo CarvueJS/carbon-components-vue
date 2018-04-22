@@ -1,0 +1,16 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CaTabs Mathes snapshot 1`] = `
+<div>
+  <nav data-tabs="" role="navigation" class="bx--tabs">
+    <div tabindex="0" class="bx--tabs-trigger">
+      <a href="javascript:void(0)" tabindex="-1" class="bx--tabs-trigger-text"></a>
+      <svg width="10" height="5" viewBox="0 0 10 5" fill-rule="evenodd">
+        <path d="M10 0L5 5 0 0z"></path>
+      </svg>
+    </div>
+    <ul role="tablist" class="bx--tabs__nav bx--tabs__nav--hidden"></ul>
+  </nav>
+  <div></div>
+</div>
+`;

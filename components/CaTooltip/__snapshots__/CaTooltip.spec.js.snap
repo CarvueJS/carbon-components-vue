@@ -1,0 +1,3 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CaTooltip Mathes snapshot 1`] = `<div id="unique-tooltip" data-floating-menu-direction="bottom" class="bx--tooltip"></div>`;

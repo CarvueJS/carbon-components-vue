@@ -6,4 +6,9 @@ describe('CaTile', () => {
     const wrapper = shallow(CaTile);
     expect(wrapper.isVueInstance()).toBeTruthy();
   });
+
+  test('Mathes snapshot', () => {
+    const wrapper = shallow(CaTile);
+    expect(wrapper.html()).toMatchSnapshot()
+  });
 })

@@ -6,4 +6,9 @@ describe('CaTooltip', () => {
     const wrapper = shallow(CaTooltip);
     expect(wrapper.isVueInstance()).toBeTruthy();
   });
+
+  test('Mathes snapshot', () => {
+    const wrapper = shallow(CaTooltip);
+    expect(wrapper.html()).toMatchSnapshot()
+  });
 })

@@ -11,4 +11,13 @@ describe('CaPagination', () => {
     });
     expect(wrapper.isVueInstance()).toBeTruthy();
   });
+
+  test('Mathes snapshot', () => {
+    const wrapper = shallow(CaPagination, { 
+      slots: {
+        default: CaPaginationItem
+      }
+    });
+    expect(wrapper.html()).toMatchSnapshot()
+  });
 })

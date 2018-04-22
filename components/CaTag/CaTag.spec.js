@@ -6,4 +6,9 @@ describe('CaTag', () => {
     const wrapper = shallow(CaTag);
     expect(wrapper.isVueInstance()).toBeTruthy();
   });
+
+  test('Mathes snapshot', () => {
+    const wrapper = shallow(CaTag);
+    expect(wrapper.html()).toMatchSnapshot()
+  });
 })

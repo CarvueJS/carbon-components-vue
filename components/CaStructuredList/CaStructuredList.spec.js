@@ -6,4 +6,9 @@ describe('CaStructuredList', () => {
     const wrapper = shallow(CaStructuredList);
     expect(wrapper.isVueInstance()).toBeTruthy();
   });
+
+  test('Mathes snapshot', () => {
+    const wrapper = shallow(CaStructuredList);
+    expect(wrapper.html()).toMatchSnapshot()
+  });
 })

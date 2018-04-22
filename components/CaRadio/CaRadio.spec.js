@@ -6,4 +6,9 @@ describe('CaRadio', () => {
     const wrapper = shallow(CaRadio);
     expect(wrapper.isVueInstance()).toBeTruthy();
   });
+
+  test('Mathes snapshot', () => {
+    const wrapper = shallow(CaRadio);
+    expect(wrapper.html()).toMatchSnapshot()
+  });
 })

@@ -15,4 +15,17 @@ describe('CaProgressIndicator', () => {
     });
     expect(wrapper.isVueInstance()).toBeTruthy();
   });
+
+  test('Mathes snapshot', () => {
+    const wrapper = shallow(CaProgressIndicator, { 
+      slots: {
+        default: {
+          render(h) {
+            return h(CaProgressIndicatorStep, { props: { isCurrent: true } })
+          }
+        }
+      }
+    });
+    expect(wrapper.html()).toMatchSnapshot()
+  });
 })

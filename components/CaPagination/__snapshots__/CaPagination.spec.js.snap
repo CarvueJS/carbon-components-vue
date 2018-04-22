@@ -1,0 +1,89 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CaPagination Mathes snapshot 1`] = `
+<div data-pagination="" class="bx--pagination">
+  <div class="bx--pagination__right bx--pagination--inline"><span class="bx--pagination__text"><span data-displayed-page-number="">1</span> of
+    <span data-total-pages="">20</span> pages
+    </span>
+    <button data-page-backward="" aria-label="Backward button" class="bx--pagination__button bx--pagination__button--backward">
+      <svg width="8" height="12" viewBox="0 0 8 12" fill-rule="evenodd" class="bx--pagination__button-icon">
+        <path d="M7.5 10.6L2.8 6l4.7-4.6L6.1 0 0 6l6.1 6z"></path>
+      </svg>
+    </button>
+    <label for="page-number-input" class="bx--visually-hidden">Page number input</label>
+    <div class="bx--select bx--select--inline">
+      <label for="select-id-pagination" class="bx--visually-hidden">Number of items per page</label>
+      <select id="select-id-pagination" data-page-number-input="" class="bx--select-input">
+        <option class="bx--select-option">
+          <div>1</div>
+        </option>
+        <option class="bx--select-option">
+          <div>2</div>
+        </option>
+        <option class="bx--select-option">
+          <div>3</div>
+        </option>
+        <option class="bx--select-option">
+          <div>4</div>
+        </option>
+        <option class="bx--select-option">
+          <div>5</div>
+        </option>
+        <option class="bx--select-option">
+          <div>6</div>
+        </option>
+        <option class="bx--select-option">
+          <div>7</div>
+        </option>
+        <option class="bx--select-option">
+          <div>8</div>
+        </option>
+        <option class="bx--select-option">
+          <div>9</div>
+        </option>
+        <option class="bx--select-option">
+          <div>10</div>
+        </option>
+        <option class="bx--select-option">
+          <div>11</div>
+        </option>
+        <option class="bx--select-option">
+          <div>12</div>
+        </option>
+        <option class="bx--select-option">
+          <div>13</div>
+        </option>
+        <option class="bx--select-option">
+          <div>14</div>
+        </option>
+        <option class="bx--select-option">
+          <div>15</div>
+        </option>
+        <option class="bx--select-option">
+          <div>16</div>
+        </option>
+        <option class="bx--select-option">
+          <div>17</div>
+        </option>
+        <option class="bx--select-option">
+          <div>18</div>
+        </option>
+        <option class="bx--select-option">
+          <div>19</div>
+        </option>
+        <option class="bx--select-option">
+          <div>20</div>
+        </option>
+      </select>
+      <svg width="10" height="5" viewBox="0 0 10 5" fill-rule="evenodd" class="bx--select__arrow">
+        <path d="M10 0L5 5 0 0z"></path>
+      </svg>
+    </div>
+    <button data-page-forward="" aria-label="Forward button" class="bx--pagination__button bx--pagination__button--forward">
+      <svg width="8" height="12" viewBox="0 0 8 12" fill-rule="evenodd" class="bx--pagination__button-icon">
+        <path d="M0 10.6L4.7 6 0 1.4 1.4 0l6.1 6-6.1 6z"></path>
+      </svg>
+    </button>
+  </div>
+</div>
+`;

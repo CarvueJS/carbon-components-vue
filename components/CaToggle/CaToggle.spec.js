@@ -6,4 +6,9 @@ describe('CaToggle', () => {
     const wrapper = shallow(CaToggle);
     expect(wrapper.isVueInstance()).toBeTruthy();
   });
+
+  test('Mathes snapshot', () => {
+    const wrapper = shallow(CaToggle);
+    expect(wrapper.html()).toMatchSnapshot()
+  });
 })

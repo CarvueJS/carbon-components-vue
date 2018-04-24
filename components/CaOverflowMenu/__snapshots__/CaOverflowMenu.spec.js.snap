@@ -1,0 +1,16 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CaOverflowMenu Mathes snapshot 1`] = `
+<div data-overflow-menu="" tabindex="0" aria-label="Overflow menu description" class="bx--overflow-menu">
+  <svg width="4" height="20" viewBox="0 0 4 20" fill-rule="evenodd" class="bx--overflow-menu__icon">
+    <circle cx="2" cy="2" r="2"></circle>
+    <circle cx="2" cy="10" r="2"></circle>
+    <circle cx="2" cy="18" r="2"></circle>
+  </svg>
+  <ul tabindex="-1" class="bx--overflow-menu-options">
+    <li class="bx--overflow-menu-options__option">
+      <button class="bx--overflow-menu-options__btn"></button>
+    </li>
+  </ul>
+</div>
+`;

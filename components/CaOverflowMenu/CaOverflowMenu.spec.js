@@ -11,4 +11,13 @@ describe('CaOverflowMenu', () => {
     });
     expect(wrapper.isVueInstance()).toBeTruthy();
   });
+
+  test('Mathes snapshot', () => {
+    const wrapper = shallow(CaOverflowMenu, { 
+      slots: {
+        default: CaOverflowMenuOption
+      }
+    });
+    expect(wrapper.html()).toMatchSnapshot()
+  });
 })

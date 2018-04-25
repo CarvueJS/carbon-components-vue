@@ -6,4 +6,9 @@ describe('CaNotificationToast', () => {
     const wrapper = shallow(CaNotificationToast);
     expect(wrapper.isVueInstance()).toBeTruthy();
   });
+
+  test('Mathes snapshot', () => {
+    const wrapper = shallow(CaNotificationToast);
+    expect(wrapper.html()).toMatchSnapshot()
+  });
 })

@@ -1,0 +1,16 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CaNotificationToast Mathes snapshot 1`] = `
+<div data-notification="" role="alert" class="bx--toast-notification">
+  <div class="bx--toast-notification__details">
+    <h3 class="bx--toast-notification__title"></h3>
+    <p class="bx--toast-notification__subtitle"></p>
+    <p class="bx--toast-notification__caption"></p>
+  </div>
+  <button data-notification-btn="" type="button" class="bx--toast-notification__close-button">
+    <svg aria-label="close" width="10" height="10" viewBox="0 0 10 10" fill-rule="evenodd" class="bx--toast-notification__icon">
+      <path d="M9.8 8.6L8.4 10 5 6.4 1.4 10 0 8.6 3.6 5 .1 1.4 1.5 0 5 3.6 8.6 0 10 1.4 6.4 5z"></path>
+    </svg>
+  </button>
+</div>
+`;

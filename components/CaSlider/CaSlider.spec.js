@@ -6,4 +6,9 @@ describe('CaSlider', () => {
     // const wrapper = shallow(CaSlider);
     // expect(wrapper.isVueInstance()).toBeTruthy();
   });
+
+  test('Mathes snapshot', () => {
+    // const wrapper = shallow(CaSlider);
+    // expect(wrapper.html()).toMatchSnapshot()
+  });
 })

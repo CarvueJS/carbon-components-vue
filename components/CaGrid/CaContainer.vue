@@ -5,7 +5,7 @@
 </template>
 
 <script>
-  export default {
-    name: 'ca-container',
-  };
+export default {
+  name: 'ca-container',
+};
 </script>

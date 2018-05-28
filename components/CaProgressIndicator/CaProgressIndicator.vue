@@ -5,25 +5,25 @@
 </template>
 
 <script>
-  import { ProgressIndicator } from 'carbon-components';
+import { ProgressIndicator } from 'carbon-components';
 
-  export default {
-    name: 'ca-progress-indicator',
-    data: () => ({
-      progressIndicator: null
-    }),
-    props: {
-      value: {
-        type: Number,
-        default: 0
-      }
+export default {
+  name: 'ca-progress-indicator',
+  props: {
+    value: {
+      type: Number,
+      default: 0,
     },
-    updated() {
-      this.progressIndicator.setCurrent(this.value);
-    },
-    mounted() {
-     this.progressIndicator = ProgressIndicator.create(this.$el);
-     this.progressIndicator.setCurrent(this.value);
-    },
-  };
+  },
+  data: () => ({
+    progressIndicator: null,
+  }),
+  updated() {
+    this.progressIndicator.setCurrent(this.value);
+  },
+  mounted() {
+    this.progressIndicator = ProgressIndicator.create(this.$el);
+    this.progressIndicator.setCurrent(this.value);
+  },
+};
 </script>

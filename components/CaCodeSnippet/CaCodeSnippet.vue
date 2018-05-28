@@ -20,23 +20,23 @@
 </template>
 
 <script>
-  export default {
-    name: 'ca-code-snippet',
-    props: {
-      type: {
-        type: String,
-        default: 'code'
-      }
+export default {
+  name: 'ca-code-snippet',
+  props: {
+    type: {
+      type: String,
+      default: 'code',
     },
-    computed: {
-      dynamicClass () {
-        return {
-          'bx--snippet--terminal': this.type === 'terminal',
-          'bx--snippet--code': this.type === 'code',
-        }
-      }
+  },
+  computed: {
+    dynamicClass() {
+      return {
+        'bx--snippet--terminal': this.type === 'terminal',
+        'bx--snippet--code': this.type === 'code',
+      };
     },
-  };
+  },
+};
 </script>
 
 <style></style>

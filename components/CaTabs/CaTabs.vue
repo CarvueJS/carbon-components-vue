@@ -18,17 +18,17 @@
 </template>
 
 <script>
-  import { Tab } from 'carbon-components';
+import { Tab } from 'carbon-components';
 
-  export default {
-    name: 'ca-tabs',
-    mounted() {
-      this.tabs = Tab.create(this.$el);
-    },
-    data() {
-      return {
-        tabs: null,
-      };
-    },
-  };
+export default {
+  name: 'ca-tabs',
+  data() {
+    return {
+      tabs: null,
+    };
+  },
+  mounted() {
+    this.tabs = Tab.create(this.$el);
+  },
+};
 </script>

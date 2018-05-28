@@ -5,15 +5,15 @@
 </template>
 
 <script>
-  export default {
-    name: 'ca-select-group',
-    props: {
-      label: {
-        type: String,
-        default: '',
-      },
+export default {
+  name: 'ca-select-group',
+  props: {
+    label: {
+      type: String,
+      default: '',
     },
-  };
+  },
+};
 </script>
 
 <style></style>

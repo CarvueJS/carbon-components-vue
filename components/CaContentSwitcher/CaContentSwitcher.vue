@@ -5,16 +5,16 @@
 </template>
 
 <script>
-  import { ContentSwitcher } from "carbon-components"
+// import { ContentSwitcher } from 'carbon-components';
 
-  export default {
-    name: 'ca-content-switcher',
-    mounted() {
-      this.$el.addEventListener('content-switcher-selected', (e)=>{
-        this.$emit('selected', e.detail.item.getAttribute('switchvalue'))
-      });
-    }
-  };
+export default {
+  name: 'ca-content-switcher',
+  mounted() {
+    this.$el.addEventListener('content-switcher-selected', (e) => {
+      this.$emit('selected', e.detail.item.getAttribute('switchvalue'));
+    });
+  },
+};
 </script>
 
 <style></style>

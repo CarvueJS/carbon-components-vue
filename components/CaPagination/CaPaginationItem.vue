@@ -3,13 +3,13 @@
 </template>
 
 <script>
-  export default {
-    name: 'ca-pagination-item',
-    props: {
-      selected: {
-        type: Boolean,
-        default: false,
-      },
+export default {
+  name: 'ca-pagination-item',
+  props: {
+    selected: {
+      type: Boolean,
+      default: false,
     },
-  };
+  },
+};
 </script>

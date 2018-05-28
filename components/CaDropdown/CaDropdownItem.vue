@@ -7,18 +7,18 @@
 </template>
 
 <script>
-  export default {
-    name: 'ca-dropdown-item',
-    props: {
-      value: {
-        type: String,
-        default: '',
-      },
+export default {
+  name: 'ca-dropdown-item',
+  props: {
+    value: {
+      type: String,
+      default: '',
     },
-    methods: {
-      selected() {
-        this.$parent.$emit('input', this.value)
-      }
-    }
-  };
+  },
+  methods: {
+    selected() {
+      this.$parent.$emit('input', this.value);
+    },
+  },
+};
 </script>

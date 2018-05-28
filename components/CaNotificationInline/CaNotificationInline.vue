@@ -19,45 +19,45 @@
 </template>
 
 <script>
-  export default {
-    name: 'ca-notification-inline',
-    props: {
-      error: {
-        type: Boolean,
-        default: false
-      },
-      info: {
-        type: Boolean,
-        default: false
-      },
-      success: {
-        type: Boolean,
-        default: false
-      },
-      warning: {
-        type: Boolean,
-        default: false
-      },
-      title: {
-        type: String,
-        default: ''
-      },
-      subtitle: {
-        type: String,
-        default: ''
-      }
+export default {
+  name: 'ca-notification-inline',
+  props: {
+    error: {
+      type: Boolean,
+      default: false,
     },
-    computed: {
-      dynamicClass () {
-        return {
-          'bx--inline-notification--error': this.error,
-          'bx--inline-notification--info': this.info,
-          'bx--inline-notification--success': this.success,
-          'bx--inline-notification--warning': this.warning,
-        }
-      }
-    }
-  };
+    info: {
+      type: Boolean,
+      default: false,
+    },
+    success: {
+      type: Boolean,
+      default: false,
+    },
+    warning: {
+      type: Boolean,
+      default: false,
+    },
+    title: {
+      type: String,
+      default: '',
+    },
+    subtitle: {
+      type: String,
+      default: '',
+    },
+  },
+  computed: {
+    dynamicClass() {
+      return {
+        'bx--inline-notification--error': this.error,
+        'bx--inline-notification--info': this.info,
+        'bx--inline-notification--success': this.success,
+        'bx--inline-notification--warning': this.warning,
+      };
+    },
+  },
+};
 </script>
 
 <style></style>

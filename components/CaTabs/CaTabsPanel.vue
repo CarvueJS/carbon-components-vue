@@ -5,31 +5,30 @@
 </template>
 
 <script>
-  export default {
-    name: 'ca-tabs-panel',
-    props: {
-      PanelID: {
-        type: String,
-        default: '',
-      },
-      labelledby: {
-        type: String,
-        default: '',
-      },
-      hidden: {
-        type: Boolean,
-        default: true,
-      },
-      ariaHidden: {
-        type: Boolean,
-        default: true,
-      },
-      tabID: {
-        type: String,
-        default: '',
-      },
+export default {
+  name: 'ca-tabs-panel',
+  props: {
+    PanelID: {
+      type: String,
+      default: '',
     },
-  };
+    labelledby: {
+      type: String,
+      default: '',
+    },
+    hidden: {
+      type: Boolean,
+      default: true,
+    },
+    ariaHidden: {
+      type: Boolean,
+      default: true,
+    },
+    tabID: {
+      type: String,
+      default: '',
+    },
+  },
+};
 </script>
-
 

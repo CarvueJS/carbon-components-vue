@@ -10,51 +10,51 @@
 </template>
 
 <script>
-  import { Loading } from 'carbon-components';
+import { Loading } from 'carbon-components';
 
-  export default {
-    data() {
+export default {
+  name: 'ca-loading',
+  props: {
+    show: {
+      type: Boolean,
+      default: true,
+    },
+    withoutOverlay: {
+      type: Boolean,
+      default: false,
+    },
+    small: {
+      type: Boolean,
+      default: false,
+    },
+  },
+  data() {
+    return {
+      loading: null,
+    };
+  },
+  computed: {
+    overlayClass() {
       return {
-        loading: null,
+        'bx--loading-overlay': !this.withoutOverlay,
       };
     },
-    props:{
-      show: {
-        type: Boolean,
-        default: true
-      },
-      withoutOverlay: {
-        type: Boolean,
-        default: false
-      },
-      small: {
-        type: Boolean,
-        default: false
-      }
+    smallClass() {
+      return {
+        'bx--loading--small': this.small,
+      };
     },
-    name: 'ca-loading',
-    watch: {
-      show (newValue) {
-        this.loading.set(newValue)
-      }
+  },
+  watch: {
+    show(newValue) {
+      this.loading.set(newValue);
     },
-    computed: {
-      overlayClass () {
-        return {
-          'bx--loading-overlay': !this.withoutOverlay
-        }
-      },
-      smallClass () {
-        return {
-          'bx--loading--small': this.small
-        }
-      }
-    },
-    mounted() {
-      this.loading = Loading.create(this.$el.querySelector('[data-loading]'));
-      this.loading.set(this.show);
-    },
-  };
+  },
+  mounted() {
+    this.loading = Loading.create(this.$el.querySelector('[data-loading]'));
+    this.loading.set(this.show);
+  },
+};
 </script>
 
 <style></style>

@@ -13,22 +13,22 @@
 </template>
 
 <script>
-  import { Dropdown } from 'carbon-components';
+import { Dropdown } from 'carbon-components';
 
-  export default {
-    name: 'ca-dropdown',
-    props: {
-      value: null
-    },
-    data() {
-      return {
-        dropdown: null,
-      };
-    },
-    mounted() {
-      this.dropdown = Dropdown.create(this.$el);
-    },
-  };
+export default {
+  name: 'ca-dropdown',
+  props: {
+    value: null,
+  },
+  data() {
+    return {
+      dropdown: null,
+    };
+  },
+  mounted() {
+    this.dropdown = Dropdown.create(this.$el);
+  },
+};
 </script>
 
 <style></style>

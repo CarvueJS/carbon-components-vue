@@ -15,43 +15,42 @@
 </template>
 
 <script>
-  import { Slider } from 'carbon-components';
+import { Slider } from 'carbon-components';
 
-  export default {
-    name: 'ca-slider',
-    data() {
-      return {
-        slider: null,
-      };
+export default {
+  name: 'ca-slider',
+  props: {
+    step: {
+      type: Number,
+      default: 1,
     },
-    methods: {
-      change (e) {
-        console.log(e.target.value)
-      }
+    min: {
+      type: Number,
+      default: 0,
     },
-    props: {
-      step: {
-        type: Number,
-        default: 1,
-      },
-      min: {
-        type: Number,
-        default: 0,
-      },
-      max: {
-        type: Number,
-        default: 100,
-      },
-      value: {
-        type: Number,
-        default: 50,
-      },
+    max: {
+      type: Number,
+      default: 100,
     },
-    mounted() {
-      this.slider = Slider.create(this.$el.querySelector('[data-slider]'));
-      this.slider.element.addEventListener('slider-after-value-change', (e)=>{
-        this.$emit('input', e.detail.value)
-      })
+    value: {
+      type: Number,
+      default: 50,
     },
-  };
+  },
+  data() {
+    return {
+      slider: null,
+    };
+  },
+  mounted() {
+    this.slider = Slider.create(this.$el.querySelector('[data-slider]'));
+    this.slider.element.addEventListener('slider-after-value-change', (e) => {
+      this.$emit('input', e.detail.value);
+    });
+  },
+  methods: {
+    change(/* e */) {
+    },
+  },
+};
 </script>

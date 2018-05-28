@@ -7,12 +7,12 @@
 </template>
 
 <script>
-  export default {
-    name: 'ca-radio',
-    mounted() {
-      this.$on('itemChange', this.updateValue)
-    },
-  };
+export default {
+  name: 'ca-radio',
+  mounted() {
+    this.$on('itemChange', this.updateValue);
+  },
+};
 </script>
 
 <style></style>

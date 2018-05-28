@@ -5,21 +5,21 @@
 </template>
 
 <script>
-  export default {
-    name: 'ca-text-input',
-    props: {
-      value: null,
-      placeholder: {
-        type: String,
-        default: '',
-      },
+export default {
+  name: 'ca-text-input',
+  props: {
+    value: null,
+    placeholder: {
+      type: String,
+      default: '',
     },
-    methods: {
-      change (e) {
-        this.$emit('input', e.target.value)
-      }
-    }
-  };
+  },
+  methods: {
+    change(e) {
+      this.$emit('input', e.target.value);
+    },
+  },
+};
 </script>
 
 <style></style>

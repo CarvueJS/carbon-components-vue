@@ -5,9 +5,9 @@
 </template>
 
 <script>
-  export default {
-    name: 'ca-tile',
-  };
+export default {
+  name: 'ca-tile',
+};
 </script>
 
 <style></style>

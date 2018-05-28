@@ -13,20 +13,20 @@
 </template>
 
 <script>
-  export default {
-    name: 'ca-search',
-    props: {
-      value: null,
+export default {
+  name: 'ca-search',
+  props: {
+    value: null,
+  },
+  computed: {
+    dynamicModel: {
+      set(newVal) {
+        this.$emit('input', newVal);
+      },
+      get() {
+        return this.value;
+      },
     },
-    computed: {
-      dynamicModel: {
-        set (newVal) {
-          this.$emit('input', newVal)
-        },
-        get () {
-          return this.value
-        }
-      }
-    }
-  };
+  },
+};
 </script>

@@ -15,26 +15,26 @@
 </template>
 
 <script>
-  export default {
-    name: 'ca-accordion-item',
-    props: {
-      title: {
-        type: String,
-        default: 'title'
-      },
-      active: {
-        type: Boolean,
-        default: false
-      }
+export default {
+  name: 'ca-accordion-item',
+  props: {
+    title: {
+      type: String,
+      default: 'title',
     },
-    computed: {
-      dynamicClass () {
-        return {
-          'bx--accordion__item--active': this.active
-        }
-      }
+    active: {
+      type: Boolean,
+      default: false,
     },
-  };
+  },
+  computed: {
+    dynamicClass() {
+      return {
+        'bx--accordion__item--active': this.active,
+      };
+    },
+  },
+};
 </script>
 
 <style></style>

@@ -7,13 +7,13 @@
 </template>
 
 <script>
-  export default {
-    name: 'ca-overflow-menu-option',
-    props: {
-      onClick: {
-        type: Function,
-        default: () => {}
-      }
-    }
-  };
+export default {
+  name: 'ca-overflow-menu-option',
+  props: {
+    onClick: {
+      type: Function,
+      default: () => {},
+    },
+  },
+};
 </script>

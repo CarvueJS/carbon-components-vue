@@ -5,26 +5,26 @@
 </template>
 
 <script>
-  export default {
-    name: 'ca-content-switcher-button',
-    props: {
-      selected: {
-        type: Boolean,
-        default: false
-      },
-      switchValue: {
-        type: String,
-        default: ''
-      }
+export default {
+  name: 'ca-content-switcher-button',
+  props: {
+    selected: {
+      type: Boolean,
+      default: false,
     },
-    computed: {
-      dynamicClass() {
-        return {
-          'bx--content-switcher--selected': this.selected
-        }
-      }
-    }
-  };
+    switchValue: {
+      type: String,
+      default: '',
+    },
+  },
+  computed: {
+    dynamicClass() {
+      return {
+        'bx--content-switcher--selected': this.selected,
+      };
+    },
+  },
+};
 </script>
 
 <style></style>

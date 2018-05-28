@@ -7,15 +7,15 @@
 </template>
 
 <script>
-  export default {
-    name: 'ca-breadcrumb-item',
-    props: {
-      href: {
-        type: String,
-        default: '#'
-      }
-    }
-  };
+export default {
+  name: 'ca-breadcrumb-item',
+  props: {
+    href: {
+      type: String,
+      default: '#',
+    },
+  },
+};
 </script>
 
 <style></style>

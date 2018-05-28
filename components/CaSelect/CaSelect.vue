@@ -10,15 +10,15 @@
 </template>
 
 <script>
-  export default {
-    name: 'ca-select',
-    props: {
-      value: null
+export default {
+  name: 'ca-select',
+  props: {
+    value: null,
+  },
+  methods: {
+    change(e) {
+      this.$emit('input', e.target.value);
     },
-    methods: {
-      change (e) {
-        this.$emit('input', e.target.value)
-      }
-    }
-  };
+  },
+};
 </script>

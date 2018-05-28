@@ -14,58 +14,58 @@
 
 <script>
 
-  export default {
-    name: 'ca-checkbox',
-    model: {
-      prop: 'inputValue',
-      event: 'inputValueChange'
+export default {
+  name: 'ca-checkbox',
+  model: {
+    prop: 'inputValue',
+    event: 'inputValueChange',
+  },
+  props: {
+    inputValue: {
+      type: Array,
+      default: '',
     },
-    props: {
-      inputValue: {
-        type: Array,
-        default: ''
-      },
-      itemId: {
-        type: String,
-        default: '',
-      },
-      itemValue: {
-        type: String,
-        default: '',
-      },
-      mixed: {
-        type: Boolean,
-        default: false,
-      },
-      ariaChecked: {
-        type: String,
-        default: 'false'
-      },
-      disabled: {
-        type: Boolean,
-        default: false
-      }
+    itemId: {
+      type: String,
+      default: '',
     },
-    computed: {
-      dynamicClass () {
-        return {
+    itemValue: {
+      type: String,
+      default: '',
+    },
+    mixed: {
+      type: Boolean,
+      default: false,
+    },
+    ariaChecked: {
+      type: String,
+      default: 'false',
+    },
+    disabled: {
+      type: Boolean,
+      default: false,
+    },
+  },
+  computed: {
+    dynamicClass() {
+      return {
 
-        }
+      };
+    },
+  },
+  methods: {
+    toggle() {
+      const input = this.inputValue.slice();
+      const i = input.indexOf(this.itemValue);
+      if (i === -1) {
+        input.push(this.itemValue);
+      } else {
+        input.splice(i, 1);
       }
+      this.$emit('inputValueChange', input);
     },
-    methods: {
-      toggle () {
-        let input = this.inputValue.slice()
-        let i = input.indexOf(this.itemValue)
-        if (i === -1) {
-          input.push(this.itemValue)
-        } else {
-          input.splice(i, 1)
-        }
-        this.$emit('inputValueChange', input)
-      },
-    },
-  };
+  },
+};
 </script>
 
 <style></style>

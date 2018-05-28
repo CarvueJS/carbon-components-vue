@@ -51,48 +51,48 @@
 </template>
 
 <script>
-  import { Pagination } from 'carbon-components';
+import { Pagination } from 'carbon-components';
 
-  export default {
-    name: 'ca-pagination',
-    data: () => ({
-      pagination: null
-    }),
-    props: {
-      value: {
-        type: Number,
-        default: 1
-      },
-      prePage: {
-        type: Number,
-        default: 5
-      },
-      numberOfItems: {
-        type: Number,
-        default: 100
+export default {
+  name: 'ca-pagination',
+  props: {
+    value: {
+      type: Number,
+      default: 1,
+    },
+    prePage: {
+      type: Number,
+      default: 5,
+    },
+    numberOfItems: {
+      type: Number,
+      default: 100,
+    },
+  },
+  data: () => ({
+    pagination: null,
+  }),
+  computed: {
+    numberOfPage() {
+      return this.numberOfItems / this.prePage;
+    },
+  },
+  mounted() {
+    this.pagination = Pagination.create(this.$el);
+    this.pagination.element.addEventListener('pageChange', (e) => {
+      if (e.detail.direction === 'forward') {
+        this.value > 1 ? this.$emit('input', this.value - 1) : '';
+      } else {
+        this.$emit('input', this.value + 1);
       }
+    });
+  },
+  methods: {
+    select(e) {
+      this.$emit('input', parseInt(e.target.value));
     },
-    methods: {
-      select (e) {
-        this.$emit('input', parseInt(e.target.value))
-      }
-    },
-    computed: {
-      numberOfPage: function () {
-        return this.numberOfItems/this.prePage
-      }
-    },
-    mounted() {
-      this.pagination = Pagination.create(this.$el);
-      this.pagination.element.addEventListener('pageChange', (e)=>{
-        if (e.detail.direction === 'forward') {
-          this.value > 1 ? this.$emit('input', this.value - 1) : ''
-        } else {
-          this.$emit('input', this.value + 1)
-        }
-      });
-    },
-  };
+  },
+};
 
 </script>
 

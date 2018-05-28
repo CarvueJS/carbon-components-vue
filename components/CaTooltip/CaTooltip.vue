@@ -5,9 +5,9 @@
 </template>
 
 <script>
-  export default {
-    name: 'ca-tooltip',
-  };
+export default {
+  name: 'ca-tooltip',
+};
 </script>
 
 <style></style>

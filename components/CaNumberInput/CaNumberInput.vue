@@ -17,54 +17,54 @@
 </template>
 
 <script>
-  import { NumberInput } from 'carbon-components'
+import { NumberInput } from 'carbon-components';
 
-  export default {
-    name: 'ca-number-input',
-    data: () => ({
-      numberInput: null,
-    }),
-    props: {
-      value: null,
-      max: {
-        type: Number,
-        default: 100,
-      },
-      min: {
-        type: Number,
-        default: 0,
-      },
-      disabled: {
-        type: Boolean,
-        default: false,
-      },
-      step: {
-        type: Number,
-        default: 1,
-      },
-      invalid: {
-        type: Boolean,
-        default: false
-      },
-      invalidText: {
-        type: String,
-        default: 'Provide invalidText'
+export default {
+  name: 'ca-number-input',
+  props: {
+    value: null,
+    max: {
+      type: Number,
+      default: 100,
+    },
+    min: {
+      type: Number,
+      default: 0,
+    },
+    disabled: {
+      type: Boolean,
+      default: false,
+    },
+    step: {
+      type: Number,
+      default: 1,
+    },
+    invalid: {
+      type: Boolean,
+      default: false,
+    },
+    invalidText: {
+      type: String,
+      default: 'Provide invalidText',
+    },
+  },
+  data: () => ({
+    numberInput: null,
+  }),
+  mounted() {
+    this.numberInput = NumberInput.create(this.$el);
+    this.numberInput.element.addEventListener('change', (e) => {
+      // this.$emit('input', e.target.value)
+    });
+  },
+  methods: {
+    handleClick(type) {
+      if (type === 'up') {
+        this.$emit('input', this.value + this.step);
+      } else {
+        this.$emit('input', this.value - this.step);
       }
     },
-    methods: {
-      handleClick (type) {
-        if (type==='up') {
-          this.$emit('input', this.value + this.step)
-        } else {
-          this.$emit('input', this.value - this.step)
-        }
-      }
-    },
-    mounted () {
-      this.numberInput = NumberInput.create(this.$el)
-      this.numberInput.element.addEventListener('change', (e)=>{
-        // this.$emit('input', e.target.value)
-      })
-    }
-  };
+  },
+};
 </script>

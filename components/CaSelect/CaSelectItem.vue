@@ -5,12 +5,12 @@
 </template>
 
 <script>
-  export default {
-    name: 'ca-select-item',
-    props: {
-      value: null,
-    },
-  };
+export default {
+  name: 'ca-select-item',
+  props: {
+    value: null,
+  },
+};
 </script>
 
 <style></style>

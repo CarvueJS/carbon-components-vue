@@ -21,31 +21,31 @@
 </template>
 
 <script>
-  import { FileUploader } from 'carbon-components'
-  
-  export default {
-    name: 'ca-file-uploader',
-    props: {
-      value: null,
-      multiple: {
-        type: Boolean,
-        default: false
-      }
+import { FileUploader } from 'carbon-components';
+
+export default {
+  name: 'ca-file-uploader',
+  props: {
+    value: null,
+    multiple: {
+      type: Boolean,
+      default: false,
     },
-    data: () => ({
-      fileUploader: {}
-    }),
-    mounted () {
-      this.fileUploader = FileUploader.create(this.$el);
+  },
+  data: () => ({
+    fileUploader: {},
+  }),
+  mounted() {
+    this.fileUploader = FileUploader.create(this.$el);
+  },
+  methods: {
+    change() {
+      const image = this.$createElement('img');
+      image.src = URL.createObjectURL(this.fileUploader.input.files[0]);
+      this.$emit('input', image);
     },
-    methods: {
-      change () {
-        var image = this.$createElement('img');
-        image.src = URL.createObjectURL(this.fileUploader.input.files[0]);
-        this.$emit('input', image)
-      }
-    }
-  };
+  },
+};
 </script>
 
 <style></style>

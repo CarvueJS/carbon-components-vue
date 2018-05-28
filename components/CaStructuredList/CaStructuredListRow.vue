@@ -5,9 +5,9 @@
 </template>
 
 <script>
-  export default {
-    name: 'ca-structured-list-row',
-  };
+export default {
+  name: 'ca-structured-list-row',
+};
 </script>
 
 <style></style>

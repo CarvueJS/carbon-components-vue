@@ -6,65 +6,65 @@
 </template>
 
 <script>
-  import { FabButton } from 'carbon-components';
+import { FabButton } from 'carbon-components';
 
-  const initModifiers = ['bx--btn'];
-  const initMixins = [];
+const initModifiers = ['bx--btn'];
+const initMixins = [];
 
-  export default {
-    name: 'ca-button',
-    props: {
-      primary: {
-        type: Boolean,
-        default: false,
-      },
-      secondary: {
-        type: Boolean,
-        default: false,
-      },
-      danger: {
-        type: Boolean,
-        default: false,
-      },
-      sm: {
-        type: Boolean,
-        default: false,
-      },
-      disabled: {
-        type: Boolean,
-        default: false,
-      },
-      icon: {
-        type: String,
-        default: ''
-      }
+export default {
+  name: 'ca-button',
+  props: {
+    primary: {
+      type: Boolean,
+      default: false,
     },
-    computed: {
-      dynamicClass () {
-        return {
-          'bx--btn--primary': this.primary,
-          'bx--btn--secondary': this.secondary,
-          'bx--btn--danger': this.danger,
-          'bx--btn--sm': this.sm
-        }
-      }
+    secondary: {
+      type: Boolean,
+      default: false,
     },
-    data() {
+    danger: {
+      type: Boolean,
+      default: false,
+    },
+    sm: {
+      type: Boolean,
+      default: false,
+    },
+    disabled: {
+      type: Boolean,
+      default: false,
+    },
+    icon: {
+      type: String,
+      default: '',
+    },
+  },
+  data() {
+    return {
+      modifiers: initModifiers,
+      mixins: initMixins,
+    };
+  },
+  computed: {
+    dynamicClass() {
       return {
-        modifiers: initModifiers,
-        mixins: initMixins,
+        'bx--btn--primary': this.primary,
+        'bx--btn--secondary': this.secondary,
+        'bx--btn--danger': this.danger,
+        'bx--btn--sm': this.sm,
       };
     },
-    mounted() {
-//      if (this.primary) this.modifiers.push('bx--btn--primary');
-//      if (this.secondary) this.modifiers.push('bx--btn--secondary');
-//      if (this.danger) this.modifiers.push('bx--btn--danger');
-//      if (this.sm) this.modifiers.push('bx--btn--sm');
-//      const raw = document.querySelector('[data-button]');
-//      raw.className = this.modifiers.join(' ');
-//      const button = FabButton.create(document.querySelector('[data-button]'));
-    },
-  };
+  },
+  mounted() {
+    //      if (this.primary) this.modifiers.push('bx--btn--primary');
+    //      if (this.secondary) this.modifiers.push('bx--btn--secondary');
+    //      if (this.danger) this.modifiers.push('bx--btn--danger');
+    //      if (this.sm) this.modifiers.push('bx--btn--sm');
+    //      const raw = document.querySelector('[data-button]');
+    //      raw.className = this.modifiers.join(' ');
+    //      const button = FabButton.create(document.querySelector('[data-button]'));
+  },
+};
 </script>
 
 <style></style>

@@ -10,25 +10,25 @@
 </template>
 
 <script>
-  export default {
-    name: 'ca-toggle',
-    methods: {
-      change (e) {
-        this.$emit('input', e.target.checked)
-      }
+export default {
+  name: 'ca-toggle',
+  props: {
+    value: null,
+    left: {
+      type: String,
+      default: 'Off',
     },
-    props: {
-      value: null,
-      left: {
-        type: String,
-        default: 'Off',
-      },
-      right: {
-        type: String,
-        default: 'On',
-      },
+    right: {
+      type: String,
+      default: 'On',
     },
-  };
+  },
+  methods: {
+    change(e) {
+      this.$emit('input', e.target.checked);
+    },
+  },
+};
 </script>
 
 <style></style>

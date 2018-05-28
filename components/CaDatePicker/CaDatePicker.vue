@@ -19,7 +19,7 @@
 </template>
 
 <script>
-import { DatePicker } from 'carbon-components'
+import { DatePicker } from 'carbon-components';
 
 export default {
   name: 'ca-date-picker',
@@ -27,35 +27,35 @@ export default {
     value: null,
     errorMessage: {
       type: String,
-      default: 'Invalid date format.'
+      default: 'Invalid date format.',
     },
     placeholder: {
       type: String,
-      default: 'mm/dd/yyyy'
+      default: 'mm/dd/yyyy',
     },
     pattern: {
       type: String,
-      default: '\d{1,2}/\d{1,2}/\d{4}'
+      default: '\d{1,2}/\d{1,2}/\d{4}',
     },
     onUpdate: {
       type: Function,
-      default: () => {}
-    }
+      default: () => {},
+    },
   },
   data() {
     return {
       datePicker: null,
     };
   },
-  mounted () {
-   const picker = this.$el.querySelector('[data-date-picker]');
-   const instance = DatePicker.create(picker, {
-     onValueUpdate: (selectedDates, dateStr, instance) => {
-       this.onUpdate()
-       this.$emit('input', dateStr)
-     }
-   });
-  }
+  mounted() {
+    const picker = this.$el.querySelector('[data-date-picker]');
+    const instance = DatePicker.create(picker, {
+      onValueUpdate: (selectedDates, dateStr, instance) => {
+        this.onUpdate();
+        this.$emit('input', dateStr);
+      },
+    });
+  },
 };
 </script>
 

@@ -10,9 +10,9 @@ module.exports = {
     browser: true,
     jest: true
   },
-  extends: ['airbnb-base','plugin:vue/recommended'],
+  extends: ['airbnb-base','plugin:vue/essential'],
   // required to lint *.vue files
-  plugins: ['html'],
+  plugins: ['vue'],
   // check if imports actually resolve
   settings: {
     'import/resolver': {
@@ -32,6 +32,28 @@ module.exports = {
       optionalDependencies: ['test/unit/index.js']
     }],
     // allow debugger during development
-    'no-debugger': process.env.NODE_ENV === 'production' ? 'error' : 'off'
+    'no-debugger': process.env.NODE_ENV === 'production' ? 'error' : 'off',
+    'vue/order-in-components': ['error', {
+      'order': [
+        'el',
+        'name',
+        'parent',
+        'functional',
+        ['delimiters', 'comments'],
+        ['components', 'directives', 'filters'],
+        'extends',
+        'mixins',
+        'inheritAttrs',
+        'model',
+        ['props', 'propsData'],
+        'data',
+        'computed',
+        'watch',
+        'LIFECYCLE_HOOKS',
+        'methods',
+        ['template', 'render'],
+        'renderError'
+      ]
+    }]
   }
 }

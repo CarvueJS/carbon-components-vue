@@ -5,9 +5,9 @@
 </template>
 
 <script>
-  export default {
-    name: 'ca-list-item',
-  };
+export default {
+  name: 'ca-list-item',
+};
 </script>
 
 <style></style>

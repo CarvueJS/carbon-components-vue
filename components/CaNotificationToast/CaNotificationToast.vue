@@ -15,49 +15,49 @@
 </template>
 
 <script>
-  export default {
-    name: 'ca-notification-toast',
-    props: {
-      error: {
-        type: Boolean,
-        default: false
-      },
-      info: {
-        type: Boolean,
-        default: false
-      },
-      success: {
-        type: Boolean,
-        default: false
-      },
-      warning: {
-        type: Boolean,
-        default: false
-      },
-      title: {
-        type: String,
-        default: ''
-      },
-      subtitle: {
-        type: String,
-        default: ''
-      },
-      caption: {
-        type: String,
-        default: ''
-      }
+export default {
+  name: 'ca-notification-toast',
+  props: {
+    error: {
+      type: Boolean,
+      default: false,
     },
-    computed: {
-      dynamicClass () {
-        return {
-          'bx--toast-notification--error': this.error,
-          'bx--toast-notification--info': this.info,
-          'bx--toast-notification--success': this.success,
-          'bx--toast-notification--warning': this.warning,
-        }
-      }
-    }
-  };
+    info: {
+      type: Boolean,
+      default: false,
+    },
+    success: {
+      type: Boolean,
+      default: false,
+    },
+    warning: {
+      type: Boolean,
+      default: false,
+    },
+    title: {
+      type: String,
+      default: '',
+    },
+    subtitle: {
+      type: String,
+      default: '',
+    },
+    caption: {
+      type: String,
+      default: '',
+    },
+  },
+  computed: {
+    dynamicClass() {
+      return {
+        'bx--toast-notification--error': this.error,
+        'bx--toast-notification--info': this.info,
+        'bx--toast-notification--success': this.success,
+        'bx--toast-notification--warning': this.warning,
+      };
+    },
+  },
+};
 </script>
 
 <style></style>

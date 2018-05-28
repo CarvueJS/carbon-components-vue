@@ -5,14 +5,14 @@
 </template>
 
 <script>
-  import { Accordion } from 'carbon-components';
+import { Accordion } from 'carbon-components';
 
-  export default {
-    name: 'ca-accordion',
-    mounted() {
-      Accordion.create(this.$el);
-    },
-  };
+export default {
+  name: 'ca-accordion',
+  mounted() {
+    Accordion.create(this.$el);
+  },
+};
 </script>
 
 <style></style>

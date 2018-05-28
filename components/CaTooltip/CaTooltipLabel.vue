@@ -3,9 +3,9 @@
 </template>
 
 <script>
-  export default {
-    name: 'ca-tooltip-label',
-  };
+export default {
+  name: 'ca-tooltip-label',
+};
 </script>
 
 <style></style>

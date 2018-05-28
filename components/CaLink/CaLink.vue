@@ -5,15 +5,15 @@
 </template>
 
 <script>
-  export default {
-    name: 'ca-link',
-    props: {
-      href: {
-        type: String,
-        default: '#'
-      }
-    }
-  };
+export default {
+  name: 'ca-link',
+  props: {
+    href: {
+      type: String,
+      default: '#',
+    },
+  },
+};
 </script>
 
 <style></style>

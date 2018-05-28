@@ -13,43 +13,43 @@
 
 <script>
 
-  const initModifer = {
-    'bx--progress-step--complete': false,
-    'bx--progress-step--incomplete': true,
-    'bx--progress-step--current': false,
-  };
+const initModifer = {
+  'bx--progress-step--complete': false,
+  'bx--progress-step--incomplete': true,
+  'bx--progress-step--current': false,
+};
 
-  export default {
-    name: 'ca-progress-indicator-step',
-    props: {
-      isCompleted: {
-        type: Boolean,
-        defalut: false,
-      },
-      isInComplete: {
-        type: Boolean,
-        defalut: true,
-      },
-      isCurrent: {
-        type: Boolean,
-        defalut: false,
-      },
+export default {
+  name: 'ca-progress-indicator-step',
+  props: {
+    isCompleted: {
+      type: Boolean,
+      defalut: false,
     },
-    data() {
+    isInComplete: {
+      type: Boolean,
+      defalut: true,
+    },
+    isCurrent: {
+      type: Boolean,
+      defalut: false,
+    },
+  },
+  data() {
+    return {
+      modifers: initModifer,
+    };
+  },
+  computed: {
+    modifiers() {
       return {
-        modifers: initModifer,
+        'bx--progress-step--complete': this.isCompleted,
+        'bx--progress-step--incomplete': this.isInComplete,
+        'bx--progress-step--current': this.isCurrent,
       };
     },
-    computed: {
-      modifiers() {
-        return {
-          'bx--progress-step--complete': this.isCompleted,
-          'bx--progress-step--incomplete': this.isInComplete,
-          'bx--progress-step--current': this.isCurrent,
-        };
-      },
-    },
-  };
+  },
+};
 </script>
 
 <style></style>

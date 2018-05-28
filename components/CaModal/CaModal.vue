@@ -25,57 +25,57 @@
 </template>
 
 <script>
-  import { Modal } from 'carbon-components'
+import { Modal } from 'carbon-components';
 
-  export default {
-    name: 'ca-modal',
-    props: {
-      modalHeading: {
-        type: String,
-        default: ''
-      },
-      modalLabel: {
-        type: String,
-        default: ''
-      },
-      primaryButtonText: {
-        type: String,
-        default: ''
-      },
-      secondaryButtonText: {
-        type: String,
-        default: ''
-      },
-      show: {
-        type: Boolean,
-        default: false
-      },
-      danger: {
-        type: Boolean,
-        default: false
-      }
+export default {
+  name: 'ca-modal',
+  props: {
+    modalHeading: {
+      type: String,
+      default: '',
     },
-    data: () => ({
-      modal: null
-    }),
-    watch: {
-      show(oldVal, newVal) {
-        console.log(oldVal)
-        newVal ? this.modal.show() : this.modal.hide()
-      }
+    modalLabel: {
+      type: String,
+      default: '',
     },
-    computed: {
-      dynamicClass () {
-        return {
-          'bx--modal--danger': this.danger
-        }
-      }
+    primaryButtonText: {
+      type: String,
+      default: '',
     },
-    mounted () {
-      this.modal = Modal.create(this.$el)
-      this.show ? this.modal.show() : this.modal.hide()
-    }
-  };
+    secondaryButtonText: {
+      type: String,
+      default: '',
+    },
+    show: {
+      type: Boolean,
+      default: false,
+    },
+    danger: {
+      type: Boolean,
+      default: false,
+    },
+  },
+  data: () => ({
+    modal: null,
+  }),
+  computed: {
+    dynamicClass() {
+      return {
+        'bx--modal--danger': this.danger,
+      };
+    },
+  },
+  watch: {
+    show(oldVal, newVal) {
+      console.log(oldVal);
+      newVal ? this.modal.show() : this.modal.hide();
+    },
+  },
+  mounted() {
+    this.modal = Modal.create(this.$el);
+    this.show ? this.modal.show() : this.modal.hide();
+  },
+};
 </script>
 
 <style></style>

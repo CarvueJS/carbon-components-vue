@@ -2,6 +2,10 @@ language: node_js
 node_js:
   - "8"
 
+script:
+  - npm run lint
+  - npm run lint:css
+
 after_success:
   - npm i coveralls
   - cat ./test/unit/coverage/lcov.info | coveralls

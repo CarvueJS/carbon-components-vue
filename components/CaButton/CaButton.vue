@@ -6,7 +6,7 @@
 </template>
 
 <script>
-import { FabButton } from 'carbon-components';
+// import { FabButton } from 'carbon-components';
 
 const initModifiers = ['bx--btn'];
 const initMixins = [];

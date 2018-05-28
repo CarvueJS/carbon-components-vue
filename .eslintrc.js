@@ -27,6 +27,9 @@ module.exports = {
     'import/extensions': ['error', 'always', {
       js: 'never'
     }],
+    'max-len': ['error', 
+      { 'code': 200 }
+    ],
     // allow optionalDependencies
     'import/no-extraneous-dependencies': ['error', {
       optionalDependencies: ['test/unit/index.js']

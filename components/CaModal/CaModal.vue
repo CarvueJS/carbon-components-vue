@@ -67,13 +67,12 @@ export default {
   },
   watch: {
     show(oldVal, newVal) {
-      console.log(oldVal);
-      newVal ? this.modal.show() : this.modal.hide();
+      return newVal ? this.modal.show() : this.modal.hide();
     },
   },
   mounted() {
     this.modal = Modal.create(this.$el);
-    this.show ? this.modal.show() : this.modal.hide();
+    return this.show ? this.modal.show() : this.modal.hide();
   },
 };
 </script>

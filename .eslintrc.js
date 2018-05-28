@@ -34,6 +34,7 @@ module.exports = {
     'import/no-extraneous-dependencies': ['error', {
       optionalDependencies: ['test/unit/index.js']
     }],
+    'no-unused-expressions': ['error', { allowTernary: true }],
     // allow debugger during development
     'no-debugger': process.env.NODE_ENV === 'production' ? 'error' : 'off',
     'vue/order-in-components': ['error', {

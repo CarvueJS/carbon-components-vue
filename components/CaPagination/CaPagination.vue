@@ -80,8 +80,8 @@ export default {
   mounted() {
     this.pagination = Pagination.create(this.$el);
     this.pagination.element.addEventListener('pageChange', (e) => {
-      if (e.detail.direction === 'forward') {
-        this.value > 1 ? this.$emit('input', this.value - 1) : '';
+      if (e.detail.direction === 'forward' && this.value > 1) {
+        this.$emit('input', this.value - 1);
       } else {
         this.$emit('input', this.value + 1);
       }
@@ -89,7 +89,7 @@ export default {
   },
   methods: {
     select(e) {
-      this.$emit('input', parseInt(e.target.value));
+      this.$emit('input', parseInt(e.target.value, 10));
     },
   },
 };

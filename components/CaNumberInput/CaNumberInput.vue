@@ -53,7 +53,7 @@ export default {
   }),
   mounted() {
     this.numberInput = NumberInput.create(this.$el);
-    this.numberInput.element.addEventListener('change', (e) => {
+    this.numberInput.element.addEventListener('change', (/* e */) => {
       // this.$emit('input', e.target.value)
     });
   },

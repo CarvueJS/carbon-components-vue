@@ -49,8 +49,7 @@ export default {
     });
   },
   methods: {
-    change(e) {
-      console.log(e.target.value);
+    change(/* e */) {
     },
   },
 };

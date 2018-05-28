@@ -23,7 +23,7 @@ export default {
   props: {
     inputValue: {
       type: Array,
-      default: '',
+      default: () => [],
     },
     itemId: {
       type: String,

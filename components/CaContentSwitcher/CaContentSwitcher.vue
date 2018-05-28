@@ -5,7 +5,7 @@
 </template>
 
 <script>
-import { ContentSwitcher } from 'carbon-components';
+// import { ContentSwitcher } from 'carbon-components';
 
 export default {
   name: 'ca-content-switcher',

@@ -11,6 +11,6 @@ exports[`CaTabs Mathes snapshot 1`] = `
     </div>
     <ul role="tablist" class="bx--tabs__nav bx--tabs__nav--hidden"></ul>
   </nav>
-  <div></div>
+  <div style="padding: 1rem;"></div>
 </div>
 `;

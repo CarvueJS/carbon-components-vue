@@ -9,6 +9,7 @@ export { default as CaDatePicker } from './CaDatePicker';
 export { default as CaDropdown } from './CaDropdown';
 export { default as CaFileUploader } from './CaFileUploader';
 export { default as CaForm } from './CaForm';
+export { default as CaGrid } from './CaGrid';
 export { default as CaIcon } from './CaIcon';
 export { default as CaLink } from './CaLink';
 export { default as CaList } from './CaList';

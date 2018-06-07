@@ -15,12 +15,12 @@ export default {
     },
     offset: {
       type: String,
-      default: null
-    }
+      default: null,
+    },
   },
   computed: {
     bindClass() {
-      return `${this.col !=null ? `ca-flex__${this.col}` : ''} ${this.offset != null ? `ca-flex__offset-${this.offset}` : ''}`;
+      return `${this.col != null ? `ca-flex__${this.col}` : ''} ${this.offset != null ? `ca-flex__offset-${this.offset}` : ''}`;
     },
   },
 };

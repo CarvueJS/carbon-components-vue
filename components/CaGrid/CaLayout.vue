@@ -10,14 +10,14 @@ export default {
   props: {
     wrap: {
       type: Boolean,
-      default: false
-    }
+      default: false,
+    },
   },
   computed: {
-    bindClass () {
-      return this.wrap ? 'ca-layout__wrap' : ''
-    }
-  }
+    bindClass() {
+      return this.wrap ? 'ca-layout__wrap' : '';
+    },
+  },
 };
 </script>
 

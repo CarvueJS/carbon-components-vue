@@ -20,22 +20,22 @@ export default {
   },
   computed: {
     bindClass() {
-      const breakpoints = this.col.split(' ')
-      let res = ''
-      breakpoints.forEach(bp => {
-        res += `ca-flex__${bp} `
-      })
-      const offsets = this.offset ? this.offset.split(' ') : []
-      offsets.forEach(os => {
-        res += `ca-flex__offset-${os} `
-      })
-      return res
+      const breakpoints = this.col.split(' ');
+      let res = '';
+      breakpoints.forEach((bp) => {
+        res += `ca-flex__${bp} `;
+      });
+      const offsets = this.offset ? this.offset.split(' ') : [];
+      offsets.forEach((os) => {
+        res += `ca-flex__offset-${os} `;
+      });
+      return res;
     },
   },
 };
 </script>
 
-<style>
+<style src="./ca-flex.css">
 /* TODO: use preprocessor to refactor this code ? */
 @media only screen and (max-width: 600px) {
   .ca-flex__offset-xs1 {

@@ -35,7 +35,7 @@ export default {
 };
 </script>
 
-<style src="./ca-flex.css">
+<style>
 /* TODO: use preprocessor to refactor this code ? */
 @media only screen and (max-width: 600px) {
   .ca-flex__offset-xs1 {

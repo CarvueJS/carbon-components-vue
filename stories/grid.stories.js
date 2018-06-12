@@ -29,19 +29,19 @@ storiesOf('Grid', module)
   })).add('Offset', () => ({
     template: `
     <ca-layout wrap>
-      <ca-flex col="xs10" offset="xs1">
+      <ca-flex col="xs10 sm10 md10 lg10 xl10" offset="xs1 sm1 md1 lg1 xl1">
         <ca-tile style="background: #1867c0"/>
       </ca-flex>
 
-      <ca-flex col="xs6" offset="xs4">
+      <ca-flex col="xs6 sm6 md6 lg6 xl6" offset="xs4 sm4 md4 lg4 xl4">
         <ca-tile style="background: #5cbbf6"/>
       </ca-flex>
 
-      <ca-flex col="xs4" offset="xs2">
+      <ca-flex col="xs4 sm4 md4 lg4 xl4" offset="xs2 sm2 md2 lg2 xl2">
         <ca-tile style="background: #1867c0"/>
       </ca-flex>
 
-      <ca-flex col="xs3" offset="xs3">
+      <ca-flex col="xs3 sm3 md3 lg3 xl3" offset="xs3 sm3 md3 lg3 xl3">
         <ca-tile style="background: #4caf50"/>
       </ca-flex>
 

@@ -3,8 +3,11 @@ var webpack = require('webpack')
 const FriendlyErrorsWebpackPlugin = require('friendly-errors-webpack-plugin')
 const ExtractTextPlugin = require('extract-text-webpack-plugin')
 const StylelintPlugin = require('stylelint-webpack-plugin')
+const UglifyJsPlugin = require('uglifyjs-webpack-plugin')
+const MiniCssExtractPlugin = require('mini-css-extract-plugin')
 
 module.exports = {
+  mode: 'production',
   entry: './components/index.js',
   output: {
     path: path.resolve(__dirname, '../dist'),
@@ -18,6 +21,13 @@ module.exports = {
       'vue$': 'vue/dist/vue.esm.js',
       'public': path.resolve(__dirname, './public')
     }
+  },
+  optimization: {
+    minimizer: [
+      new UglifyJsPlugin({
+        sourceMap: false
+      })
+    ]
   },
   module: {
     noParse: /es6-promise\.js$/, // avoid webpack shimming process
@@ -49,10 +59,11 @@ module.exports = {
       },
       {
         test: /\.css$/,
-        use: ExtractTextPlugin.extract({
-          use: ['css-loader']
-        })
-      }
+        use: [
+          MiniCssExtractPlugin.loader,
+          'css-loader'
+        ]
+      },
     ]
   },
   devServer: {
@@ -67,7 +78,9 @@ module.exports = {
     new FriendlyErrorsWebpackPlugin({
       clearConsole: true
     }),
-    new ExtractTextPlugin('carvue.min.css'),
+    new MiniCssExtractPlugin({
+      filename: 'carvue.min.css'
+    }),
     new StylelintPlugin({
       files: ['**/*.vue']
     })
@@ -80,12 +93,6 @@ if (process.env.NODE_ENV === 'production') {
     new webpack.DefinePlugin({
       'process.env': {
         NODE_ENV: '"production"',
-      }
-    }),
-    new webpack.optimize.UglifyJsPlugin({
-      sourceMap: true,
-      compress: {
-        warnings: false
       }
     }),
     new webpack.LoaderOptionsPlugin({

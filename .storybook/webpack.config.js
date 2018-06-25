@@ -32,7 +32,7 @@ module.exports = (storybookBaseConfig, configType) => {
       loader: ['style-loader', 'css-loader'],
       include: [
         path.resolve('stories'),
-        path.resolve('packages'),
+        path.resolve('components'),
         path.resolve('node_modules/carbon-components/css/carbon-components.css'),
         path.resolve('dist'),
       ]

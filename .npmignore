@@ -8,6 +8,7 @@ yarn-error.log
 components/
 public/
 src/
+static/
 webpack.config.build.airui.js
 webpack.config.js
 yarn.lock
@@ -18,6 +19,7 @@ index.html
 .gitignore
 storybook-static/
 .eslintrc.js
+.travis.yml
 stories
 .nyc_output
 packages

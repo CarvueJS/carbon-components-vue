@@ -28,6 +28,7 @@ yarn add carvue
 
 ## Usage
 
+### webpack
 ```javascript
 import Vue from 'vue'
 import Carvue from 'carvue'
@@ -35,6 +36,15 @@ import 'carvue/dist/carvue.min.css'
 
 Vue.use(Carvue)
 ```
+
+### CDN
+
+```html
+<script src="https://cdn.jsdelivr.net/npm/vue"></script>
+<script src="https://cdn.jsdelivr.net/npm/carvue/dist/build.min.js"></script>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/carvue/dist/carvue.min.css"></link>
+```
+
 You could view available Vue Components in this [Demo](https://nicholaslee119.github.io/carbon-components-vue/storybook-static/). 
 
 And you could view usage detail in the bottom panel

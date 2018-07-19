@@ -50,30 +50,9 @@ You could view available Vue Components in this [Demo](https://nicholaslee119.gi
 And you could view usage detail in the bottom panel
 
 
-## Development
+## Document
 
-### Using the server
-
-We recommend the use of Stroybook for developing components
-
-1. Start the server
-
-```bash
-npm run storybook
-```
-
-2. Open your browser to `http://localhost:6006`
-
-3. Develop compponents in their respective folders (`/components`)
-
-4. Write stories for your components in `/stories`
-
-5. Build
-
-```bash
-npm run build
-```
-
+[Document](https://nicholaslee119.github.io/carvuejs-website/dist/index.html)
 
 
 [npm]: https://img.shields.io/npm/v/carvue.svg

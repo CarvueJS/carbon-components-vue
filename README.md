@@ -45,12 +45,12 @@ Vue.use(Carvue)
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/carvue/dist/carvue.min.css"></link>
 ```
 
-You could view available Vue Components in this [Document](https://nicholaslee119.github.io/carvuejs-website/dist/index.html)
+You could view available Vue Components in this [Document](https://carvuejs.github.io/carvuejs-website/dist/index.html)
 
 
 ## Document
 
-[Document](https://nicholaslee119.github.io/carvuejs-website/dist/index.html)
+[Document](https://carvuejs.github.io/carvuejs-website/dist/index.html)
 
 
 [npm]: https://img.shields.io/npm/v/carvue.svg

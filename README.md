@@ -45,9 +45,7 @@ Vue.use(Carvue)
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/carvue/dist/carvue.min.css"></link>
 ```
 
-You could view available Vue Components in this [Demo](https://nicholaslee119.github.io/carbon-components-vue/storybook-static/). 
-
-And you could view usage detail in the bottom panel
+You could view available Vue Components in this [Document](https://nicholaslee119.github.io/carvuejs-website/dist/index.html)
 
 
 ## Document

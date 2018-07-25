@@ -10,9 +10,14 @@
   </a>
 </div>  
 
+
 # Introduction
 
 > Carvue is a UI components library which is based on [Carbon-Design](http://www.carbondesignsystem.com/) and [VueJS](https://vuejs.org/) with ❤️ and Proud to be a [vue-awesome](https://github.com/vuejs/awesome-vue#component-collections)  🎉
+
+## Document
+
+[Carvue.JS](https://carvuejs.github.io/)
 
 ## Installation
 
@@ -47,10 +52,6 @@ Vue.use(Carvue)
 
 You could view available Vue Components in this [Document](https://carvuejs.github.io/carvuejs-website/dist/index.html)
 
-
-## Document
-
-[Document](https://carvuejs.github.io/carvuejs-website/dist/index.html)
 
 
 [npm]: https://img.shields.io/npm/v/carvue.svg

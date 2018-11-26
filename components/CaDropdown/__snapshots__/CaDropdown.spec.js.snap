@@ -1,0 +1,4662 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CaDropdown match snapshot with custom label 1`] = `
+VueWrapper {
+  "_emitted": Object {},
+  "_emittedByOrder": Array [],
+  "element": <ul
+    class="bx--dropdown"
+    data-dropdown=""
+    data-value=""
+    tabindex="0"
+  >
+    <li
+      class="bx--dropdown-text"
+    >
+      Dropdown label
+    </li>
+     
+    <svg
+      class="bx--dropdown__arrow"
+      fill-rule="evenodd"
+      height="5"
+      viewBox="0 0 10 5"
+      width="10"
+    >
+      <path
+        d="M10 0L5 5 0 0z"
+      />
+    </svg>
+     
+    <li>
+      <ul
+        class="bx--dropdown-list"
+      />
+    </li>
+  </ul>,
+  "isVueComponent": true,
+  "options": Object {
+    "attachedToDocument": false,
+  },
+  "update": [Function],
+  "version": 2.5,
+  "vm": VueComponent {
+    "$_mountingOptionsSlots": undefined,
+    "$_originalSlots": Object {},
+    "$attrs": Object {},
+    "$children": Array [],
+    "$createElement": [Function],
+    "$el": <ul
+      class="bx--dropdown"
+      data-dropdown=""
+      data-value=""
+      tabindex="0"
+    >
+      <li
+        class="bx--dropdown-text"
+      >
+        Dropdown label
+      </li>
+       
+      <svg
+        class="bx--dropdown__arrow"
+        fill-rule="evenodd"
+        height="5"
+        viewBox="0 0 10 5"
+        width="10"
+      >
+        <path
+          d="M10 0L5 5 0 0z"
+        />
+      </svg>
+       
+      <li>
+        <ul
+          class="bx--dropdown-list"
+        />
+      </li>
+    </ul>,
+    "$emit": [Function],
+    "$listeners": Object {},
+    "$options": Object {
+      "_Ctor": Object {
+        "4": [Function],
+      },
+      "_base": [Function],
+      "_parentElm": null,
+      "_propKeys": Array [
+        "value",
+        "defaultText",
+      ],
+      "_refElm": null,
+      "beforeCreate": Array [
+        [Function],
+      ],
+      "components": Object {
+        "defaultText": "Hello World",
+        "transition": Object {
+          "render": [Function],
+        },
+        "transition-group": Object {
+          "render": [Function],
+        },
+      },
+      "data": [Function],
+      "defaultText": "Hello World",
+      "directives": Object {},
+      "filters": Object {},
+      "mounted": Array [
+        [Function],
+      ],
+      "name": "ca-dropdown",
+      "props": Object {
+        "defaultText": Object {
+          "default": "Dropdown label",
+          "type": [Function],
+        },
+        "value": Object {
+          "type": null,
+        },
+      },
+      "render": [Function],
+      "staticRenderFns": Array [],
+    },
+    "$parent": undefined,
+    "$refs": Object {},
+    "$root": [Circular],
+    "$scopedSlots": Object {},
+    "$slots": Object {},
+    "$vnode": undefined,
+    "__emitted": Object {},
+    "__emittedByOrder": Array [],
+    "_c": [Function],
+    "_data": Object {
+      "dropdown": Dropdown {
+        "children": Array [],
+        "element": <ul
+          class="bx--dropdown"
+          data-dropdown=""
+          data-value=""
+          tabindex="0"
+        >
+          <li
+            class="bx--dropdown-text"
+          >
+            Dropdown label
+          </li>
+           
+          <svg
+            class="bx--dropdown__arrow"
+            fill-rule="evenodd"
+            height="5"
+            viewBox="0 0 10 5"
+            width="10"
+          >
+            <path
+              d="M10 0L5 5 0 0z"
+            />
+          </svg>
+           
+          <li>
+            <ul
+              class="bx--dropdown-list"
+            />
+          </li>
+        </ul>,
+        "handles": Set {
+          Object {
+            "release": [Function],
+          },
+          Object {
+            "release": [Function],
+          },
+          Object {
+            "release": [Function],
+          },
+          Object {
+            "release": [Function],
+          },
+        },
+        "options": Object {},
+      },
+    },
+    "_directInactive": false,
+    "_events": Object {},
+    "_hasHookEvent": false,
+    "_inactive": null,
+    "_isBeingDestroyed": false,
+    "_isDestroyed": false,
+    "_isMounted": true,
+    "_isVue": true,
+    "_props": Object {
+      "defaultText": "Dropdown label",
+      "value": undefined,
+    },
+    "_renderProxy": VueComponent {
+      "$_mountingOptionsSlots": undefined,
+      "$_originalSlots": Object {},
+      "$attrs": Object {},
+      "$children": Array [],
+      "$createElement": [Function],
+      "$el": <ul
+        class="bx--dropdown"
+        data-dropdown=""
+        data-value=""
+        tabindex="0"
+      >
+        <li
+          class="bx--dropdown-text"
+        >
+          Dropdown label
+        </li>
+         
+        <svg
+          class="bx--dropdown__arrow"
+          fill-rule="evenodd"
+          height="5"
+          viewBox="0 0 10 5"
+          width="10"
+        >
+          <path
+            d="M10 0L5 5 0 0z"
+          />
+        </svg>
+         
+        <li>
+          <ul
+            class="bx--dropdown-list"
+          />
+        </li>
+      </ul>,
+      "$emit": [Function],
+      "$listeners": Object {},
+      "$options": Object {
+        "_Ctor": Object {
+          "4": [Function],
+        },
+        "_base": [Function],
+        "_parentElm": null,
+        "_propKeys": Array [
+          "value",
+          "defaultText",
+        ],
+        "_refElm": null,
+        "beforeCreate": Array [
+          [Function],
+        ],
+        "components": Object {
+          "defaultText": "Hello World",
+          "transition": Object {
+            "render": [Function],
+          },
+          "transition-group": Object {
+            "render": [Function],
+          },
+        },
+        "data": [Function],
+        "defaultText": "Hello World",
+        "directives": Object {},
+        "filters": Object {},
+        "mounted": Array [
+          [Function],
+        ],
+        "name": "ca-dropdown",
+        "props": Object {
+          "defaultText": Object {
+            "default": "Dropdown label",
+            "type": [Function],
+          },
+          "value": Object {
+            "type": null,
+          },
+        },
+        "render": [Function],
+        "staticRenderFns": Array [],
+      },
+      "$parent": undefined,
+      "$refs": Object {},
+      "$root": [Circular],
+      "$scopedSlots": Object {},
+      "$slots": Object {},
+      "$vnode": undefined,
+      "__emitted": Object {},
+      "__emittedByOrder": Array [],
+      "_c": [Function],
+      "_data": Object {
+        "dropdown": Dropdown {
+          "children": Array [],
+          "element": <ul
+            class="bx--dropdown"
+            data-dropdown=""
+            data-value=""
+            tabindex="0"
+          >
+            <li
+              class="bx--dropdown-text"
+            >
+              Dropdown label
+            </li>
+             
+            <svg
+              class="bx--dropdown__arrow"
+              fill-rule="evenodd"
+              height="5"
+              viewBox="0 0 10 5"
+              width="10"
+            >
+              <path
+                d="M10 0L5 5 0 0z"
+              />
+            </svg>
+             
+            <li>
+              <ul
+                class="bx--dropdown-list"
+              />
+            </li>
+          </ul>,
+          "handles": Set {
+            Object {
+              "release": [Function],
+            },
+            Object {
+              "release": [Function],
+            },
+            Object {
+              "release": [Function],
+            },
+            Object {
+              "release": [Function],
+            },
+          },
+          "options": Object {},
+        },
+      },
+      "_directInactive": false,
+      "_events": Object {},
+      "_hasHookEvent": false,
+      "_inactive": null,
+      "_isBeingDestroyed": false,
+      "_isDestroyed": false,
+      "_isMounted": true,
+      "_isVue": true,
+      "_props": Object {
+        "defaultText": "Dropdown label",
+        "value": undefined,
+      },
+      "_renderProxy": [Circular],
+      "_self": [Circular],
+      "_staticTrees": null,
+      "_uid": 2,
+      "_vnode": VNode {
+        "asyncFactory": undefined,
+        "asyncMeta": undefined,
+        "children": Array [
+          VNode {
+            "asyncFactory": undefined,
+            "asyncMeta": undefined,
+            "children": Array [
+              VNode {
+                "asyncFactory": undefined,
+                "asyncMeta": undefined,
+                "children": undefined,
+                "componentInstance": undefined,
+                "componentOptions": undefined,
+                "context": undefined,
+                "data": undefined,
+                "elm": Dropdown label,
+                "fnContext": undefined,
+                "fnOptions": undefined,
+                "fnScopeId": undefined,
+                "isAsyncPlaceholder": false,
+                "isCloned": false,
+                "isComment": false,
+                "isOnce": false,
+                "isRootInsert": false,
+                "isStatic": false,
+                "key": undefined,
+                "ns": undefined,
+                "parent": undefined,
+                "raw": false,
+                "tag": undefined,
+                "text": "Dropdown label",
+              },
+            ],
+            "componentInstance": undefined,
+            "componentOptions": undefined,
+            "context": [Circular],
+            "data": Object {
+              "staticClass": "bx--dropdown-text",
+            },
+            "elm": <li
+              class="bx--dropdown-text"
+            >
+              Dropdown label
+            </li>,
+            "fnContext": undefined,
+            "fnOptions": undefined,
+            "fnScopeId": undefined,
+            "isAsyncPlaceholder": false,
+            "isCloned": false,
+            "isComment": false,
+            "isOnce": false,
+            "isRootInsert": false,
+            "isStatic": false,
+            "key": undefined,
+            "ns": undefined,
+            "parent": undefined,
+            "raw": false,
+            "tag": "li",
+            "text": undefined,
+          },
+          VNode {
+            "asyncFactory": undefined,
+            "asyncMeta": undefined,
+            "children": undefined,
+            "componentInstance": undefined,
+            "componentOptions": undefined,
+            "context": undefined,
+            "data": undefined,
+            "elm":  ,
+            "fnContext": undefined,
+            "fnOptions": undefined,
+            "fnScopeId": undefined,
+            "isAsyncPlaceholder": false,
+            "isCloned": false,
+            "isComment": false,
+            "isOnce": false,
+            "isRootInsert": false,
+            "isStatic": false,
+            "key": undefined,
+            "ns": undefined,
+            "parent": undefined,
+            "raw": false,
+            "tag": undefined,
+            "text": " ",
+          },
+          VNode {
+            "asyncFactory": undefined,
+            "asyncMeta": undefined,
+            "children": Array [
+              VNode {
+                "asyncFactory": undefined,
+                "asyncMeta": undefined,
+                "children": undefined,
+                "componentInstance": undefined,
+                "componentOptions": undefined,
+                "context": [Circular],
+                "data": Object {
+                  "attrs": Object {
+                    "d": "M10 0L5 5 0 0z",
+                  },
+                },
+                "elm": <path
+                  d="M10 0L5 5 0 0z"
+                />,
+                "fnContext": undefined,
+                "fnOptions": undefined,
+                "fnScopeId": undefined,
+                "isAsyncPlaceholder": false,
+                "isCloned": false,
+                "isComment": false,
+                "isOnce": false,
+                "isRootInsert": false,
+                "isStatic": false,
+                "key": undefined,
+                "ns": "svg",
+                "parent": undefined,
+                "raw": false,
+                "tag": "path",
+                "text": undefined,
+              },
+            ],
+            "componentInstance": undefined,
+            "componentOptions": undefined,
+            "context": [Circular],
+            "data": Object {
+              "attrs": Object {
+                "fill-rule": "evenodd",
+                "height": "5",
+                "viewBox": "0 0 10 5",
+                "width": "10",
+              },
+              "staticClass": "bx--dropdown__arrow",
+            },
+            "elm": <svg
+              class="bx--dropdown__arrow"
+              fill-rule="evenodd"
+              height="5"
+              viewBox="0 0 10 5"
+              width="10"
+            >
+              <path
+                d="M10 0L5 5 0 0z"
+              />
+            </svg>,
+            "fnContext": undefined,
+            "fnOptions": undefined,
+            "fnScopeId": undefined,
+            "isAsyncPlaceholder": false,
+            "isCloned": false,
+            "isComment": false,
+            "isOnce": false,
+            "isRootInsert": false,
+            "isStatic": false,
+            "key": undefined,
+            "ns": "svg",
+            "parent": undefined,
+            "raw": false,
+            "tag": "svg",
+            "text": undefined,
+          },
+          VNode {
+            "asyncFactory": undefined,
+            "asyncMeta": undefined,
+            "children": undefined,
+            "componentInstance": undefined,
+            "componentOptions": undefined,
+            "context": undefined,
+            "data": undefined,
+            "elm":  ,
+            "fnContext": undefined,
+            "fnOptions": undefined,
+            "fnScopeId": undefined,
+            "isAsyncPlaceholder": false,
+            "isCloned": false,
+            "isComment": false,
+            "isOnce": false,
+            "isRootInsert": false,
+            "isStatic": false,
+            "key": undefined,
+            "ns": undefined,
+            "parent": undefined,
+            "raw": false,
+            "tag": undefined,
+            "text": " ",
+          },
+          VNode {
+            "asyncFactory": undefined,
+            "asyncMeta": undefined,
+            "children": Array [
+              VNode {
+                "asyncFactory": undefined,
+                "asyncMeta": undefined,
+                "children": Array [],
+                "componentInstance": undefined,
+                "componentOptions": undefined,
+                "context": [Circular],
+                "data": Object {
+                  "staticClass": "bx--dropdown-list",
+                },
+                "elm": <ul
+                  class="bx--dropdown-list"
+                />,
+                "fnContext": undefined,
+                "fnOptions": undefined,
+                "fnScopeId": undefined,
+                "isAsyncPlaceholder": false,
+                "isCloned": false,
+                "isComment": false,
+                "isOnce": false,
+                "isRootInsert": false,
+                "isStatic": false,
+                "key": undefined,
+                "ns": undefined,
+                "parent": undefined,
+                "raw": false,
+                "tag": "ul",
+                "text": undefined,
+              },
+            ],
+            "componentInstance": undefined,
+            "componentOptions": undefined,
+            "context": [Circular],
+            "data": undefined,
+            "elm": <li>
+              <ul
+                class="bx--dropdown-list"
+              />
+            </li>,
+            "fnContext": undefined,
+            "fnOptions": undefined,
+            "fnScopeId": undefined,
+            "isAsyncPlaceholder": false,
+            "isCloned": false,
+            "isComment": false,
+            "isOnce": false,
+            "isRootInsert": false,
+            "isStatic": false,
+            "key": undefined,
+            "ns": undefined,
+            "parent": undefined,
+            "raw": false,
+            "tag": "li",
+            "text": undefined,
+          },
+        ],
+        "componentInstance": undefined,
+        "componentOptions": undefined,
+        "context": [Circular],
+        "data": Object {
+          "attrs": Object {
+            "data-dropdown": "",
+            "data-value": "",
+            "tabindex": "0",
+          },
+          "staticClass": "bx--dropdown",
+        },
+        "elm": <ul
+          class="bx--dropdown"
+          data-dropdown=""
+          data-value=""
+          tabindex="0"
+        >
+          <li
+            class="bx--dropdown-text"
+          >
+            Dropdown label
+          </li>
+           
+          <svg
+            class="bx--dropdown__arrow"
+            fill-rule="evenodd"
+            height="5"
+            viewBox="0 0 10 5"
+            width="10"
+          >
+            <path
+              d="M10 0L5 5 0 0z"
+            />
+          </svg>
+           
+          <li>
+            <ul
+              class="bx--dropdown-list"
+            />
+          </li>
+        </ul>,
+        "fnContext": undefined,
+        "fnOptions": undefined,
+        "fnScopeId": undefined,
+        "isAsyncPlaceholder": false,
+        "isCloned": false,
+        "isComment": false,
+        "isOnce": false,
+        "isRootInsert": true,
+        "isStatic": false,
+        "key": undefined,
+        "ns": undefined,
+        "parent": undefined,
+        "raw": false,
+        "tag": "ul",
+        "text": undefined,
+      },
+      "_watcher": Watcher {
+        "active": true,
+        "cb": [Function],
+        "deep": false,
+        "depIds": Set {
+          20,
+        },
+        "deps": Array [
+          Dep {
+            "id": 20,
+            "subs": Array [
+              [Circular],
+            ],
+          },
+        ],
+        "dirty": false,
+        "expression": "function () {
+      vm._update(vm._render(), hydrating);
+    }",
+        "getter": [Function],
+        "id": 3,
+        "lazy": false,
+        "newDepIds": Set {},
+        "newDeps": Array [],
+        "sync": false,
+        "user": false,
+        "value": undefined,
+        "vm": [Circular],
+      },
+      "_watchers": Array [
+        Watcher {
+          "active": true,
+          "cb": [Function],
+          "deep": false,
+          "depIds": Set {
+            20,
+          },
+          "deps": Array [
+            Dep {
+              "id": 20,
+              "subs": Array [
+                [Circular],
+              ],
+            },
+          ],
+          "dirty": false,
+          "expression": "function () {
+      vm._update(vm._render(), hydrating);
+    }",
+          "getter": [Function],
+          "id": 3,
+          "lazy": false,
+          "newDepIds": Set {},
+          "newDeps": Array [],
+          "sync": false,
+          "user": false,
+          "value": undefined,
+          "vm": [Circular],
+        },
+      ],
+      "dropdown": Dropdown {
+        "children": Array [],
+        "element": <ul
+          class="bx--dropdown"
+          data-dropdown=""
+          data-value=""
+          tabindex="0"
+        >
+          <li
+            class="bx--dropdown-text"
+          >
+            Dropdown label
+          </li>
+           
+          <svg
+            class="bx--dropdown__arrow"
+            fill-rule="evenodd"
+            height="5"
+            viewBox="0 0 10 5"
+            width="10"
+          >
+            <path
+              d="M10 0L5 5 0 0z"
+            />
+          </svg>
+           
+          <li>
+            <ul
+              class="bx--dropdown-list"
+            />
+          </li>
+        </ul>,
+        "handles": Set {
+          Object {
+            "release": [Function],
+          },
+          Object {
+            "release": [Function],
+          },
+          Object {
+            "release": [Function],
+          },
+          Object {
+            "release": [Function],
+          },
+        },
+        "options": Object {},
+      },
+    },
+    "_self": [Circular],
+    "_staticTrees": null,
+    "_uid": 2,
+    "_vnode": VNode {
+      "asyncFactory": undefined,
+      "asyncMeta": undefined,
+      "children": Array [
+        VNode {
+          "asyncFactory": undefined,
+          "asyncMeta": undefined,
+          "children": Array [
+            VNode {
+              "asyncFactory": undefined,
+              "asyncMeta": undefined,
+              "children": undefined,
+              "componentInstance": undefined,
+              "componentOptions": undefined,
+              "context": undefined,
+              "data": undefined,
+              "elm": Dropdown label,
+              "fnContext": undefined,
+              "fnOptions": undefined,
+              "fnScopeId": undefined,
+              "isAsyncPlaceholder": false,
+              "isCloned": false,
+              "isComment": false,
+              "isOnce": false,
+              "isRootInsert": false,
+              "isStatic": false,
+              "key": undefined,
+              "ns": undefined,
+              "parent": undefined,
+              "raw": false,
+              "tag": undefined,
+              "text": "Dropdown label",
+            },
+          ],
+          "componentInstance": undefined,
+          "componentOptions": undefined,
+          "context": [Circular],
+          "data": Object {
+            "staticClass": "bx--dropdown-text",
+          },
+          "elm": <li
+            class="bx--dropdown-text"
+          >
+            Dropdown label
+          </li>,
+          "fnContext": undefined,
+          "fnOptions": undefined,
+          "fnScopeId": undefined,
+          "isAsyncPlaceholder": false,
+          "isCloned": false,
+          "isComment": false,
+          "isOnce": false,
+          "isRootInsert": false,
+          "isStatic": false,
+          "key": undefined,
+          "ns": undefined,
+          "parent": undefined,
+          "raw": false,
+          "tag": "li",
+          "text": undefined,
+        },
+        VNode {
+          "asyncFactory": undefined,
+          "asyncMeta": undefined,
+          "children": undefined,
+          "componentInstance": undefined,
+          "componentOptions": undefined,
+          "context": undefined,
+          "data": undefined,
+          "elm":  ,
+          "fnContext": undefined,
+          "fnOptions": undefined,
+          "fnScopeId": undefined,
+          "isAsyncPlaceholder": false,
+          "isCloned": false,
+          "isComment": false,
+          "isOnce": false,
+          "isRootInsert": false,
+          "isStatic": false,
+          "key": undefined,
+          "ns": undefined,
+          "parent": undefined,
+          "raw": false,
+          "tag": undefined,
+          "text": " ",
+        },
+        VNode {
+          "asyncFactory": undefined,
+          "asyncMeta": undefined,
+          "children": Array [
+            VNode {
+              "asyncFactory": undefined,
+              "asyncMeta": undefined,
+              "children": undefined,
+              "componentInstance": undefined,
+              "componentOptions": undefined,
+              "context": [Circular],
+              "data": Object {
+                "attrs": Object {
+                  "d": "M10 0L5 5 0 0z",
+                },
+              },
+              "elm": <path
+                d="M10 0L5 5 0 0z"
+              />,
+              "fnContext": undefined,
+              "fnOptions": undefined,
+              "fnScopeId": undefined,
+              "isAsyncPlaceholder": false,
+              "isCloned": false,
+              "isComment": false,
+              "isOnce": false,
+              "isRootInsert": false,
+              "isStatic": false,
+              "key": undefined,
+              "ns": "svg",
+              "parent": undefined,
+              "raw": false,
+              "tag": "path",
+              "text": undefined,
+            },
+          ],
+          "componentInstance": undefined,
+          "componentOptions": undefined,
+          "context": [Circular],
+          "data": Object {
+            "attrs": Object {
+              "fill-rule": "evenodd",
+              "height": "5",
+              "viewBox": "0 0 10 5",
+              "width": "10",
+            },
+            "staticClass": "bx--dropdown__arrow",
+          },
+          "elm": <svg
+            class="bx--dropdown__arrow"
+            fill-rule="evenodd"
+            height="5"
+            viewBox="0 0 10 5"
+            width="10"
+          >
+            <path
+              d="M10 0L5 5 0 0z"
+            />
+          </svg>,
+          "fnContext": undefined,
+          "fnOptions": undefined,
+          "fnScopeId": undefined,
+          "isAsyncPlaceholder": false,
+          "isCloned": false,
+          "isComment": false,
+          "isOnce": false,
+          "isRootInsert": false,
+          "isStatic": false,
+          "key": undefined,
+          "ns": "svg",
+          "parent": undefined,
+          "raw": false,
+          "tag": "svg",
+          "text": undefined,
+        },
+        VNode {
+          "asyncFactory": undefined,
+          "asyncMeta": undefined,
+          "children": undefined,
+          "componentInstance": undefined,
+          "componentOptions": undefined,
+          "context": undefined,
+          "data": undefined,
+          "elm":  ,
+          "fnContext": undefined,
+          "fnOptions": undefined,
+          "fnScopeId": undefined,
+          "isAsyncPlaceholder": false,
+          "isCloned": false,
+          "isComment": false,
+          "isOnce": false,
+          "isRootInsert": false,
+          "isStatic": false,
+          "key": undefined,
+          "ns": undefined,
+          "parent": undefined,
+          "raw": false,
+          "tag": undefined,
+          "text": " ",
+        },
+        VNode {
+          "asyncFactory": undefined,
+          "asyncMeta": undefined,
+          "children": Array [
+            VNode {
+              "asyncFactory": undefined,
+              "asyncMeta": undefined,
+              "children": Array [],
+              "componentInstance": undefined,
+              "componentOptions": undefined,
+              "context": [Circular],
+              "data": Object {
+                "staticClass": "bx--dropdown-list",
+              },
+              "elm": <ul
+                class="bx--dropdown-list"
+              />,
+              "fnContext": undefined,
+              "fnOptions": undefined,
+              "fnScopeId": undefined,
+              "isAsyncPlaceholder": false,
+              "isCloned": false,
+              "isComment": false,
+              "isOnce": false,
+              "isRootInsert": false,
+              "isStatic": false,
+              "key": undefined,
+              "ns": undefined,
+              "parent": undefined,
+              "raw": false,
+              "tag": "ul",
+              "text": undefined,
+            },
+          ],
+          "componentInstance": undefined,
+          "componentOptions": undefined,
+          "context": [Circular],
+          "data": undefined,
+          "elm": <li>
+            <ul
+              class="bx--dropdown-list"
+            />
+          </li>,
+          "fnContext": undefined,
+          "fnOptions": undefined,
+          "fnScopeId": undefined,
+          "isAsyncPlaceholder": false,
+          "isCloned": false,
+          "isComment": false,
+          "isOnce": false,
+          "isRootInsert": false,
+          "isStatic": false,
+          "key": undefined,
+          "ns": undefined,
+          "parent": undefined,
+          "raw": false,
+          "tag": "li",
+          "text": undefined,
+        },
+      ],
+      "componentInstance": undefined,
+      "componentOptions": undefined,
+      "context": [Circular],
+      "data": Object {
+        "attrs": Object {
+          "data-dropdown": "",
+          "data-value": "",
+          "tabindex": "0",
+        },
+        "staticClass": "bx--dropdown",
+      },
+      "elm": <ul
+        class="bx--dropdown"
+        data-dropdown=""
+        data-value=""
+        tabindex="0"
+      >
+        <li
+          class="bx--dropdown-text"
+        >
+          Dropdown label
+        </li>
+         
+        <svg
+          class="bx--dropdown__arrow"
+          fill-rule="evenodd"
+          height="5"
+          viewBox="0 0 10 5"
+          width="10"
+        >
+          <path
+            d="M10 0L5 5 0 0z"
+          />
+        </svg>
+         
+        <li>
+          <ul
+            class="bx--dropdown-list"
+          />
+        </li>
+      </ul>,
+      "fnContext": undefined,
+      "fnOptions": undefined,
+      "fnScopeId": undefined,
+      "isAsyncPlaceholder": false,
+      "isCloned": false,
+      "isComment": false,
+      "isOnce": false,
+      "isRootInsert": true,
+      "isStatic": false,
+      "key": undefined,
+      "ns": undefined,
+      "parent": undefined,
+      "raw": false,
+      "tag": "ul",
+      "text": undefined,
+    },
+    "_watcher": Watcher {
+      "active": true,
+      "cb": [Function],
+      "deep": false,
+      "depIds": Set {
+        20,
+      },
+      "deps": Array [
+        Dep {
+          "id": 20,
+          "subs": Array [
+            [Circular],
+          ],
+        },
+      ],
+      "dirty": false,
+      "expression": "function () {
+      vm._update(vm._render(), hydrating);
+    }",
+      "getter": [Function],
+      "id": 3,
+      "lazy": false,
+      "newDepIds": Set {},
+      "newDeps": Array [],
+      "sync": false,
+      "user": false,
+      "value": undefined,
+      "vm": [Circular],
+    },
+    "_watchers": Array [
+      Watcher {
+        "active": true,
+        "cb": [Function],
+        "deep": false,
+        "depIds": Set {
+          20,
+        },
+        "deps": Array [
+          Dep {
+            "id": 20,
+            "subs": Array [
+              [Circular],
+            ],
+          },
+        ],
+        "dirty": false,
+        "expression": "function () {
+      vm._update(vm._render(), hydrating);
+    }",
+        "getter": [Function],
+        "id": 3,
+        "lazy": false,
+        "newDepIds": Set {},
+        "newDeps": Array [],
+        "sync": false,
+        "user": false,
+        "value": undefined,
+        "vm": [Circular],
+      },
+    ],
+    "dropdown": Dropdown {
+      "children": Array [],
+      "element": <ul
+        class="bx--dropdown"
+        data-dropdown=""
+        data-value=""
+        tabindex="0"
+      >
+        <li
+          class="bx--dropdown-text"
+        >
+          Dropdown label
+        </li>
+         
+        <svg
+          class="bx--dropdown__arrow"
+          fill-rule="evenodd"
+          height="5"
+          viewBox="0 0 10 5"
+          width="10"
+        >
+          <path
+            d="M10 0L5 5 0 0z"
+          />
+        </svg>
+         
+        <li>
+          <ul
+            class="bx--dropdown-list"
+          />
+        </li>
+      </ul>,
+      "handles": Set {
+        Object {
+          "release": [Function],
+        },
+        Object {
+          "release": [Function],
+        },
+        Object {
+          "release": [Function],
+        },
+        Object {
+          "release": [Function],
+        },
+      },
+      "options": Object {},
+    },
+  },
+  "vnode": VNode {
+    "asyncFactory": undefined,
+    "asyncMeta": undefined,
+    "children": Array [
+      VNode {
+        "asyncFactory": undefined,
+        "asyncMeta": undefined,
+        "children": Array [
+          VNode {
+            "asyncFactory": undefined,
+            "asyncMeta": undefined,
+            "children": undefined,
+            "componentInstance": undefined,
+            "componentOptions": undefined,
+            "context": undefined,
+            "data": undefined,
+            "elm": Dropdown label,
+            "fnContext": undefined,
+            "fnOptions": undefined,
+            "fnScopeId": undefined,
+            "isAsyncPlaceholder": false,
+            "isCloned": false,
+            "isComment": false,
+            "isOnce": false,
+            "isRootInsert": false,
+            "isStatic": false,
+            "key": undefined,
+            "ns": undefined,
+            "parent": undefined,
+            "raw": false,
+            "tag": undefined,
+            "text": "Dropdown label",
+          },
+        ],
+        "componentInstance": undefined,
+        "componentOptions": undefined,
+        "context": VueComponent {
+          "$_mountingOptionsSlots": undefined,
+          "$_originalSlots": Object {},
+          "$attrs": Object {},
+          "$children": Array [],
+          "$createElement": [Function],
+          "$el": <ul
+            class="bx--dropdown"
+            data-dropdown=""
+            data-value=""
+            tabindex="0"
+          >
+            <li
+              class="bx--dropdown-text"
+            >
+              Dropdown label
+            </li>
+             
+            <svg
+              class="bx--dropdown__arrow"
+              fill-rule="evenodd"
+              height="5"
+              viewBox="0 0 10 5"
+              width="10"
+            >
+              <path
+                d="M10 0L5 5 0 0z"
+              />
+            </svg>
+             
+            <li>
+              <ul
+                class="bx--dropdown-list"
+              />
+            </li>
+          </ul>,
+          "$emit": [Function],
+          "$listeners": Object {},
+          "$options": Object {
+            "_Ctor": Object {
+              "4": [Function],
+            },
+            "_base": [Function],
+            "_parentElm": null,
+            "_propKeys": Array [
+              "value",
+              "defaultText",
+            ],
+            "_refElm": null,
+            "beforeCreate": Array [
+              [Function],
+            ],
+            "components": Object {
+              "defaultText": "Hello World",
+              "transition": Object {
+                "render": [Function],
+              },
+              "transition-group": Object {
+                "render": [Function],
+              },
+            },
+            "data": [Function],
+            "defaultText": "Hello World",
+            "directives": Object {},
+            "filters": Object {},
+            "mounted": Array [
+              [Function],
+            ],
+            "name": "ca-dropdown",
+            "props": Object {
+              "defaultText": Object {
+                "default": "Dropdown label",
+                "type": [Function],
+              },
+              "value": Object {
+                "type": null,
+              },
+            },
+            "render": [Function],
+            "staticRenderFns": Array [],
+          },
+          "$parent": undefined,
+          "$refs": Object {},
+          "$root": [Circular],
+          "$scopedSlots": Object {},
+          "$slots": Object {},
+          "$vnode": undefined,
+          "__emitted": Object {},
+          "__emittedByOrder": Array [],
+          "_c": [Function],
+          "_data": Object {
+            "dropdown": Dropdown {
+              "children": Array [],
+              "element": <ul
+                class="bx--dropdown"
+                data-dropdown=""
+                data-value=""
+                tabindex="0"
+              >
+                <li
+                  class="bx--dropdown-text"
+                >
+                  Dropdown label
+                </li>
+                 
+                <svg
+                  class="bx--dropdown__arrow"
+                  fill-rule="evenodd"
+                  height="5"
+                  viewBox="0 0 10 5"
+                  width="10"
+                >
+                  <path
+                    d="M10 0L5 5 0 0z"
+                  />
+                </svg>
+                 
+                <li>
+                  <ul
+                    class="bx--dropdown-list"
+                  />
+                </li>
+              </ul>,
+              "handles": Set {
+                Object {
+                  "release": [Function],
+                },
+                Object {
+                  "release": [Function],
+                },
+                Object {
+                  "release": [Function],
+                },
+                Object {
+                  "release": [Function],
+                },
+              },
+              "options": Object {},
+            },
+          },
+          "_directInactive": false,
+          "_events": Object {},
+          "_hasHookEvent": false,
+          "_inactive": null,
+          "_isBeingDestroyed": false,
+          "_isDestroyed": false,
+          "_isMounted": true,
+          "_isVue": true,
+          "_props": Object {
+            "defaultText": "Dropdown label",
+            "value": undefined,
+          },
+          "_renderProxy": VueComponent {
+            "$_mountingOptionsSlots": undefined,
+            "$_originalSlots": Object {},
+            "$attrs": Object {},
+            "$children": Array [],
+            "$createElement": [Function],
+            "$el": <ul
+              class="bx--dropdown"
+              data-dropdown=""
+              data-value=""
+              tabindex="0"
+            >
+              <li
+                class="bx--dropdown-text"
+              >
+                Dropdown label
+              </li>
+               
+              <svg
+                class="bx--dropdown__arrow"
+                fill-rule="evenodd"
+                height="5"
+                viewBox="0 0 10 5"
+                width="10"
+              >
+                <path
+                  d="M10 0L5 5 0 0z"
+                />
+              </svg>
+               
+              <li>
+                <ul
+                  class="bx--dropdown-list"
+                />
+              </li>
+            </ul>,
+            "$emit": [Function],
+            "$listeners": Object {},
+            "$options": Object {
+              "_Ctor": Object {
+                "4": [Function],
+              },
+              "_base": [Function],
+              "_parentElm": null,
+              "_propKeys": Array [
+                "value",
+                "defaultText",
+              ],
+              "_refElm": null,
+              "beforeCreate": Array [
+                [Function],
+              ],
+              "components": Object {
+                "defaultText": "Hello World",
+                "transition": Object {
+                  "render": [Function],
+                },
+                "transition-group": Object {
+                  "render": [Function],
+                },
+              },
+              "data": [Function],
+              "defaultText": "Hello World",
+              "directives": Object {},
+              "filters": Object {},
+              "mounted": Array [
+                [Function],
+              ],
+              "name": "ca-dropdown",
+              "props": Object {
+                "defaultText": Object {
+                  "default": "Dropdown label",
+                  "type": [Function],
+                },
+                "value": Object {
+                  "type": null,
+                },
+              },
+              "render": [Function],
+              "staticRenderFns": Array [],
+            },
+            "$parent": undefined,
+            "$refs": Object {},
+            "$root": [Circular],
+            "$scopedSlots": Object {},
+            "$slots": Object {},
+            "$vnode": undefined,
+            "__emitted": Object {},
+            "__emittedByOrder": Array [],
+            "_c": [Function],
+            "_data": Object {
+              "dropdown": Dropdown {
+                "children": Array [],
+                "element": <ul
+                  class="bx--dropdown"
+                  data-dropdown=""
+                  data-value=""
+                  tabindex="0"
+                >
+                  <li
+                    class="bx--dropdown-text"
+                  >
+                    Dropdown label
+                  </li>
+                   
+                  <svg
+                    class="bx--dropdown__arrow"
+                    fill-rule="evenodd"
+                    height="5"
+                    viewBox="0 0 10 5"
+                    width="10"
+                  >
+                    <path
+                      d="M10 0L5 5 0 0z"
+                    />
+                  </svg>
+                   
+                  <li>
+                    <ul
+                      class="bx--dropdown-list"
+                    />
+                  </li>
+                </ul>,
+                "handles": Set {
+                  Object {
+                    "release": [Function],
+                  },
+                  Object {
+                    "release": [Function],
+                  },
+                  Object {
+                    "release": [Function],
+                  },
+                  Object {
+                    "release": [Function],
+                  },
+                },
+                "options": Object {},
+              },
+            },
+            "_directInactive": false,
+            "_events": Object {},
+            "_hasHookEvent": false,
+            "_inactive": null,
+            "_isBeingDestroyed": false,
+            "_isDestroyed": false,
+            "_isMounted": true,
+            "_isVue": true,
+            "_props": Object {
+              "defaultText": "Dropdown label",
+              "value": undefined,
+            },
+            "_renderProxy": [Circular],
+            "_self": [Circular],
+            "_staticTrees": null,
+            "_uid": 2,
+            "_vnode": [Circular],
+            "_watcher": Watcher {
+              "active": true,
+              "cb": [Function],
+              "deep": false,
+              "depIds": Set {
+                20,
+              },
+              "deps": Array [
+                Dep {
+                  "id": 20,
+                  "subs": Array [
+                    [Circular],
+                  ],
+                },
+              ],
+              "dirty": false,
+              "expression": "function () {
+      vm._update(vm._render(), hydrating);
+    }",
+              "getter": [Function],
+              "id": 3,
+              "lazy": false,
+              "newDepIds": Set {},
+              "newDeps": Array [],
+              "sync": false,
+              "user": false,
+              "value": undefined,
+              "vm": [Circular],
+            },
+            "_watchers": Array [
+              Watcher {
+                "active": true,
+                "cb": [Function],
+                "deep": false,
+                "depIds": Set {
+                  20,
+                },
+                "deps": Array [
+                  Dep {
+                    "id": 20,
+                    "subs": Array [
+                      [Circular],
+                    ],
+                  },
+                ],
+                "dirty": false,
+                "expression": "function () {
+      vm._update(vm._render(), hydrating);
+    }",
+                "getter": [Function],
+                "id": 3,
+                "lazy": false,
+                "newDepIds": Set {},
+                "newDeps": Array [],
+                "sync": false,
+                "user": false,
+                "value": undefined,
+                "vm": [Circular],
+              },
+            ],
+            "dropdown": Dropdown {
+              "children": Array [],
+              "element": <ul
+                class="bx--dropdown"
+                data-dropdown=""
+                data-value=""
+                tabindex="0"
+              >
+                <li
+                  class="bx--dropdown-text"
+                >
+                  Dropdown label
+                </li>
+                 
+                <svg
+                  class="bx--dropdown__arrow"
+                  fill-rule="evenodd"
+                  height="5"
+                  viewBox="0 0 10 5"
+                  width="10"
+                >
+                  <path
+                    d="M10 0L5 5 0 0z"
+                  />
+                </svg>
+                 
+                <li>
+                  <ul
+                    class="bx--dropdown-list"
+                  />
+                </li>
+              </ul>,
+              "handles": Set {
+                Object {
+                  "release": [Function],
+                },
+                Object {
+                  "release": [Function],
+                },
+                Object {
+                  "release": [Function],
+                },
+                Object {
+                  "release": [Function],
+                },
+              },
+              "options": Object {},
+            },
+          },
+          "_self": [Circular],
+          "_staticTrees": null,
+          "_uid": 2,
+          "_vnode": [Circular],
+          "_watcher": Watcher {
+            "active": true,
+            "cb": [Function],
+            "deep": false,
+            "depIds": Set {
+              20,
+            },
+            "deps": Array [
+              Dep {
+                "id": 20,
+                "subs": Array [
+                  [Circular],
+                ],
+              },
+            ],
+            "dirty": false,
+            "expression": "function () {
+      vm._update(vm._render(), hydrating);
+    }",
+            "getter": [Function],
+            "id": 3,
+            "lazy": false,
+            "newDepIds": Set {},
+            "newDeps": Array [],
+            "sync": false,
+            "user": false,
+            "value": undefined,
+            "vm": [Circular],
+          },
+          "_watchers": Array [
+            Watcher {
+              "active": true,
+              "cb": [Function],
+              "deep": false,
+              "depIds": Set {
+                20,
+              },
+              "deps": Array [
+                Dep {
+                  "id": 20,
+                  "subs": Array [
+                    [Circular],
+                  ],
+                },
+              ],
+              "dirty": false,
+              "expression": "function () {
+      vm._update(vm._render(), hydrating);
+    }",
+              "getter": [Function],
+              "id": 3,
+              "lazy": false,
+              "newDepIds": Set {},
+              "newDeps": Array [],
+              "sync": false,
+              "user": false,
+              "value": undefined,
+              "vm": [Circular],
+            },
+          ],
+          "dropdown": Dropdown {
+            "children": Array [],
+            "element": <ul
+              class="bx--dropdown"
+              data-dropdown=""
+              data-value=""
+              tabindex="0"
+            >
+              <li
+                class="bx--dropdown-text"
+              >
+                Dropdown label
+              </li>
+               
+              <svg
+                class="bx--dropdown__arrow"
+                fill-rule="evenodd"
+                height="5"
+                viewBox="0 0 10 5"
+                width="10"
+              >
+                <path
+                  d="M10 0L5 5 0 0z"
+                />
+              </svg>
+               
+              <li>
+                <ul
+                  class="bx--dropdown-list"
+                />
+              </li>
+            </ul>,
+            "handles": Set {
+              Object {
+                "release": [Function],
+              },
+              Object {
+                "release": [Function],
+              },
+              Object {
+                "release": [Function],
+              },
+              Object {
+                "release": [Function],
+              },
+            },
+            "options": Object {},
+          },
+        },
+        "data": Object {
+          "staticClass": "bx--dropdown-text",
+        },
+        "elm": <li
+          class="bx--dropdown-text"
+        >
+          Dropdown label
+        </li>,
+        "fnContext": undefined,
+        "fnOptions": undefined,
+        "fnScopeId": undefined,
+        "isAsyncPlaceholder": false,
+        "isCloned": false,
+        "isComment": false,
+        "isOnce": false,
+        "isRootInsert": false,
+        "isStatic": false,
+        "key": undefined,
+        "ns": undefined,
+        "parent": undefined,
+        "raw": false,
+        "tag": "li",
+        "text": undefined,
+      },
+      VNode {
+        "asyncFactory": undefined,
+        "asyncMeta": undefined,
+        "children": undefined,
+        "componentInstance": undefined,
+        "componentOptions": undefined,
+        "context": undefined,
+        "data": undefined,
+        "elm":  ,
+        "fnContext": undefined,
+        "fnOptions": undefined,
+        "fnScopeId": undefined,
+        "isAsyncPlaceholder": false,
+        "isCloned": false,
+        "isComment": false,
+        "isOnce": false,
+        "isRootInsert": false,
+        "isStatic": false,
+        "key": undefined,
+        "ns": undefined,
+        "parent": undefined,
+        "raw": false,
+        "tag": undefined,
+        "text": " ",
+      },
+      VNode {
+        "asyncFactory": undefined,
+        "asyncMeta": undefined,
+        "children": Array [
+          VNode {
+            "asyncFactory": undefined,
+            "asyncMeta": undefined,
+            "children": undefined,
+            "componentInstance": undefined,
+            "componentOptions": undefined,
+            "context": VueComponent {
+              "$_mountingOptionsSlots": undefined,
+              "$_originalSlots": Object {},
+              "$attrs": Object {},
+              "$children": Array [],
+              "$createElement": [Function],
+              "$el": <ul
+                class="bx--dropdown"
+                data-dropdown=""
+                data-value=""
+                tabindex="0"
+              >
+                <li
+                  class="bx--dropdown-text"
+                >
+                  Dropdown label
+                </li>
+                 
+                <svg
+                  class="bx--dropdown__arrow"
+                  fill-rule="evenodd"
+                  height="5"
+                  viewBox="0 0 10 5"
+                  width="10"
+                >
+                  <path
+                    d="M10 0L5 5 0 0z"
+                  />
+                </svg>
+                 
+                <li>
+                  <ul
+                    class="bx--dropdown-list"
+                  />
+                </li>
+              </ul>,
+              "$emit": [Function],
+              "$listeners": Object {},
+              "$options": Object {
+                "_Ctor": Object {
+                  "4": [Function],
+                },
+                "_base": [Function],
+                "_parentElm": null,
+                "_propKeys": Array [
+                  "value",
+                  "defaultText",
+                ],
+                "_refElm": null,
+                "beforeCreate": Array [
+                  [Function],
+                ],
+                "components": Object {
+                  "defaultText": "Hello World",
+                  "transition": Object {
+                    "render": [Function],
+                  },
+                  "transition-group": Object {
+                    "render": [Function],
+                  },
+                },
+                "data": [Function],
+                "defaultText": "Hello World",
+                "directives": Object {},
+                "filters": Object {},
+                "mounted": Array [
+                  [Function],
+                ],
+                "name": "ca-dropdown",
+                "props": Object {
+                  "defaultText": Object {
+                    "default": "Dropdown label",
+                    "type": [Function],
+                  },
+                  "value": Object {
+                    "type": null,
+                  },
+                },
+                "render": [Function],
+                "staticRenderFns": Array [],
+              },
+              "$parent": undefined,
+              "$refs": Object {},
+              "$root": [Circular],
+              "$scopedSlots": Object {},
+              "$slots": Object {},
+              "$vnode": undefined,
+              "__emitted": Object {},
+              "__emittedByOrder": Array [],
+              "_c": [Function],
+              "_data": Object {
+                "dropdown": Dropdown {
+                  "children": Array [],
+                  "element": <ul
+                    class="bx--dropdown"
+                    data-dropdown=""
+                    data-value=""
+                    tabindex="0"
+                  >
+                    <li
+                      class="bx--dropdown-text"
+                    >
+                      Dropdown label
+                    </li>
+                     
+                    <svg
+                      class="bx--dropdown__arrow"
+                      fill-rule="evenodd"
+                      height="5"
+                      viewBox="0 0 10 5"
+                      width="10"
+                    >
+                      <path
+                        d="M10 0L5 5 0 0z"
+                      />
+                    </svg>
+                     
+                    <li>
+                      <ul
+                        class="bx--dropdown-list"
+                      />
+                    </li>
+                  </ul>,
+                  "handles": Set {
+                    Object {
+                      "release": [Function],
+                    },
+                    Object {
+                      "release": [Function],
+                    },
+                    Object {
+                      "release": [Function],
+                    },
+                    Object {
+                      "release": [Function],
+                    },
+                  },
+                  "options": Object {},
+                },
+              },
+              "_directInactive": false,
+              "_events": Object {},
+              "_hasHookEvent": false,
+              "_inactive": null,
+              "_isBeingDestroyed": false,
+              "_isDestroyed": false,
+              "_isMounted": true,
+              "_isVue": true,
+              "_props": Object {
+                "defaultText": "Dropdown label",
+                "value": undefined,
+              },
+              "_renderProxy": VueComponent {
+                "$_mountingOptionsSlots": undefined,
+                "$_originalSlots": Object {},
+                "$attrs": Object {},
+                "$children": Array [],
+                "$createElement": [Function],
+                "$el": <ul
+                  class="bx--dropdown"
+                  data-dropdown=""
+                  data-value=""
+                  tabindex="0"
+                >
+                  <li
+                    class="bx--dropdown-text"
+                  >
+                    Dropdown label
+                  </li>
+                   
+                  <svg
+                    class="bx--dropdown__arrow"
+                    fill-rule="evenodd"
+                    height="5"
+                    viewBox="0 0 10 5"
+                    width="10"
+                  >
+                    <path
+                      d="M10 0L5 5 0 0z"
+                    />
+                  </svg>
+                   
+                  <li>
+                    <ul
+                      class="bx--dropdown-list"
+                    />
+                  </li>
+                </ul>,
+                "$emit": [Function],
+                "$listeners": Object {},
+                "$options": Object {
+                  "_Ctor": Object {
+                    "4": [Function],
+                  },
+                  "_base": [Function],
+                  "_parentElm": null,
+                  "_propKeys": Array [
+                    "value",
+                    "defaultText",
+                  ],
+                  "_refElm": null,
+                  "beforeCreate": Array [
+                    [Function],
+                  ],
+                  "components": Object {
+                    "defaultText": "Hello World",
+                    "transition": Object {
+                      "render": [Function],
+                    },
+                    "transition-group": Object {
+                      "render": [Function],
+                    },
+                  },
+                  "data": [Function],
+                  "defaultText": "Hello World",
+                  "directives": Object {},
+                  "filters": Object {},
+                  "mounted": Array [
+                    [Function],
+                  ],
+                  "name": "ca-dropdown",
+                  "props": Object {
+                    "defaultText": Object {
+                      "default": "Dropdown label",
+                      "type": [Function],
+                    },
+                    "value": Object {
+                      "type": null,
+                    },
+                  },
+                  "render": [Function],
+                  "staticRenderFns": Array [],
+                },
+                "$parent": undefined,
+                "$refs": Object {},
+                "$root": [Circular],
+                "$scopedSlots": Object {},
+                "$slots": Object {},
+                "$vnode": undefined,
+                "__emitted": Object {},
+                "__emittedByOrder": Array [],
+                "_c": [Function],
+                "_data": Object {
+                  "dropdown": Dropdown {
+                    "children": Array [],
+                    "element": <ul
+                      class="bx--dropdown"
+                      data-dropdown=""
+                      data-value=""
+                      tabindex="0"
+                    >
+                      <li
+                        class="bx--dropdown-text"
+                      >
+                        Dropdown label
+                      </li>
+                       
+                      <svg
+                        class="bx--dropdown__arrow"
+                        fill-rule="evenodd"
+                        height="5"
+                        viewBox="0 0 10 5"
+                        width="10"
+                      >
+                        <path
+                          d="M10 0L5 5 0 0z"
+                        />
+                      </svg>
+                       
+                      <li>
+                        <ul
+                          class="bx--dropdown-list"
+                        />
+                      </li>
+                    </ul>,
+                    "handles": Set {
+                      Object {
+                        "release": [Function],
+                      },
+                      Object {
+                        "release": [Function],
+                      },
+                      Object {
+                        "release": [Function],
+                      },
+                      Object {
+                        "release": [Function],
+                      },
+                    },
+                    "options": Object {},
+                  },
+                },
+                "_directInactive": false,
+                "_events": Object {},
+                "_hasHookEvent": false,
+                "_inactive": null,
+                "_isBeingDestroyed": false,
+                "_isDestroyed": false,
+                "_isMounted": true,
+                "_isVue": true,
+                "_props": Object {
+                  "defaultText": "Dropdown label",
+                  "value": undefined,
+                },
+                "_renderProxy": [Circular],
+                "_self": [Circular],
+                "_staticTrees": null,
+                "_uid": 2,
+                "_vnode": [Circular],
+                "_watcher": Watcher {
+                  "active": true,
+                  "cb": [Function],
+                  "deep": false,
+                  "depIds": Set {
+                    20,
+                  },
+                  "deps": Array [
+                    Dep {
+                      "id": 20,
+                      "subs": Array [
+                        [Circular],
+                      ],
+                    },
+                  ],
+                  "dirty": false,
+                  "expression": "function () {
+      vm._update(vm._render(), hydrating);
+    }",
+                  "getter": [Function],
+                  "id": 3,
+                  "lazy": false,
+                  "newDepIds": Set {},
+                  "newDeps": Array [],
+                  "sync": false,
+                  "user": false,
+                  "value": undefined,
+                  "vm": [Circular],
+                },
+                "_watchers": Array [
+                  Watcher {
+                    "active": true,
+                    "cb": [Function],
+                    "deep": false,
+                    "depIds": Set {
+                      20,
+                    },
+                    "deps": Array [
+                      Dep {
+                        "id": 20,
+                        "subs": Array [
+                          [Circular],
+                        ],
+                      },
+                    ],
+                    "dirty": false,
+                    "expression": "function () {
+      vm._update(vm._render(), hydrating);
+    }",
+                    "getter": [Function],
+                    "id": 3,
+                    "lazy": false,
+                    "newDepIds": Set {},
+                    "newDeps": Array [],
+                    "sync": false,
+                    "user": false,
+                    "value": undefined,
+                    "vm": [Circular],
+                  },
+                ],
+                "dropdown": Dropdown {
+                  "children": Array [],
+                  "element": <ul
+                    class="bx--dropdown"
+                    data-dropdown=""
+                    data-value=""
+                    tabindex="0"
+                  >
+                    <li
+                      class="bx--dropdown-text"
+                    >
+                      Dropdown label
+                    </li>
+                     
+                    <svg
+                      class="bx--dropdown__arrow"
+                      fill-rule="evenodd"
+                      height="5"
+                      viewBox="0 0 10 5"
+                      width="10"
+                    >
+                      <path
+                        d="M10 0L5 5 0 0z"
+                      />
+                    </svg>
+                     
+                    <li>
+                      <ul
+                        class="bx--dropdown-list"
+                      />
+                    </li>
+                  </ul>,
+                  "handles": Set {
+                    Object {
+                      "release": [Function],
+                    },
+                    Object {
+                      "release": [Function],
+                    },
+                    Object {
+                      "release": [Function],
+                    },
+                    Object {
+                      "release": [Function],
+                    },
+                  },
+                  "options": Object {},
+                },
+              },
+              "_self": [Circular],
+              "_staticTrees": null,
+              "_uid": 2,
+              "_vnode": [Circular],
+              "_watcher": Watcher {
+                "active": true,
+                "cb": [Function],
+                "deep": false,
+                "depIds": Set {
+                  20,
+                },
+                "deps": Array [
+                  Dep {
+                    "id": 20,
+                    "subs": Array [
+                      [Circular],
+                    ],
+                  },
+                ],
+                "dirty": false,
+                "expression": "function () {
+      vm._update(vm._render(), hydrating);
+    }",
+                "getter": [Function],
+                "id": 3,
+                "lazy": false,
+                "newDepIds": Set {},
+                "newDeps": Array [],
+                "sync": false,
+                "user": false,
+                "value": undefined,
+                "vm": [Circular],
+              },
+              "_watchers": Array [
+                Watcher {
+                  "active": true,
+                  "cb": [Function],
+                  "deep": false,
+                  "depIds": Set {
+                    20,
+                  },
+                  "deps": Array [
+                    Dep {
+                      "id": 20,
+                      "subs": Array [
+                        [Circular],
+                      ],
+                    },
+                  ],
+                  "dirty": false,
+                  "expression": "function () {
+      vm._update(vm._render(), hydrating);
+    }",
+                  "getter": [Function],
+                  "id": 3,
+                  "lazy": false,
+                  "newDepIds": Set {},
+                  "newDeps": Array [],
+                  "sync": false,
+                  "user": false,
+                  "value": undefined,
+                  "vm": [Circular],
+                },
+              ],
+              "dropdown": Dropdown {
+                "children": Array [],
+                "element": <ul
+                  class="bx--dropdown"
+                  data-dropdown=""
+                  data-value=""
+                  tabindex="0"
+                >
+                  <li
+                    class="bx--dropdown-text"
+                  >
+                    Dropdown label
+                  </li>
+                   
+                  <svg
+                    class="bx--dropdown__arrow"
+                    fill-rule="evenodd"
+                    height="5"
+                    viewBox="0 0 10 5"
+                    width="10"
+                  >
+                    <path
+                      d="M10 0L5 5 0 0z"
+                    />
+                  </svg>
+                   
+                  <li>
+                    <ul
+                      class="bx--dropdown-list"
+                    />
+                  </li>
+                </ul>,
+                "handles": Set {
+                  Object {
+                    "release": [Function],
+                  },
+                  Object {
+                    "release": [Function],
+                  },
+                  Object {
+                    "release": [Function],
+                  },
+                  Object {
+                    "release": [Function],
+                  },
+                },
+                "options": Object {},
+              },
+            },
+            "data": Object {
+              "attrs": Object {
+                "d": "M10 0L5 5 0 0z",
+              },
+            },
+            "elm": <path
+              d="M10 0L5 5 0 0z"
+            />,
+            "fnContext": undefined,
+            "fnOptions": undefined,
+            "fnScopeId": undefined,
+            "isAsyncPlaceholder": false,
+            "isCloned": false,
+            "isComment": false,
+            "isOnce": false,
+            "isRootInsert": false,
+            "isStatic": false,
+            "key": undefined,
+            "ns": "svg",
+            "parent": undefined,
+            "raw": false,
+            "tag": "path",
+            "text": undefined,
+          },
+        ],
+        "componentInstance": undefined,
+        "componentOptions": undefined,
+        "context": VueComponent {
+          "$_mountingOptionsSlots": undefined,
+          "$_originalSlots": Object {},
+          "$attrs": Object {},
+          "$children": Array [],
+          "$createElement": [Function],
+          "$el": <ul
+            class="bx--dropdown"
+            data-dropdown=""
+            data-value=""
+            tabindex="0"
+          >
+            <li
+              class="bx--dropdown-text"
+            >
+              Dropdown label
+            </li>
+             
+            <svg
+              class="bx--dropdown__arrow"
+              fill-rule="evenodd"
+              height="5"
+              viewBox="0 0 10 5"
+              width="10"
+            >
+              <path
+                d="M10 0L5 5 0 0z"
+              />
+            </svg>
+             
+            <li>
+              <ul
+                class="bx--dropdown-list"
+              />
+            </li>
+          </ul>,
+          "$emit": [Function],
+          "$listeners": Object {},
+          "$options": Object {
+            "_Ctor": Object {
+              "4": [Function],
+            },
+            "_base": [Function],
+            "_parentElm": null,
+            "_propKeys": Array [
+              "value",
+              "defaultText",
+            ],
+            "_refElm": null,
+            "beforeCreate": Array [
+              [Function],
+            ],
+            "components": Object {
+              "defaultText": "Hello World",
+              "transition": Object {
+                "render": [Function],
+              },
+              "transition-group": Object {
+                "render": [Function],
+              },
+            },
+            "data": [Function],
+            "defaultText": "Hello World",
+            "directives": Object {},
+            "filters": Object {},
+            "mounted": Array [
+              [Function],
+            ],
+            "name": "ca-dropdown",
+            "props": Object {
+              "defaultText": Object {
+                "default": "Dropdown label",
+                "type": [Function],
+              },
+              "value": Object {
+                "type": null,
+              },
+            },
+            "render": [Function],
+            "staticRenderFns": Array [],
+          },
+          "$parent": undefined,
+          "$refs": Object {},
+          "$root": [Circular],
+          "$scopedSlots": Object {},
+          "$slots": Object {},
+          "$vnode": undefined,
+          "__emitted": Object {},
+          "__emittedByOrder": Array [],
+          "_c": [Function],
+          "_data": Object {
+            "dropdown": Dropdown {
+              "children": Array [],
+              "element": <ul
+                class="bx--dropdown"
+                data-dropdown=""
+                data-value=""
+                tabindex="0"
+              >
+                <li
+                  class="bx--dropdown-text"
+                >
+                  Dropdown label
+                </li>
+                 
+                <svg
+                  class="bx--dropdown__arrow"
+                  fill-rule="evenodd"
+                  height="5"
+                  viewBox="0 0 10 5"
+                  width="10"
+                >
+                  <path
+                    d="M10 0L5 5 0 0z"
+                  />
+                </svg>
+                 
+                <li>
+                  <ul
+                    class="bx--dropdown-list"
+                  />
+                </li>
+              </ul>,
+              "handles": Set {
+                Object {
+                  "release": [Function],
+                },
+                Object {
+                  "release": [Function],
+                },
+                Object {
+                  "release": [Function],
+                },
+                Object {
+                  "release": [Function],
+                },
+              },
+              "options": Object {},
+            },
+          },
+          "_directInactive": false,
+          "_events": Object {},
+          "_hasHookEvent": false,
+          "_inactive": null,
+          "_isBeingDestroyed": false,
+          "_isDestroyed": false,
+          "_isMounted": true,
+          "_isVue": true,
+          "_props": Object {
+            "defaultText": "Dropdown label",
+            "value": undefined,
+          },
+          "_renderProxy": VueComponent {
+            "$_mountingOptionsSlots": undefined,
+            "$_originalSlots": Object {},
+            "$attrs": Object {},
+            "$children": Array [],
+            "$createElement": [Function],
+            "$el": <ul
+              class="bx--dropdown"
+              data-dropdown=""
+              data-value=""
+              tabindex="0"
+            >
+              <li
+                class="bx--dropdown-text"
+              >
+                Dropdown label
+              </li>
+               
+              <svg
+                class="bx--dropdown__arrow"
+                fill-rule="evenodd"
+                height="5"
+                viewBox="0 0 10 5"
+                width="10"
+              >
+                <path
+                  d="M10 0L5 5 0 0z"
+                />
+              </svg>
+               
+              <li>
+                <ul
+                  class="bx--dropdown-list"
+                />
+              </li>
+            </ul>,
+            "$emit": [Function],
+            "$listeners": Object {},
+            "$options": Object {
+              "_Ctor": Object {
+                "4": [Function],
+              },
+              "_base": [Function],
+              "_parentElm": null,
+              "_propKeys": Array [
+                "value",
+                "defaultText",
+              ],
+              "_refElm": null,
+              "beforeCreate": Array [
+                [Function],
+              ],
+              "components": Object {
+                "defaultText": "Hello World",
+                "transition": Object {
+                  "render": [Function],
+                },
+                "transition-group": Object {
+                  "render": [Function],
+                },
+              },
+              "data": [Function],
+              "defaultText": "Hello World",
+              "directives": Object {},
+              "filters": Object {},
+              "mounted": Array [
+                [Function],
+              ],
+              "name": "ca-dropdown",
+              "props": Object {
+                "defaultText": Object {
+                  "default": "Dropdown label",
+                  "type": [Function],
+                },
+                "value": Object {
+                  "type": null,
+                },
+              },
+              "render": [Function],
+              "staticRenderFns": Array [],
+            },
+            "$parent": undefined,
+            "$refs": Object {},
+            "$root": [Circular],
+            "$scopedSlots": Object {},
+            "$slots": Object {},
+            "$vnode": undefined,
+            "__emitted": Object {},
+            "__emittedByOrder": Array [],
+            "_c": [Function],
+            "_data": Object {
+              "dropdown": Dropdown {
+                "children": Array [],
+                "element": <ul
+                  class="bx--dropdown"
+                  data-dropdown=""
+                  data-value=""
+                  tabindex="0"
+                >
+                  <li
+                    class="bx--dropdown-text"
+                  >
+                    Dropdown label
+                  </li>
+                   
+                  <svg
+                    class="bx--dropdown__arrow"
+                    fill-rule="evenodd"
+                    height="5"
+                    viewBox="0 0 10 5"
+                    width="10"
+                  >
+                    <path
+                      d="M10 0L5 5 0 0z"
+                    />
+                  </svg>
+                   
+                  <li>
+                    <ul
+                      class="bx--dropdown-list"
+                    />
+                  </li>
+                </ul>,
+                "handles": Set {
+                  Object {
+                    "release": [Function],
+                  },
+                  Object {
+                    "release": [Function],
+                  },
+                  Object {
+                    "release": [Function],
+                  },
+                  Object {
+                    "release": [Function],
+                  },
+                },
+                "options": Object {},
+              },
+            },
+            "_directInactive": false,
+            "_events": Object {},
+            "_hasHookEvent": false,
+            "_inactive": null,
+            "_isBeingDestroyed": false,
+            "_isDestroyed": false,
+            "_isMounted": true,
+            "_isVue": true,
+            "_props": Object {
+              "defaultText": "Dropdown label",
+              "value": undefined,
+            },
+            "_renderProxy": [Circular],
+            "_self": [Circular],
+            "_staticTrees": null,
+            "_uid": 2,
+            "_vnode": [Circular],
+            "_watcher": Watcher {
+              "active": true,
+              "cb": [Function],
+              "deep": false,
+              "depIds": Set {
+                20,
+              },
+              "deps": Array [
+                Dep {
+                  "id": 20,
+                  "subs": Array [
+                    [Circular],
+                  ],
+                },
+              ],
+              "dirty": false,
+              "expression": "function () {
+      vm._update(vm._render(), hydrating);
+    }",
+              "getter": [Function],
+              "id": 3,
+              "lazy": false,
+              "newDepIds": Set {},
+              "newDeps": Array [],
+              "sync": false,
+              "user": false,
+              "value": undefined,
+              "vm": [Circular],
+            },
+            "_watchers": Array [
+              Watcher {
+                "active": true,
+                "cb": [Function],
+                "deep": false,
+                "depIds": Set {
+                  20,
+                },
+                "deps": Array [
+                  Dep {
+                    "id": 20,
+                    "subs": Array [
+                      [Circular],
+                    ],
+                  },
+                ],
+                "dirty": false,
+                "expression": "function () {
+      vm._update(vm._render(), hydrating);
+    }",
+                "getter": [Function],
+                "id": 3,
+                "lazy": false,
+                "newDepIds": Set {},
+                "newDeps": Array [],
+                "sync": false,
+                "user": false,
+                "value": undefined,
+                "vm": [Circular],
+              },
+            ],
+            "dropdown": Dropdown {
+              "children": Array [],
+              "element": <ul
+                class="bx--dropdown"
+                data-dropdown=""
+                data-value=""
+                tabindex="0"
+              >
+                <li
+                  class="bx--dropdown-text"
+                >
+                  Dropdown label
+                </li>
+                 
+                <svg
+                  class="bx--dropdown__arrow"
+                  fill-rule="evenodd"
+                  height="5"
+                  viewBox="0 0 10 5"
+                  width="10"
+                >
+                  <path
+                    d="M10 0L5 5 0 0z"
+                  />
+                </svg>
+                 
+                <li>
+                  <ul
+                    class="bx--dropdown-list"
+                  />
+                </li>
+              </ul>,
+              "handles": Set {
+                Object {
+                  "release": [Function],
+                },
+                Object {
+                  "release": [Function],
+                },
+                Object {
+                  "release": [Function],
+                },
+                Object {
+                  "release": [Function],
+                },
+              },
+              "options": Object {},
+            },
+          },
+          "_self": [Circular],
+          "_staticTrees": null,
+          "_uid": 2,
+          "_vnode": [Circular],
+          "_watcher": Watcher {
+            "active": true,
+            "cb": [Function],
+            "deep": false,
+            "depIds": Set {
+              20,
+            },
+            "deps": Array [
+              Dep {
+                "id": 20,
+                "subs": Array [
+                  [Circular],
+                ],
+              },
+            ],
+            "dirty": false,
+            "expression": "function () {
+      vm._update(vm._render(), hydrating);
+    }",
+            "getter": [Function],
+            "id": 3,
+            "lazy": false,
+            "newDepIds": Set {},
+            "newDeps": Array [],
+            "sync": false,
+            "user": false,
+            "value": undefined,
+            "vm": [Circular],
+          },
+          "_watchers": Array [
+            Watcher {
+              "active": true,
+              "cb": [Function],
+              "deep": false,
+              "depIds": Set {
+                20,
+              },
+              "deps": Array [
+                Dep {
+                  "id": 20,
+                  "subs": Array [
+                    [Circular],
+                  ],
+                },
+              ],
+              "dirty": false,
+              "expression": "function () {
+      vm._update(vm._render(), hydrating);
+    }",
+              "getter": [Function],
+              "id": 3,
+              "lazy": false,
+              "newDepIds": Set {},
+              "newDeps": Array [],
+              "sync": false,
+              "user": false,
+              "value": undefined,
+              "vm": [Circular],
+            },
+          ],
+          "dropdown": Dropdown {
+            "children": Array [],
+            "element": <ul
+              class="bx--dropdown"
+              data-dropdown=""
+              data-value=""
+              tabindex="0"
+            >
+              <li
+                class="bx--dropdown-text"
+              >
+                Dropdown label
+              </li>
+               
+              <svg
+                class="bx--dropdown__arrow"
+                fill-rule="evenodd"
+                height="5"
+                viewBox="0 0 10 5"
+                width="10"
+              >
+                <path
+                  d="M10 0L5 5 0 0z"
+                />
+              </svg>
+               
+              <li>
+                <ul
+                  class="bx--dropdown-list"
+                />
+              </li>
+            </ul>,
+            "handles": Set {
+              Object {
+                "release": [Function],
+              },
+              Object {
+                "release": [Function],
+              },
+              Object {
+                "release": [Function],
+              },
+              Object {
+                "release": [Function],
+              },
+            },
+            "options": Object {},
+          },
+        },
+        "data": Object {
+          "attrs": Object {
+            "fill-rule": "evenodd",
+            "height": "5",
+            "viewBox": "0 0 10 5",
+            "width": "10",
+          },
+          "staticClass": "bx--dropdown__arrow",
+        },
+        "elm": <svg
+          class="bx--dropdown__arrow"
+          fill-rule="evenodd"
+          height="5"
+          viewBox="0 0 10 5"
+          width="10"
+        >
+          <path
+            d="M10 0L5 5 0 0z"
+          />
+        </svg>,
+        "fnContext": undefined,
+        "fnOptions": undefined,
+        "fnScopeId": undefined,
+        "isAsyncPlaceholder": false,
+        "isCloned": false,
+        "isComment": false,
+        "isOnce": false,
+        "isRootInsert": false,
+        "isStatic": false,
+        "key": undefined,
+        "ns": "svg",
+        "parent": undefined,
+        "raw": false,
+        "tag": "svg",
+        "text": undefined,
+      },
+      VNode {
+        "asyncFactory": undefined,
+        "asyncMeta": undefined,
+        "children": undefined,
+        "componentInstance": undefined,
+        "componentOptions": undefined,
+        "context": undefined,
+        "data": undefined,
+        "elm":  ,
+        "fnContext": undefined,
+        "fnOptions": undefined,
+        "fnScopeId": undefined,
+        "isAsyncPlaceholder": false,
+        "isCloned": false,
+        "isComment": false,
+        "isOnce": false,
+        "isRootInsert": false,
+        "isStatic": false,
+        "key": undefined,
+        "ns": undefined,
+        "parent": undefined,
+        "raw": false,
+        "tag": undefined,
+        "text": " ",
+      },
+      VNode {
+        "asyncFactory": undefined,
+        "asyncMeta": undefined,
+        "children": Array [
+          VNode {
+            "asyncFactory": undefined,
+            "asyncMeta": undefined,
+            "children": Array [],
+            "componentInstance": undefined,
+            "componentOptions": undefined,
+            "context": VueComponent {
+              "$_mountingOptionsSlots": undefined,
+              "$_originalSlots": Object {},
+              "$attrs": Object {},
+              "$children": Array [],
+              "$createElement": [Function],
+              "$el": <ul
+                class="bx--dropdown"
+                data-dropdown=""
+                data-value=""
+                tabindex="0"
+              >
+                <li
+                  class="bx--dropdown-text"
+                >
+                  Dropdown label
+                </li>
+                 
+                <svg
+                  class="bx--dropdown__arrow"
+                  fill-rule="evenodd"
+                  height="5"
+                  viewBox="0 0 10 5"
+                  width="10"
+                >
+                  <path
+                    d="M10 0L5 5 0 0z"
+                  />
+                </svg>
+                 
+                <li>
+                  <ul
+                    class="bx--dropdown-list"
+                  />
+                </li>
+              </ul>,
+              "$emit": [Function],
+              "$listeners": Object {},
+              "$options": Object {
+                "_Ctor": Object {
+                  "4": [Function],
+                },
+                "_base": [Function],
+                "_parentElm": null,
+                "_propKeys": Array [
+                  "value",
+                  "defaultText",
+                ],
+                "_refElm": null,
+                "beforeCreate": Array [
+                  [Function],
+                ],
+                "components": Object {
+                  "defaultText": "Hello World",
+                  "transition": Object {
+                    "render": [Function],
+                  },
+                  "transition-group": Object {
+                    "render": [Function],
+                  },
+                },
+                "data": [Function],
+                "defaultText": "Hello World",
+                "directives": Object {},
+                "filters": Object {},
+                "mounted": Array [
+                  [Function],
+                ],
+                "name": "ca-dropdown",
+                "props": Object {
+                  "defaultText": Object {
+                    "default": "Dropdown label",
+                    "type": [Function],
+                  },
+                  "value": Object {
+                    "type": null,
+                  },
+                },
+                "render": [Function],
+                "staticRenderFns": Array [],
+              },
+              "$parent": undefined,
+              "$refs": Object {},
+              "$root": [Circular],
+              "$scopedSlots": Object {},
+              "$slots": Object {},
+              "$vnode": undefined,
+              "__emitted": Object {},
+              "__emittedByOrder": Array [],
+              "_c": [Function],
+              "_data": Object {
+                "dropdown": Dropdown {
+                  "children": Array [],
+                  "element": <ul
+                    class="bx--dropdown"
+                    data-dropdown=""
+                    data-value=""
+                    tabindex="0"
+                  >
+                    <li
+                      class="bx--dropdown-text"
+                    >
+                      Dropdown label
+                    </li>
+                     
+                    <svg
+                      class="bx--dropdown__arrow"
+                      fill-rule="evenodd"
+                      height="5"
+                      viewBox="0 0 10 5"
+                      width="10"
+                    >
+                      <path
+                        d="M10 0L5 5 0 0z"
+                      />
+                    </svg>
+                     
+                    <li>
+                      <ul
+                        class="bx--dropdown-list"
+                      />
+                    </li>
+                  </ul>,
+                  "handles": Set {
+                    Object {
+                      "release": [Function],
+                    },
+                    Object {
+                      "release": [Function],
+                    },
+                    Object {
+                      "release": [Function],
+                    },
+                    Object {
+                      "release": [Function],
+                    },
+                  },
+                  "options": Object {},
+                },
+              },
+              "_directInactive": false,
+              "_events": Object {},
+              "_hasHookEvent": false,
+              "_inactive": null,
+              "_isBeingDestroyed": false,
+              "_isDestroyed": false,
+              "_isMounted": true,
+              "_isVue": true,
+              "_props": Object {
+                "defaultText": "Dropdown label",
+                "value": undefined,
+              },
+              "_renderProxy": VueComponent {
+                "$_mountingOptionsSlots": undefined,
+                "$_originalSlots": Object {},
+                "$attrs": Object {},
+                "$children": Array [],
+                "$createElement": [Function],
+                "$el": <ul
+                  class="bx--dropdown"
+                  data-dropdown=""
+                  data-value=""
+                  tabindex="0"
+                >
+                  <li
+                    class="bx--dropdown-text"
+                  >
+                    Dropdown label
+                  </li>
+                   
+                  <svg
+                    class="bx--dropdown__arrow"
+                    fill-rule="evenodd"
+                    height="5"
+                    viewBox="0 0 10 5"
+                    width="10"
+                  >
+                    <path
+                      d="M10 0L5 5 0 0z"
+                    />
+                  </svg>
+                   
+                  <li>
+                    <ul
+                      class="bx--dropdown-list"
+                    />
+                  </li>
+                </ul>,
+                "$emit": [Function],
+                "$listeners": Object {},
+                "$options": Object {
+                  "_Ctor": Object {
+                    "4": [Function],
+                  },
+                  "_base": [Function],
+                  "_parentElm": null,
+                  "_propKeys": Array [
+                    "value",
+                    "defaultText",
+                  ],
+                  "_refElm": null,
+                  "beforeCreate": Array [
+                    [Function],
+                  ],
+                  "components": Object {
+                    "defaultText": "Hello World",
+                    "transition": Object {
+                      "render": [Function],
+                    },
+                    "transition-group": Object {
+                      "render": [Function],
+                    },
+                  },
+                  "data": [Function],
+                  "defaultText": "Hello World",
+                  "directives": Object {},
+                  "filters": Object {},
+                  "mounted": Array [
+                    [Function],
+                  ],
+                  "name": "ca-dropdown",
+                  "props": Object {
+                    "defaultText": Object {
+                      "default": "Dropdown label",
+                      "type": [Function],
+                    },
+                    "value": Object {
+                      "type": null,
+                    },
+                  },
+                  "render": [Function],
+                  "staticRenderFns": Array [],
+                },
+                "$parent": undefined,
+                "$refs": Object {},
+                "$root": [Circular],
+                "$scopedSlots": Object {},
+                "$slots": Object {},
+                "$vnode": undefined,
+                "__emitted": Object {},
+                "__emittedByOrder": Array [],
+                "_c": [Function],
+                "_data": Object {
+                  "dropdown": Dropdown {
+                    "children": Array [],
+                    "element": <ul
+                      class="bx--dropdown"
+                      data-dropdown=""
+                      data-value=""
+                      tabindex="0"
+                    >
+                      <li
+                        class="bx--dropdown-text"
+                      >
+                        Dropdown label
+                      </li>
+                       
+                      <svg
+                        class="bx--dropdown__arrow"
+                        fill-rule="evenodd"
+                        height="5"
+                        viewBox="0 0 10 5"
+                        width="10"
+                      >
+                        <path
+                          d="M10 0L5 5 0 0z"
+                        />
+                      </svg>
+                       
+                      <li>
+                        <ul
+                          class="bx--dropdown-list"
+                        />
+                      </li>
+                    </ul>,
+                    "handles": Set {
+                      Object {
+                        "release": [Function],
+                      },
+                      Object {
+                        "release": [Function],
+                      },
+                      Object {
+                        "release": [Function],
+                      },
+                      Object {
+                        "release": [Function],
+                      },
+                    },
+                    "options": Object {},
+                  },
+                },
+                "_directInactive": false,
+                "_events": Object {},
+                "_hasHookEvent": false,
+                "_inactive": null,
+                "_isBeingDestroyed": false,
+                "_isDestroyed": false,
+                "_isMounted": true,
+                "_isVue": true,
+                "_props": Object {
+                  "defaultText": "Dropdown label",
+                  "value": undefined,
+                },
+                "_renderProxy": [Circular],
+                "_self": [Circular],
+                "_staticTrees": null,
+                "_uid": 2,
+                "_vnode": [Circular],
+                "_watcher": Watcher {
+                  "active": true,
+                  "cb": [Function],
+                  "deep": false,
+                  "depIds": Set {
+                    20,
+                  },
+                  "deps": Array [
+                    Dep {
+                      "id": 20,
+                      "subs": Array [
+                        [Circular],
+                      ],
+                    },
+                  ],
+                  "dirty": false,
+                  "expression": "function () {
+      vm._update(vm._render(), hydrating);
+    }",
+                  "getter": [Function],
+                  "id": 3,
+                  "lazy": false,
+                  "newDepIds": Set {},
+                  "newDeps": Array [],
+                  "sync": false,
+                  "user": false,
+                  "value": undefined,
+                  "vm": [Circular],
+                },
+                "_watchers": Array [
+                  Watcher {
+                    "active": true,
+                    "cb": [Function],
+                    "deep": false,
+                    "depIds": Set {
+                      20,
+                    },
+                    "deps": Array [
+                      Dep {
+                        "id": 20,
+                        "subs": Array [
+                          [Circular],
+                        ],
+                      },
+                    ],
+                    "dirty": false,
+                    "expression": "function () {
+      vm._update(vm._render(), hydrating);
+    }",
+                    "getter": [Function],
+                    "id": 3,
+                    "lazy": false,
+                    "newDepIds": Set {},
+                    "newDeps": Array [],
+                    "sync": false,
+                    "user": false,
+                    "value": undefined,
+                    "vm": [Circular],
+                  },
+                ],
+                "dropdown": Dropdown {
+                  "children": Array [],
+                  "element": <ul
+                    class="bx--dropdown"
+                    data-dropdown=""
+                    data-value=""
+                    tabindex="0"
+                  >
+                    <li
+                      class="bx--dropdown-text"
+                    >
+                      Dropdown label
+                    </li>
+                     
+                    <svg
+                      class="bx--dropdown__arrow"
+                      fill-rule="evenodd"
+                      height="5"
+                      viewBox="0 0 10 5"
+                      width="10"
+                    >
+                      <path
+                        d="M10 0L5 5 0 0z"
+                      />
+                    </svg>
+                     
+                    <li>
+                      <ul
+                        class="bx--dropdown-list"
+                      />
+                    </li>
+                  </ul>,
+                  "handles": Set {
+                    Object {
+                      "release": [Function],
+                    },
+                    Object {
+                      "release": [Function],
+                    },
+                    Object {
+                      "release": [Function],
+                    },
+                    Object {
+                      "release": [Function],
+                    },
+                  },
+                  "options": Object {},
+                },
+              },
+              "_self": [Circular],
+              "_staticTrees": null,
+              "_uid": 2,
+              "_vnode": [Circular],
+              "_watcher": Watcher {
+                "active": true,
+                "cb": [Function],
+                "deep": false,
+                "depIds": Set {
+                  20,
+                },
+                "deps": Array [
+                  Dep {
+                    "id": 20,
+                    "subs": Array [
+                      [Circular],
+                    ],
+                  },
+                ],
+                "dirty": false,
+                "expression": "function () {
+      vm._update(vm._render(), hydrating);
+    }",
+                "getter": [Function],
+                "id": 3,
+                "lazy": false,
+                "newDepIds": Set {},
+                "newDeps": Array [],
+                "sync": false,
+                "user": false,
+                "value": undefined,
+                "vm": [Circular],
+              },
+              "_watchers": Array [
+                Watcher {
+                  "active": true,
+                  "cb": [Function],
+                  "deep": false,
+                  "depIds": Set {
+                    20,
+                  },
+                  "deps": Array [
+                    Dep {
+                      "id": 20,
+                      "subs": Array [
+                        [Circular],
+                      ],
+                    },
+                  ],
+                  "dirty": false,
+                  "expression": "function () {
+      vm._update(vm._render(), hydrating);
+    }",
+                  "getter": [Function],
+                  "id": 3,
+                  "lazy": false,
+                  "newDepIds": Set {},
+                  "newDeps": Array [],
+                  "sync": false,
+                  "user": false,
+                  "value": undefined,
+                  "vm": [Circular],
+                },
+              ],
+              "dropdown": Dropdown {
+                "children": Array [],
+                "element": <ul
+                  class="bx--dropdown"
+                  data-dropdown=""
+                  data-value=""
+                  tabindex="0"
+                >
+                  <li
+                    class="bx--dropdown-text"
+                  >
+                    Dropdown label
+                  </li>
+                   
+                  <svg
+                    class="bx--dropdown__arrow"
+                    fill-rule="evenodd"
+                    height="5"
+                    viewBox="0 0 10 5"
+                    width="10"
+                  >
+                    <path
+                      d="M10 0L5 5 0 0z"
+                    />
+                  </svg>
+                   
+                  <li>
+                    <ul
+                      class="bx--dropdown-list"
+                    />
+                  </li>
+                </ul>,
+                "handles": Set {
+                  Object {
+                    "release": [Function],
+                  },
+                  Object {
+                    "release": [Function],
+                  },
+                  Object {
+                    "release": [Function],
+                  },
+                  Object {
+                    "release": [Function],
+                  },
+                },
+                "options": Object {},
+              },
+            },
+            "data": Object {
+              "staticClass": "bx--dropdown-list",
+            },
+            "elm": <ul
+              class="bx--dropdown-list"
+            />,
+            "fnContext": undefined,
+            "fnOptions": undefined,
+            "fnScopeId": undefined,
+            "isAsyncPlaceholder": false,
+            "isCloned": false,
+            "isComment": false,
+            "isOnce": false,
+            "isRootInsert": false,
+            "isStatic": false,
+            "key": undefined,
+            "ns": undefined,
+            "parent": undefined,
+            "raw": false,
+            "tag": "ul",
+            "text": undefined,
+          },
+        ],
+        "componentInstance": undefined,
+        "componentOptions": undefined,
+        "context": VueComponent {
+          "$_mountingOptionsSlots": undefined,
+          "$_originalSlots": Object {},
+          "$attrs": Object {},
+          "$children": Array [],
+          "$createElement": [Function],
+          "$el": <ul
+            class="bx--dropdown"
+            data-dropdown=""
+            data-value=""
+            tabindex="0"
+          >
+            <li
+              class="bx--dropdown-text"
+            >
+              Dropdown label
+            </li>
+             
+            <svg
+              class="bx--dropdown__arrow"
+              fill-rule="evenodd"
+              height="5"
+              viewBox="0 0 10 5"
+              width="10"
+            >
+              <path
+                d="M10 0L5 5 0 0z"
+              />
+            </svg>
+             
+            <li>
+              <ul
+                class="bx--dropdown-list"
+              />
+            </li>
+          </ul>,
+          "$emit": [Function],
+          "$listeners": Object {},
+          "$options": Object {
+            "_Ctor": Object {
+              "4": [Function],
+            },
+            "_base": [Function],
+            "_parentElm": null,
+            "_propKeys": Array [
+              "value",
+              "defaultText",
+            ],
+            "_refElm": null,
+            "beforeCreate": Array [
+              [Function],
+            ],
+            "components": Object {
+              "defaultText": "Hello World",
+              "transition": Object {
+                "render": [Function],
+              },
+              "transition-group": Object {
+                "render": [Function],
+              },
+            },
+            "data": [Function],
+            "defaultText": "Hello World",
+            "directives": Object {},
+            "filters": Object {},
+            "mounted": Array [
+              [Function],
+            ],
+            "name": "ca-dropdown",
+            "props": Object {
+              "defaultText": Object {
+                "default": "Dropdown label",
+                "type": [Function],
+              },
+              "value": Object {
+                "type": null,
+              },
+            },
+            "render": [Function],
+            "staticRenderFns": Array [],
+          },
+          "$parent": undefined,
+          "$refs": Object {},
+          "$root": [Circular],
+          "$scopedSlots": Object {},
+          "$slots": Object {},
+          "$vnode": undefined,
+          "__emitted": Object {},
+          "__emittedByOrder": Array [],
+          "_c": [Function],
+          "_data": Object {
+            "dropdown": Dropdown {
+              "children": Array [],
+              "element": <ul
+                class="bx--dropdown"
+                data-dropdown=""
+                data-value=""
+                tabindex="0"
+              >
+                <li
+                  class="bx--dropdown-text"
+                >
+                  Dropdown label
+                </li>
+                 
+                <svg
+                  class="bx--dropdown__arrow"
+                  fill-rule="evenodd"
+                  height="5"
+                  viewBox="0 0 10 5"
+                  width="10"
+                >
+                  <path
+                    d="M10 0L5 5 0 0z"
+                  />
+                </svg>
+                 
+                <li>
+                  <ul
+                    class="bx--dropdown-list"
+                  />
+                </li>
+              </ul>,
+              "handles": Set {
+                Object {
+                  "release": [Function],
+                },
+                Object {
+                  "release": [Function],
+                },
+                Object {
+                  "release": [Function],
+                },
+                Object {
+                  "release": [Function],
+                },
+              },
+              "options": Object {},
+            },
+          },
+          "_directInactive": false,
+          "_events": Object {},
+          "_hasHookEvent": false,
+          "_inactive": null,
+          "_isBeingDestroyed": false,
+          "_isDestroyed": false,
+          "_isMounted": true,
+          "_isVue": true,
+          "_props": Object {
+            "defaultText": "Dropdown label",
+            "value": undefined,
+          },
+          "_renderProxy": VueComponent {
+            "$_mountingOptionsSlots": undefined,
+            "$_originalSlots": Object {},
+            "$attrs": Object {},
+            "$children": Array [],
+            "$createElement": [Function],
+            "$el": <ul
+              class="bx--dropdown"
+              data-dropdown=""
+              data-value=""
+              tabindex="0"
+            >
+              <li
+                class="bx--dropdown-text"
+              >
+                Dropdown label
+              </li>
+               
+              <svg
+                class="bx--dropdown__arrow"
+                fill-rule="evenodd"
+                height="5"
+                viewBox="0 0 10 5"
+                width="10"
+              >
+                <path
+                  d="M10 0L5 5 0 0z"
+                />
+              </svg>
+               
+              <li>
+                <ul
+                  class="bx--dropdown-list"
+                />
+              </li>
+            </ul>,
+            "$emit": [Function],
+            "$listeners": Object {},
+            "$options": Object {
+              "_Ctor": Object {
+                "4": [Function],
+              },
+              "_base": [Function],
+              "_parentElm": null,
+              "_propKeys": Array [
+                "value",
+                "defaultText",
+              ],
+              "_refElm": null,
+              "beforeCreate": Array [
+                [Function],
+              ],
+              "components": Object {
+                "defaultText": "Hello World",
+                "transition": Object {
+                  "render": [Function],
+                },
+                "transition-group": Object {
+                  "render": [Function],
+                },
+              },
+              "data": [Function],
+              "defaultText": "Hello World",
+              "directives": Object {},
+              "filters": Object {},
+              "mounted": Array [
+                [Function],
+              ],
+              "name": "ca-dropdown",
+              "props": Object {
+                "defaultText": Object {
+                  "default": "Dropdown label",
+                  "type": [Function],
+                },
+                "value": Object {
+                  "type": null,
+                },
+              },
+              "render": [Function],
+              "staticRenderFns": Array [],
+            },
+            "$parent": undefined,
+            "$refs": Object {},
+            "$root": [Circular],
+            "$scopedSlots": Object {},
+            "$slots": Object {},
+            "$vnode": undefined,
+            "__emitted": Object {},
+            "__emittedByOrder": Array [],
+            "_c": [Function],
+            "_data": Object {
+              "dropdown": Dropdown {
+                "children": Array [],
+                "element": <ul
+                  class="bx--dropdown"
+                  data-dropdown=""
+                  data-value=""
+                  tabindex="0"
+                >
+                  <li
+                    class="bx--dropdown-text"
+                  >
+                    Dropdown label
+                  </li>
+                   
+                  <svg
+                    class="bx--dropdown__arrow"
+                    fill-rule="evenodd"
+                    height="5"
+                    viewBox="0 0 10 5"
+                    width="10"
+                  >
+                    <path
+                      d="M10 0L5 5 0 0z"
+                    />
+                  </svg>
+                   
+                  <li>
+                    <ul
+                      class="bx--dropdown-list"
+                    />
+                  </li>
+                </ul>,
+                "handles": Set {
+                  Object {
+                    "release": [Function],
+                  },
+                  Object {
+                    "release": [Function],
+                  },
+                  Object {
+                    "release": [Function],
+                  },
+                  Object {
+                    "release": [Function],
+                  },
+                },
+                "options": Object {},
+              },
+            },
+            "_directInactive": false,
+            "_events": Object {},
+            "_hasHookEvent": false,
+            "_inactive": null,
+            "_isBeingDestroyed": false,
+            "_isDestroyed": false,
+            "_isMounted": true,
+            "_isVue": true,
+            "_props": Object {
+              "defaultText": "Dropdown label",
+              "value": undefined,
+            },
+            "_renderProxy": [Circular],
+            "_self": [Circular],
+            "_staticTrees": null,
+            "_uid": 2,
+            "_vnode": [Circular],
+            "_watcher": Watcher {
+              "active": true,
+              "cb": [Function],
+              "deep": false,
+              "depIds": Set {
+                20,
+              },
+              "deps": Array [
+                Dep {
+                  "id": 20,
+                  "subs": Array [
+                    [Circular],
+                  ],
+                },
+              ],
+              "dirty": false,
+              "expression": "function () {
+      vm._update(vm._render(), hydrating);
+    }",
+              "getter": [Function],
+              "id": 3,
+              "lazy": false,
+              "newDepIds": Set {},
+              "newDeps": Array [],
+              "sync": false,
+              "user": false,
+              "value": undefined,
+              "vm": [Circular],
+            },
+            "_watchers": Array [
+              Watcher {
+                "active": true,
+                "cb": [Function],
+                "deep": false,
+                "depIds": Set {
+                  20,
+                },
+                "deps": Array [
+                  Dep {
+                    "id": 20,
+                    "subs": Array [
+                      [Circular],
+                    ],
+                  },
+                ],
+                "dirty": false,
+                "expression": "function () {
+      vm._update(vm._render(), hydrating);
+    }",
+                "getter": [Function],
+                "id": 3,
+                "lazy": false,
+                "newDepIds": Set {},
+                "newDeps": Array [],
+                "sync": false,
+                "user": false,
+                "value": undefined,
+                "vm": [Circular],
+              },
+            ],
+            "dropdown": Dropdown {
+              "children": Array [],
+              "element": <ul
+                class="bx--dropdown"
+                data-dropdown=""
+                data-value=""
+                tabindex="0"
+              >
+                <li
+                  class="bx--dropdown-text"
+                >
+                  Dropdown label
+                </li>
+                 
+                <svg
+                  class="bx--dropdown__arrow"
+                  fill-rule="evenodd"
+                  height="5"
+                  viewBox="0 0 10 5"
+                  width="10"
+                >
+                  <path
+                    d="M10 0L5 5 0 0z"
+                  />
+                </svg>
+                 
+                <li>
+                  <ul
+                    class="bx--dropdown-list"
+                  />
+                </li>
+              </ul>,
+              "handles": Set {
+                Object {
+                  "release": [Function],
+                },
+                Object {
+                  "release": [Function],
+                },
+                Object {
+                  "release": [Function],
+                },
+                Object {
+                  "release": [Function],
+                },
+              },
+              "options": Object {},
+            },
+          },
+          "_self": [Circular],
+          "_staticTrees": null,
+          "_uid": 2,
+          "_vnode": [Circular],
+          "_watcher": Watcher {
+            "active": true,
+            "cb": [Function],
+            "deep": false,
+            "depIds": Set {
+              20,
+            },
+            "deps": Array [
+              Dep {
+                "id": 20,
+                "subs": Array [
+                  [Circular],
+                ],
+              },
+            ],
+            "dirty": false,
+            "expression": "function () {
+      vm._update(vm._render(), hydrating);
+    }",
+            "getter": [Function],
+            "id": 3,
+            "lazy": false,
+            "newDepIds": Set {},
+            "newDeps": Array [],
+            "sync": false,
+            "user": false,
+            "value": undefined,
+            "vm": [Circular],
+          },
+          "_watchers": Array [
+            Watcher {
+              "active": true,
+              "cb": [Function],
+              "deep": false,
+              "depIds": Set {
+                20,
+              },
+              "deps": Array [
+                Dep {
+                  "id": 20,
+                  "subs": Array [
+                    [Circular],
+                  ],
+                },
+              ],
+              "dirty": false,
+              "expression": "function () {
+      vm._update(vm._render(), hydrating);
+    }",
+              "getter": [Function],
+              "id": 3,
+              "lazy": false,
+              "newDepIds": Set {},
+              "newDeps": Array [],
+              "sync": false,
+              "user": false,
+              "value": undefined,
+              "vm": [Circular],
+            },
+          ],
+          "dropdown": Dropdown {
+            "children": Array [],
+            "element": <ul
+              class="bx--dropdown"
+              data-dropdown=""
+              data-value=""
+              tabindex="0"
+            >
+              <li
+                class="bx--dropdown-text"
+              >
+                Dropdown label
+              </li>
+               
+              <svg
+                class="bx--dropdown__arrow"
+                fill-rule="evenodd"
+                height="5"
+                viewBox="0 0 10 5"
+                width="10"
+              >
+                <path
+                  d="M10 0L5 5 0 0z"
+                />
+              </svg>
+               
+              <li>
+                <ul
+                  class="bx--dropdown-list"
+                />
+              </li>
+            </ul>,
+            "handles": Set {
+              Object {
+                "release": [Function],
+              },
+              Object {
+                "release": [Function],
+              },
+              Object {
+                "release": [Function],
+              },
+              Object {
+                "release": [Function],
+              },
+            },
+            "options": Object {},
+          },
+        },
+        "data": undefined,
+        "elm": <li>
+          <ul
+            class="bx--dropdown-list"
+          />
+        </li>,
+        "fnContext": undefined,
+        "fnOptions": undefined,
+        "fnScopeId": undefined,
+        "isAsyncPlaceholder": false,
+        "isCloned": false,
+        "isComment": false,
+        "isOnce": false,
+        "isRootInsert": false,
+        "isStatic": false,
+        "key": undefined,
+        "ns": undefined,
+        "parent": undefined,
+        "raw": false,
+        "tag": "li",
+        "text": undefined,
+      },
+    ],
+    "componentInstance": undefined,
+    "componentOptions": undefined,
+    "context": VueComponent {
+      "$_mountingOptionsSlots": undefined,
+      "$_originalSlots": Object {},
+      "$attrs": Object {},
+      "$children": Array [],
+      "$createElement": [Function],
+      "$el": <ul
+        class="bx--dropdown"
+        data-dropdown=""
+        data-value=""
+        tabindex="0"
+      >
+        <li
+          class="bx--dropdown-text"
+        >
+          Dropdown label
+        </li>
+         
+        <svg
+          class="bx--dropdown__arrow"
+          fill-rule="evenodd"
+          height="5"
+          viewBox="0 0 10 5"
+          width="10"
+        >
+          <path
+            d="M10 0L5 5 0 0z"
+          />
+        </svg>
+         
+        <li>
+          <ul
+            class="bx--dropdown-list"
+          />
+        </li>
+      </ul>,
+      "$emit": [Function],
+      "$listeners": Object {},
+      "$options": Object {
+        "_Ctor": Object {
+          "4": [Function],
+        },
+        "_base": [Function],
+        "_parentElm": null,
+        "_propKeys": Array [
+          "value",
+          "defaultText",
+        ],
+        "_refElm": null,
+        "beforeCreate": Array [
+          [Function],
+        ],
+        "components": Object {
+          "defaultText": "Hello World",
+          "transition": Object {
+            "render": [Function],
+          },
+          "transition-group": Object {
+            "render": [Function],
+          },
+        },
+        "data": [Function],
+        "defaultText": "Hello World",
+        "directives": Object {},
+        "filters": Object {},
+        "mounted": Array [
+          [Function],
+        ],
+        "name": "ca-dropdown",
+        "props": Object {
+          "defaultText": Object {
+            "default": "Dropdown label",
+            "type": [Function],
+          },
+          "value": Object {
+            "type": null,
+          },
+        },
+        "render": [Function],
+        "staticRenderFns": Array [],
+      },
+      "$parent": undefined,
+      "$refs": Object {},
+      "$root": [Circular],
+      "$scopedSlots": Object {},
+      "$slots": Object {},
+      "$vnode": undefined,
+      "__emitted": Object {},
+      "__emittedByOrder": Array [],
+      "_c": [Function],
+      "_data": Object {
+        "dropdown": Dropdown {
+          "children": Array [],
+          "element": <ul
+            class="bx--dropdown"
+            data-dropdown=""
+            data-value=""
+            tabindex="0"
+          >
+            <li
+              class="bx--dropdown-text"
+            >
+              Dropdown label
+            </li>
+             
+            <svg
+              class="bx--dropdown__arrow"
+              fill-rule="evenodd"
+              height="5"
+              viewBox="0 0 10 5"
+              width="10"
+            >
+              <path
+                d="M10 0L5 5 0 0z"
+              />
+            </svg>
+             
+            <li>
+              <ul
+                class="bx--dropdown-list"
+              />
+            </li>
+          </ul>,
+          "handles": Set {
+            Object {
+              "release": [Function],
+            },
+            Object {
+              "release": [Function],
+            },
+            Object {
+              "release": [Function],
+            },
+            Object {
+              "release": [Function],
+            },
+          },
+          "options": Object {},
+        },
+      },
+      "_directInactive": false,
+      "_events": Object {},
+      "_hasHookEvent": false,
+      "_inactive": null,
+      "_isBeingDestroyed": false,
+      "_isDestroyed": false,
+      "_isMounted": true,
+      "_isVue": true,
+      "_props": Object {
+        "defaultText": "Dropdown label",
+        "value": undefined,
+      },
+      "_renderProxy": VueComponent {
+        "$_mountingOptionsSlots": undefined,
+        "$_originalSlots": Object {},
+        "$attrs": Object {},
+        "$children": Array [],
+        "$createElement": [Function],
+        "$el": <ul
+          class="bx--dropdown"
+          data-dropdown=""
+          data-value=""
+          tabindex="0"
+        >
+          <li
+            class="bx--dropdown-text"
+          >
+            Dropdown label
+          </li>
+           
+          <svg
+            class="bx--dropdown__arrow"
+            fill-rule="evenodd"
+            height="5"
+            viewBox="0 0 10 5"
+            width="10"
+          >
+            <path
+              d="M10 0L5 5 0 0z"
+            />
+          </svg>
+           
+          <li>
+            <ul
+              class="bx--dropdown-list"
+            />
+          </li>
+        </ul>,
+        "$emit": [Function],
+        "$listeners": Object {},
+        "$options": Object {
+          "_Ctor": Object {
+            "4": [Function],
+          },
+          "_base": [Function],
+          "_parentElm": null,
+          "_propKeys": Array [
+            "value",
+            "defaultText",
+          ],
+          "_refElm": null,
+          "beforeCreate": Array [
+            [Function],
+          ],
+          "components": Object {
+            "defaultText": "Hello World",
+            "transition": Object {
+              "render": [Function],
+            },
+            "transition-group": Object {
+              "render": [Function],
+            },
+          },
+          "data": [Function],
+          "defaultText": "Hello World",
+          "directives": Object {},
+          "filters": Object {},
+          "mounted": Array [
+            [Function],
+          ],
+          "name": "ca-dropdown",
+          "props": Object {
+            "defaultText": Object {
+              "default": "Dropdown label",
+              "type": [Function],
+            },
+            "value": Object {
+              "type": null,
+            },
+          },
+          "render": [Function],
+          "staticRenderFns": Array [],
+        },
+        "$parent": undefined,
+        "$refs": Object {},
+        "$root": [Circular],
+        "$scopedSlots": Object {},
+        "$slots": Object {},
+        "$vnode": undefined,
+        "__emitted": Object {},
+        "__emittedByOrder": Array [],
+        "_c": [Function],
+        "_data": Object {
+          "dropdown": Dropdown {
+            "children": Array [],
+            "element": <ul
+              class="bx--dropdown"
+              data-dropdown=""
+              data-value=""
+              tabindex="0"
+            >
+              <li
+                class="bx--dropdown-text"
+              >
+                Dropdown label
+              </li>
+               
+              <svg
+                class="bx--dropdown__arrow"
+                fill-rule="evenodd"
+                height="5"
+                viewBox="0 0 10 5"
+                width="10"
+              >
+                <path
+                  d="M10 0L5 5 0 0z"
+                />
+              </svg>
+               
+              <li>
+                <ul
+                  class="bx--dropdown-list"
+                />
+              </li>
+            </ul>,
+            "handles": Set {
+              Object {
+                "release": [Function],
+              },
+              Object {
+                "release": [Function],
+              },
+              Object {
+                "release": [Function],
+              },
+              Object {
+                "release": [Function],
+              },
+            },
+            "options": Object {},
+          },
+        },
+        "_directInactive": false,
+        "_events": Object {},
+        "_hasHookEvent": false,
+        "_inactive": null,
+        "_isBeingDestroyed": false,
+        "_isDestroyed": false,
+        "_isMounted": true,
+        "_isVue": true,
+        "_props": Object {
+          "defaultText": "Dropdown label",
+          "value": undefined,
+        },
+        "_renderProxy": [Circular],
+        "_self": [Circular],
+        "_staticTrees": null,
+        "_uid": 2,
+        "_vnode": [Circular],
+        "_watcher": Watcher {
+          "active": true,
+          "cb": [Function],
+          "deep": false,
+          "depIds": Set {
+            20,
+          },
+          "deps": Array [
+            Dep {
+              "id": 20,
+              "subs": Array [
+                [Circular],
+              ],
+            },
+          ],
+          "dirty": false,
+          "expression": "function () {
+      vm._update(vm._render(), hydrating);
+    }",
+          "getter": [Function],
+          "id": 3,
+          "lazy": false,
+          "newDepIds": Set {},
+          "newDeps": Array [],
+          "sync": false,
+          "user": false,
+          "value": undefined,
+          "vm": [Circular],
+        },
+        "_watchers": Array [
+          Watcher {
+            "active": true,
+            "cb": [Function],
+            "deep": false,
+            "depIds": Set {
+              20,
+            },
+            "deps": Array [
+              Dep {
+                "id": 20,
+                "subs": Array [
+                  [Circular],
+                ],
+              },
+            ],
+            "dirty": false,
+            "expression": "function () {
+      vm._update(vm._render(), hydrating);
+    }",
+            "getter": [Function],
+            "id": 3,
+            "lazy": false,
+            "newDepIds": Set {},
+            "newDeps": Array [],
+            "sync": false,
+            "user": false,
+            "value": undefined,
+            "vm": [Circular],
+          },
+        ],
+        "dropdown": Dropdown {
+          "children": Array [],
+          "element": <ul
+            class="bx--dropdown"
+            data-dropdown=""
+            data-value=""
+            tabindex="0"
+          >
+            <li
+              class="bx--dropdown-text"
+            >
+              Dropdown label
+            </li>
+             
+            <svg
+              class="bx--dropdown__arrow"
+              fill-rule="evenodd"
+              height="5"
+              viewBox="0 0 10 5"
+              width="10"
+            >
+              <path
+                d="M10 0L5 5 0 0z"
+              />
+            </svg>
+             
+            <li>
+              <ul
+                class="bx--dropdown-list"
+              />
+            </li>
+          </ul>,
+          "handles": Set {
+            Object {
+              "release": [Function],
+            },
+            Object {
+              "release": [Function],
+            },
+            Object {
+              "release": [Function],
+            },
+            Object {
+              "release": [Function],
+            },
+          },
+          "options": Object {},
+        },
+      },
+      "_self": [Circular],
+      "_staticTrees": null,
+      "_uid": 2,
+      "_vnode": [Circular],
+      "_watcher": Watcher {
+        "active": true,
+        "cb": [Function],
+        "deep": false,
+        "depIds": Set {
+          20,
+        },
+        "deps": Array [
+          Dep {
+            "id": 20,
+            "subs": Array [
+              [Circular],
+            ],
+          },
+        ],
+        "dirty": false,
+        "expression": "function () {
+      vm._update(vm._render(), hydrating);
+    }",
+        "getter": [Function],
+        "id": 3,
+        "lazy": false,
+        "newDepIds": Set {},
+        "newDeps": Array [],
+        "sync": false,
+        "user": false,
+        "value": undefined,
+        "vm": [Circular],
+      },
+      "_watchers": Array [
+        Watcher {
+          "active": true,
+          "cb": [Function],
+          "deep": false,
+          "depIds": Set {
+            20,
+          },
+          "deps": Array [
+            Dep {
+              "id": 20,
+              "subs": Array [
+                [Circular],
+              ],
+            },
+          ],
+          "dirty": false,
+          "expression": "function () {
+      vm._update(vm._render(), hydrating);
+    }",
+          "getter": [Function],
+          "id": 3,
+          "lazy": false,
+          "newDepIds": Set {},
+          "newDeps": Array [],
+          "sync": false,
+          "user": false,
+          "value": undefined,
+          "vm": [Circular],
+        },
+      ],
+      "dropdown": Dropdown {
+        "children": Array [],
+        "element": <ul
+          class="bx--dropdown"
+          data-dropdown=""
+          data-value=""
+          tabindex="0"
+        >
+          <li
+            class="bx--dropdown-text"
+          >
+            Dropdown label
+          </li>
+           
+          <svg
+            class="bx--dropdown__arrow"
+            fill-rule="evenodd"
+            height="5"
+            viewBox="0 0 10 5"
+            width="10"
+          >
+            <path
+              d="M10 0L5 5 0 0z"
+            />
+          </svg>
+           
+          <li>
+            <ul
+              class="bx--dropdown-list"
+            />
+          </li>
+        </ul>,
+        "handles": Set {
+          Object {
+            "release": [Function],
+          },
+          Object {
+            "release": [Function],
+          },
+          Object {
+            "release": [Function],
+          },
+          Object {
+            "release": [Function],
+          },
+        },
+        "options": Object {},
+      },
+    },
+    "data": Object {
+      "attrs": Object {
+        "data-dropdown": "",
+        "data-value": "",
+        "tabindex": "0",
+      },
+      "staticClass": "bx--dropdown",
+    },
+    "elm": <ul
+      class="bx--dropdown"
+      data-dropdown=""
+      data-value=""
+      tabindex="0"
+    >
+      <li
+        class="bx--dropdown-text"
+      >
+        Dropdown label
+      </li>
+       
+      <svg
+        class="bx--dropdown__arrow"
+        fill-rule="evenodd"
+        height="5"
+        viewBox="0 0 10 5"
+        width="10"
+      >
+        <path
+          d="M10 0L5 5 0 0z"
+        />
+      </svg>
+       
+      <li>
+        <ul
+          class="bx--dropdown-list"
+        />
+      </li>
+    </ul>,
+    "fnContext": undefined,
+    "fnOptions": undefined,
+    "fnScopeId": undefined,
+    "isAsyncPlaceholder": false,
+    "isCloned": false,
+    "isComment": false,
+    "isOnce": false,
+    "isRootInsert": true,
+    "isStatic": false,
+    "key": undefined,
+    "ns": undefined,
+    "parent": undefined,
+    "raw": false,
+    "tag": "ul",
+    "text": undefined,
+  },
+}
+`;

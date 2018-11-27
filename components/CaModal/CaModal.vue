@@ -10,7 +10,13 @@
       <div class="bx--modal-header">
         <p class="bx--modal-header__label bx--type-delta">{{modalLabel}}</p>
         <p class="bx--modal-header__heading bx--type-beta">{{modalHeading}}</p>
-        <button class="bx--modal-close" type="button" data-modal-close aria-label="close modal">
+        <button
+          @click="closeHandler"
+          class="bx--modal-close"
+          type="button"
+          data-modal-close
+          aria-label="close modal"
+        >
           <svg
             class="bx--modal-close__icon"
             width="10"
@@ -32,16 +38,17 @@
 
       <div class="bx--modal-footer">
         <button
+          @click="secondaryHandler"
           class="bx--btn bx--btn--secondary"
           type="button"
           data-modal-close
-        >{{primaryButtonText}}</button>
+        >{{secondaryButtonText}}</button>
         <button
-          @click="confirmationHandler"
+          @click="primaryHandler"
           class="bx--btn bx--btn--primary"
           type="button"
           data-modal-primary-focus
-        >{{secondaryButtonText}}</button>
+        >{{primaryButtonText}}</button>
       </div>
     </div>
   </div>
@@ -77,7 +84,15 @@ export default {
       type: Boolean,
       default: false,
     },
-    confirmationHandler: {
+    closeHandler: {
+      type: Function,
+      default: () => {},
+    },
+    primaryHandler: {
+      type: Function,
+      default: () => {},
+    },
+    secondaryHandler: {
       type: Function,
       default: () => {},
     },

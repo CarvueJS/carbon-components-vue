@@ -6,4 +6,19 @@ describe('CaModal', () => {
     const wrapper = shallow(CaModal);
     expect(wrapper.isVueInstance()).toBeTruthy();
   });
-})
+
+  describe('when primary button is clicked', () => {
+    test('call handler', () => {
+      let test = false;
+      const wrapper = shallow(CaModal, {
+        propsData: {
+          confirmationHandler: () => {
+            test = true;
+          },
+        },
+      });
+      wrapper.find('.bx--btn--primary').trigger('click');
+      expect(test).toBe(true);
+    });
+  });
+});

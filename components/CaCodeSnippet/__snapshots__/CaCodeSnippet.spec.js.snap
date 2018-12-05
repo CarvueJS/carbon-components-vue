@@ -2,7 +2,7 @@
 
 exports[`CaCodeSnippet Mathes snapshot 1`] = `
 <div class="bx--snippet bx--snippet--code">
-  <div class="bx--snippet-container"><code><pre>      
+  <div class="bx--snippet-container"><code><pre class="code-snippet-code-content">      
       
     </pre></code></div>
   <button data-copy-btn="" aria-label="Copy code" tabindex="0" class="bx--snippet-button">

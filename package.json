@@ -6,6 +6,7 @@
   "author": "nicholaslee119 <nicholaslee119@gmail.com>",
   "main": "dist/build.js",
   "scripts": {
+    "prepare": "npm run build",
     "build": "node build/build.js",
     "unit": "jest --config test/unit/jest.conf.js --coverage",
     "e2e": "node test/e2e/runner.js",

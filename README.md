@@ -50,7 +50,7 @@ Vue.use(Carvue)
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/carvue/dist/carvue.min.css"></link>
 ```
 
-You could view available Vue Components in this [Document](https://carvuejs.github.io/carvuejs-website/dist/index.html)
+You could view available Vue Components in this [Document](https://carvuejs.github.io)
 
 
 

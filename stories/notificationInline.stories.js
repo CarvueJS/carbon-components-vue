@@ -9,8 +9,9 @@ storiesOf('Notification/inline', module)
       info
     >
     </ca-notification-inline>
-    `,
-  })).add('error', () => ({
+    `
+  }))
+  .add('error', () => ({
     template: `
     <ca-notification-inline
       title="this is title"
@@ -18,8 +19,9 @@ storiesOf('Notification/inline', module)
       error
     >
     </ca-notification-inline>
-    `,
-  })).add('success', () => ({
+    `
+  }))
+  .add('success', () => ({
     template: `
     <ca-notification-inline
       title="this is title"
@@ -27,7 +29,7 @@ storiesOf('Notification/inline', module)
       success
     >
     </ca-notification-inline>
-    `,
+    `
   }))
   .add('warning', () => ({
     template: `
@@ -37,5 +39,19 @@ storiesOf('Notification/inline', module)
       warning
     >
     </ca-notification-inline>
-    `,
+    `
+  }))
+  .add('with close handler', () => ({
+    data: () => ({
+      title: 'this is title'
+    }),
+    template: `
+    <ca-notification-inline
+      :title="title"
+      subtitle="this is subtitle"
+      info
+      :closeHandler="() => {title = 'Close has been clicked'}"
+    >
+    </ca-notification-inline>
+    `
   }));

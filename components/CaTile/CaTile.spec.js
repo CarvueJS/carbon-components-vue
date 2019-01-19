@@ -9,6 +9,34 @@ describe('CaTile', () => {
 
   test('Mathes snapshot', () => {
     const wrapper = shallow(CaTile);
-    expect(wrapper.html()).toMatchSnapshot()
+    expect(wrapper.html()).toMatchSnapshot();
   });
-})
+
+  describe('when clickable', () => {
+    describe('when clicked', () => {
+      test('call handler', () => {
+        let test = false;
+        const wrapper = shallow(CaTile, {
+          propsData: {
+            clickHandler: () => {
+              test = true;
+            },
+          },
+        });
+        wrapper.trigger('click');
+        expect(test).toBe(true);
+      });
+    });
+
+    test('containes bx--tile--clickable class', () => {
+      const wrapper = shallow(CaTile, {
+        propsData: {
+          clickHandler: () => {
+
+          },
+        },
+      });
+      expect(wrapper.classes().indexOf('bx--tile--clickable')).not.toBe(-1);
+    });
+  });
+});
